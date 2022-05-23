@@ -2,7 +2,7 @@
 
 1 - Introdução
 
-2 - AulaInstalaçãoPython -> [Instalação_do_python.ppxt](https://github.com/Gabriel-Cavalcanti/AulasPython/tree/master/AulasDataScience/AulaInstala%C3%A7%C3%A3oPython)
+2 - AulaInstalaçãoPython -> [Instalação_do_python.ppxt](https://github.com/Gabriel-Cavalcanti/Python_teoria/tree/main/Aula01Instala%C3%A7%C3%A3oPython)
 
 3 - AulaAmbientesVirtuais -> [ambientes_virtuais.pptx](https://github.com/Gabriel-Cavalcanti/AulasPython/tree/master/AulasDataScience/AulaAmbientesVirtuais)
 
