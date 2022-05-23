@@ -18,7 +18,7 @@ Obs: A aula do pep8 é exencial, não deixe de visitar e revisitar essa  aula e 
 
 3 - [dir_e_help.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/dir_e_help.md)
 
-4 - [comentarios.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaBasicoDoBasico/comentarios.md)
+1 - [comentarios.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaBasicoDoBasico/01_comentarios.md)
 
 5 - [funcao_input.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/funcao_input.md)
 
