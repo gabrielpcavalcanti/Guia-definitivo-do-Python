@@ -2,25 +2,25 @@
 
 1 - Introdução
 
-2 - AulaInstalaçãoPython -> [Instalação_do_python.ppxt](https://github.com/Gabriel-Cavalcanti/AulasPython/tree/master/AulasDataScience/AulaInstala%C3%A7%C3%A3oPython)
+2 - Aula01InstalaçãoPython -> [Instalação_do_python.ppxt](https://github.com/Gabriel-Cavalcanti/Python_teoria/tree/main/Aula01Instala%C3%A7%C3%A3oPython)
 
-3 - AulaAmbientesVirtuais -> [ambientes_virtuais.pptx](https://github.com/Gabriel-Cavalcanti/AulasPython/tree/master/AulasDataScience/AulaAmbientesVirtuais)
+3 - Aula02AmbientesVirtuais -> [ambientes_virtuais.pptx](https://github.com/Gabriel-Cavalcanti/Python_teoria/tree/main/Aula02AmbientesVirtuais)
 
-4 - PEP8 -> [PEP8](https://github.com/Gabriel-Cavalcanti/AulasPython/tree/master/AulasDataScience/PEP8)
+4 - Aula03PEP8 -> [PEP8](https://github.com/Gabriel-Cavalcanti/Python_teoria/tree/main/Aula03PEP8)
 
 Obs: A aula do pep8 é exencial, não deixe de visitar e revisitar essa  aula e os arquivo que elá contém.
 
-**Começo da programação: Pasta AulaBasicoDoBasico**
+**Começo da programação: Pasta Aula04InicioNaProgramacaoPython**
 
-1 -  [hello_world.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaBasicoDoBasico/hello_world.md)
+1 -  [hello_world.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/hello_world.md)
 
-2 -  [funcao_print.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaBasicoDoBasico/funcao_print.md)
+2 -  [funcao_print.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/funcao_print.md)
 
-3 - [dir_e_help.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaBasicoDoBasico/dir_e_help.md)
+3 - [dir_e_help.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/dir_e_help.md)
 
 4 - [comentarios.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaBasicoDoBasico/comentarios.md)
 
-5 - [funcao_input.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaBasicoDoBasico/funcao_input.md)
+5 - [funcao_input.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/funcao_input.md)
 
 **Começo da programação: Pasta AulaOperadores**
 
