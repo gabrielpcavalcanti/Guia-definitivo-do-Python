@@ -14,13 +14,13 @@ Obs: A aula do pep8 é exencial, não deixe de visitar e revisitar essa  aula e 
 
 1 - [comentarios.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/01_comentarios.md)
 
-2 -  [dir_e_help.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/dir_e_help.md)
+2 -  [dir_e_help.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/02_dir_e_help.md)
 
-3 -  [hello_world.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/hello_world.md)
+3 -  [hello_world.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/03_hello_world.md)
 
-4 - [funcao_print.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/funcao_print.md)
+4 - [funcao_print.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/04_funcao_print.md)
 
-5 - [funcao_input.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/funcao_input.md)
+5 - [funcao_input.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/05_funcao_input.md)
 
 **Começo da programação: Pasta AulaOperadores**
 
