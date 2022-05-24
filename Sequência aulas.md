@@ -22,13 +22,14 @@ Obs: A aula do pep8 é exencial, não deixe de visitar e revisitar essa  aula e 
 
 5 - [funcao_input.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/05_funcao_input.md)
 
-**Começo da programação: Pasta AulaOperadores**
+**Começo da programação: Pasta Aula05Operadores**
 
-1 - [operadores_matematicos.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaOperadores/operadores_matematicos.md)
+1 - [operadores_matematicos.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula05Operadores/01_operadores_matematicos.md)
 
-2 - [operadores_logicos.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaOperadores/operadores_logicos.md)
+2 - [operadores_relacionais.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula05Operadores/02_operadores_relacionais.md)
 
-3 - [operadores_relacionais.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaOperadores/operadores_relacionais.md)
+3- [operadores_logicos.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula05Operadores/03_operadores_logicos.md)
+
 
 **Começo da programação: Pasta AulaVariaveisETiposDeDados**
 
