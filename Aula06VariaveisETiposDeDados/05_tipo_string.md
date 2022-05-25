@@ -127,6 +127,27 @@ print(nome_7.isspace())
 False
 ```
 
+* Strip: Remove os espaços em branco de uma String. Possui duas variações lstrip() e rstrip(). 
+
+```python
+s = " teste "
+s_strip = s.strip() # Remove o espaço em branco de cada lado.
+s_lstrip = s.lstrip() # Remove o espaço em branco do lado esquerdo.
+s_rstrip = s.rstrip() # Remove o espaço em branco do lado direito.
+
+print(s)
+print(s_strip)
+print(s_lstrip)
+print(s_rstrip)
+```
+
+```python
+ teste 
+teste
+teste 
+ teste
+```
+
 Podemos fazer o chamado slice de Strings. Cada caracter de uma String possie um índice. Começa em 0 e vai até a quantidade de caracteres. O slice permite escolher quis indices mostrar. colocamos os ídices dentro de [n:p:q].
 
 n: indica o primiro caracter que vai parecer.
