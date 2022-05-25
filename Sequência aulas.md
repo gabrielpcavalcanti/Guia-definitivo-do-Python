@@ -12,36 +12,36 @@ Obs: A aula do pep8 é exencial, não deixe de visitar e revisitar essa  aula e 
 
 **Começo da programação: Pasta Aula04InicioNaProgramacaoPython**
 
-1 - [comentarios.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/01_comentarios.md)
+1 - [01_comentarios.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/01_comentarios.md)
 
-2 -  [dir_e_help.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/02_dir_e_help.md)
+2 -  [02_dir_e_help.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/02_dir_e_help.md)
 
-3 -  [hello_world.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/03_hello_world.md)
+3 -  [03_hello_world.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/03_hello_world.md)
 
-4 - [funcao_print.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/04_funcao_print.md)
+4 - [04_funcao_print.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/04_funcao_print.md)
 
-5 - [funcao_input.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/05_funcao_input.md)
+5 - [05_funcao_input.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula04InicioNaProgramacaoPython/05_funcao_input.md)
 
 **Começo da programação: Pasta Aula05Operadores**
 
-1 - [operadores_matematicos.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula05Operadores/01_operadores_matematicos.md)
+1 - [01_operadores_matematicos.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula05Operadores/01_operadores_matematicos.md)
 
-2 - [operadores_relacionais.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula05Operadores/02_operadores_relacionais.md)
+2 - [02_operadores_relacionais.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula05Operadores/02_operadores_relacionais.md)
 
-3- [operadores_logicos.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula05Operadores/03_operadores_logicos.md)
+3- [03_operadores_logicos.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula05Operadores/03_operadores_logicos.md)
 
 
-**Começo da programação: Pasta AulaVariaveisETiposDeDados**
+**Começo da programação: Pasta Aula06VariaveisETiposDeDados**
 
-1 - [variaveis.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaVariaveisETiposDeDados/variaveis.md)
+1 - [01_variaveis.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula06VariaveisETiposDeDados/01_variaveis.md)
 
-2- [tipo_int.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaVariaveisETiposDeDados/tipo_int.md)
+2- [02_tipo_int.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula06VariaveisETiposDeDados/02_tipo_int.md)
 
-3- [tipo_float.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaVariaveisETiposDeDados/tipo_float.md)
+3- [03_tipo_float.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula06VariaveisETiposDeDados/03_tipo_float.md)
 
-4- [tipo_string.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaVariaveisETiposDeDados/tipo_string.md)
+4- [04_tipo_booleano.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula06VariaveisETiposDeDados/04_tipo_booleano.md)
 
-5- [tipo_booleano.md](https://github.com/Gabriel-Cavalcanti/AulasPython/blob/master/AulasDataScience/AulaVariaveisETiposDeDados/tipo_booleano.md)
+5- [05_tipo_string.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula06VariaveisETiposDeDados/05_tipo_string.md)
 
 Antes de prosseguir, eu sugiro que pare e faça todos os exercícios possiveis com o conhecimento já adquirido. Tente também criar um programa, um pequeno projeto por se
 proprío, para estimular sua criatividade. 
