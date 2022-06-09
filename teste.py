@@ -1,9 +1,18 @@
-s = " teste "
-s_strip = s.strip()
-s_lstrip = s.lstrip()
-s_rstrip = s.rstrip()
+class Car:
 
-print(s)
-print(s_strip)
-print(s_lstrip)
-print(s_rstrip)
+    odometro = 0
+
+    def __init__(self, marca, modelo, ano):
+        self.incremento_odometro = Car.odometro + 1
+        self.marca = marca
+        self.modelo = modelo
+        self.ano = ano
+        Car.odometro = self.incremento_odometro
+
+carro = Car("BMW", "X6", 2021)
+
+print(Car.odometro)
+
+carro_2 = Car("BMW", "X6", 2021)
+
+print(Car.odometro)
