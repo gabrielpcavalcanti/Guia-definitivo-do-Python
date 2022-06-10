@@ -6,17 +6,17 @@ existem três grupos de atributos: O de instância, de classe e os dinâmicos.
 
 ## Atributos de instância
 
-Esse tipo de atributos fica dentro de um método especial chamado de "construtor". Para definir o construtor é necessário utilizar a palavra reservada \__init( )__. 
+Esse tipo de atributos fica dentro de um método especial chamado de "construtor". Para definir o construtor é necessário utilizar a palavra reservada \__init__( ). 
 
 Toda classe terá esse método, invariavelmente. E como o construtor é uma função, precisamos definir ela da mesma forma que fazemos em uma função normal.
 
 ```Python
 class Cachorro:
     
-    def __init()__():
+    def __init__():
 ```
 
-os atributos que desejamos colocar na classe ficam dentro dos parâmetros da função \__init( )__. 
+os atributos que desejamos colocar na classe ficam dentro dos parâmetros da função \__init__. 
 
 Só que antes disso, precismoas entender uma coisa, todo método dentro de uma classe possui como primeiro parâmetro uma palavra que vai ser utilizada para se auto referenciar dentro do classe. Utilizamos a palavra "self" para esse fim. Podemos utilizar qualquer outra, mas é uma convensão entre todos os programadores que utilizam Python.
 

@@ -80,7 +80,7 @@ pessoa_01.esta_comendo() # Método de instância
 Pessoa.vivo(True) # Método de classe
 ```
 
-## Alterando valores de atributos com méetodos
+## Alterando valores de atributos com métodos
 
 Agora vamos ver como aletrar o valor de atributos com os métodos. Vamos utilizar a classe dos carros, utlizadas na aula de 04_atributos_de_classe.md
 
