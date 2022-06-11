@@ -80,7 +80,7 @@ print(rex.andar())
 O animal rex anda
 ```
 
-Agora quando criamos um método na classe filha com o mesmo nome de um método da classe mãe e criamos uma istância da classe filha, o python não mais execulta o método da classe mãe e sim o da classe filha. 
+Agora quando criamos um método na classe filha com o mesmo nome de um método da classe mãe e criamos uma istância da classe filha, o python não mais execulta o método da classe mãe e sim o da classe filha. Esse processo é chamado de polimorfismo.
 
 ```Python
 class Animal:
@@ -111,46 +111,11 @@ print(rex.andar())
 O cachorro rex anda
 ```
 
-Agora com a herança múltipla que o MRO apareçe. O python vai execultar o método da classe que você
-colocar em primeiro na classe filha, vamos ver.
-
-```Python
-class Animal:
-
-    def __init__(self, nome, idade, especie):
-        self.nome = nome
-        self.idade = idade
-        self.especie = especie
-
-    def andar(self):
-        return f"O animal {self.nome} anda"
+```Pyhton
 
 
-class Terrestre(Animal):
-
-    def __init__(nome, idade, especie, anda=True):
-        super().__init__(nome, idade, especie)
-    
-    def andar(self):
-        return f"O animal terrestre {self.nome} anda"
-
-class Cachorro(Animal, Terrestre):
-
-    def __init__(self, nome, idade, especie, raca):
-        super().__init__(nome, idade, especie)
-        self.raca = raca
-
-    def andar(self):
-        return f"O cachorro {self.nome} anda"
 
 
-rex = Cachorro("rex", 4, "Canis lupus familiaris", "maltês")
-print(rex.andar())
-
-
-```
-```Python
-O cachorro rex anda
 ```
 
 
