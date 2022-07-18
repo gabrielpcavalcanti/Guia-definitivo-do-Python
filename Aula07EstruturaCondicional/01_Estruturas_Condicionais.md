@@ -1,6 +1,6 @@
 # Estruturas Condicionais
 
-A partir de agora o universo da programação se abre. As possíbilidades aumentam consideravelmente.
+A partir de agora o universo da programação se abre. As possíbilidades aumentam concideravelmente.
 
  Até agora somente executamos códigos que leam linha poor linha, com as estruturas condicionais isso muda, já que o código pode pular linhas dependendo se condições são satisfeitas ou não. 
 
@@ -24,7 +24,7 @@ Se estiver confuso, calma, isso é padrão no Pyhton. É bem rápida a sua adapt
 
 É a primeira estrutura condicional. Funciona da seguinte maneira: caso uma condição seja satisfeita, execute o bloco de comando, caso não seja, siga em frente.
 
-utilizamos os operadores e variáveis para fazer uma condição. Cada uma delas tem um valor de verdade: ou é True ou é False. Se for verdadeiro, executa, se não, pula o if. 
+utilizamos os operadores e variáveis para fazer uma condição. Cada uma delas tem um valor de verdade: ou é True ou é False. Se for verdadeiro, executa, se não, a instrução do bloco de comando do if é ignorado. 
 
 Esse valor de verdade pode mudar durante a execução do programa, por exemplo: a varivável muda de valor e agora a condição vira verdeira, o código é execultado ou vice-versa.
 
@@ -33,15 +33,17 @@ Como funciona o comando: Coloca a palavra reservada if. Em seguida coloca a cond
 nas linhas de baixo, mostra o que será executado caso seja verdadeiro. Perceba que está identado, ou seja, cria um bloco de comando a partir do quarto espaços.
 
 ```python
-valor = 18
+valor = 19
 
 if valor > 18:
     print(f'sua idade é {idade}.')
 ```
-
+```Python
+Sua idade é 19
+```
 ## Else
 
-Você pode estar se perguntando se caso a condição seja falsa o que acontece. Ai que entra o else. Ela é uma estrutura que somente pode ser usada com o if junto, nunca sozinha.
+Você pode estar se perguntando se caso a condição seja falsa o que acontece. Ai que entra o else. Ela é uma estrutura que somente pode ser usada com o if junto, nunca sozinha. 
 
 ```python
 nome = 'rafael'
@@ -57,7 +59,9 @@ else:
 
 A condição elif é uma junção das duas outras. Ela serve para colocar várias condições antes de ter uma final, no caso o else. Podemos colocar vários if`s, mas não fica bem escrito e organizado.
 
-O comamdo else sempre será o ultimo comando condicional e ele nunca tem um condição assiciada, somente o else: . 
+Só utilize o elif se a condição ainda estiver de acordo com o if original, caso contrário, o programa pode interromper a verificação de condições e não funcionar adquadamente.
+
+O comamdo else sempre será o ultimo comando condicional e ele nunca tem um condição assiciada, somente o else: . Além disso, o else não é obrigatótio, ou seja, caso nenhum dos testes passem e não queria qe faça nada com o resultado obtido ou ainda que esses dados sejam inválidos, não coloque o comando else.
 
 ```Python
 idade = 18
