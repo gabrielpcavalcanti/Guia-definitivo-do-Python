@@ -28,18 +28,18 @@ Obs: A aula do pep8 é exencial, não deixe de visitar e revisitar essa  aula e 
 
 2 - [02_operadores_relacionais.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula05Operadores/02_operadores_relacionais.md)
 
-3- [03_operadores_logicos.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula05Operadores/03_operadores_logicos.md)
+3 - [03_operadores_logicos.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula05Operadores/03_operadores_logicos.md)
 
 
 **Começo da programação: Pasta Aula06VariaveisETiposDeDados**
 
 1 - [01_variaveis.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula06VariaveisETiposDeDados/01_variaveis.md)
 
-2- [02_tipo_int.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula06VariaveisETiposDeDados/02_tipo_int.md)
+2 - [02_tipo_int.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula06VariaveisETiposDeDados/02_tipo_int.md)
 
-3- [03_tipo_float.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula06VariaveisETiposDeDados/03_tipo_float.md)
+3 - [03_tipo_float.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula06VariaveisETiposDeDados/03_tipo_float.md)
 
-4- [04_tipo_booleano.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula06VariaveisETiposDeDados/04_tipo_booleano.md)
+4 - [04_tipo_booleano.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula06VariaveisETiposDeDados/04_tipo_booleano.md)
 
 5- [05_tipo_string.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula06VariaveisETiposDeDados/05_tipo_string.md)
 
@@ -50,7 +50,7 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 **Desenvolvimento da prgramação: Pasta Aula07EstruturaCondicional**
 
-1 - [01_Estruturas_Condicionais.md]()
+1 - [01_Estruturas_Condicionais.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula07EstruturaCondicional/01_Estruturas_Condicionais.md)
 
 
 
