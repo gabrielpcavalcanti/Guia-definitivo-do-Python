@@ -1,6 +1,6 @@
 **Preparação para programação**
 
-1 - Introdução
+1 - Introdução -> [Sequência aulas.md]()
 
 2 - Aula01InstalaçãoPython -> [Instalação_do_python.ppxt](https://github.com/Gabriel-Cavalcanti/Python_teoria/tree/main/Aula01Instala%C3%A7%C3%A3oPython)
 
