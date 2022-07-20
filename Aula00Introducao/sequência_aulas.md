@@ -1,6 +1,6 @@
 **Preparação para programação**
 
-1 - Aula00Introdução -> [Sequência aulas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula00Introducao/Sequ%C3%AAncia%20aulas.md)
+1 - Aula00Introdução -> [sequência_aulas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula00Introducao/Sequ%C3%AAncia%20aulas.md)
 
 2 - Aula01InstalaçãoPython -> [Instalação_do_python.ppxt](https://github.com/Gabriel-Cavalcanti/Python_teoria/tree/main/Aula01Instala%C3%A7%C3%A3oPython)
 
@@ -50,7 +50,7 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 **Desenvolvimento da programação: Pasta Aula07EstruturaCondicional**
 
-1 - [01_Estruturas_Condicionais.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula07EstruturaCondicional/01_Estruturas_Condicionais.md)
+1 - [01_estruturas_condicionais.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula07EstruturaCondicional/01_Estruturas_Condicionais.md)
 
 **Desenvolvimento da programação: Pasta Aula08EstruturaDeRepeticao**
 
@@ -58,8 +58,6 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 **Desenvolvimento da programação: Pasta Aula09Coleções**
 
+1 - [01_listas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula09Cole%C3%A7%C3%B5es/01_listas.md)
 
-
-
-
-
+2 - [02_truplas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula09Cole%C3%A7%C3%B5es/01_listas.md)
