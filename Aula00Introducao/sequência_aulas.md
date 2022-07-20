@@ -48,9 +48,15 @@ proprío, para estimular sua criatividade.
 
 Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
-**Desenvolvimento da prgramação: Pasta Aula07EstruturaCondicional**
+**Desenvolvimento da programação: Pasta Aula07EstruturaCondicional**
 
 1 - [01_Estruturas_Condicionais.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula07EstruturaCondicional/01_Estruturas_Condicionais.md)
+
+**Desenvolvimento da programação: Pasta Aula08EstruturaDeRepeticao**
+
+
+
+**Desenvolvimento da programação: Pasta Aula09Coleções**
 
 
 

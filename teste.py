@@ -1,7 +1,4 @@
-nome = 'gabriel'
+lista_4 = [1, 4.6, [1, 2, 8.549]]
 
-if nome == 'gabriel':
-    input("O seu nome é gabriel")
-
-else:
-    print("Seu nome deveria ser gabriel")
+del lista_4[2]
+print(lista_4)
