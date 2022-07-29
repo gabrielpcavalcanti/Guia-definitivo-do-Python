@@ -54,8 +54,13 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 **Desenvolvimento da programação: Pasta Aula08EstruturaDeRepeticao**
 
+1 - [01_estruturas_de_repetição.md]()
 
+2 - [02_for.md]()
 
+3 - [03_while.md]()
+
+4 - [04_break_e_continue.md]()
 **Desenvolvimento da programação: Pasta Aula09Coleções**
 
 1 - [01_listas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula09Cole%C3%A7%C3%B5es/01_listas.md)
