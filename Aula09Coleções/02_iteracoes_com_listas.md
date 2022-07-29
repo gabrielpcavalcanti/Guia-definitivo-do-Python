@@ -1,4 +1,4 @@
-# Iteracões com listas
+# Iterações com listas
 
 Já vimos as estruturas de repetição e as listas. Agora o que vamos fazer é unir elas para adquirir um dos
 maiores recursos que podemos ter no Python. 
