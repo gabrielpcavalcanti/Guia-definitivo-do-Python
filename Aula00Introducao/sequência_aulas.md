@@ -56,11 +56,12 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 1 - [01_estruturas_de_repetição.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula08EstruturasDeRepeticao/01_estrutura_de_repeticao.md)
 
-2 - [02_estrutura_de_repeticao_for.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula08EstruturasDeRepeticao/02_for.md)
+2 - [02_estrutura_de_repeticao_for.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula08EstruturasDeRepeticao/02_estrutura_de_repeticao_for.md)
 
-3 - [03_estrutura_de_repeticao_while.md]()
+3 - [03_estrutura_de_repeticao_while.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula08EstruturasDeRepeticao/03_estrutura_de_repeticao_while.md)
 
-4 - [04_break_e_continue.md]()
+4 - [04_break_e_continue.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula08EstruturasDeRepeticao/04_break_e_continue.md)
+
 **Desenvolvimento da programação: Pasta Aula09Coleções**
 
 1 - [01_listas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula09Cole%C3%A7%C3%B5es/01_listas.md)
