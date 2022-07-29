@@ -1,4 +1,13 @@
-lista_4 = [1, 4.6, [1, 2, 8.549]]
+nome = "teste"
 
-del lista_4[2]
-print(lista_4)
+for indice, letra in enumerate(nome):
+    print(indice)
+
+for valores in enumerate(nome):
+    print(valores[1])
+
+nome = "Gabriel"
+
+for letra in nome:
+    print(letra, end='')
+

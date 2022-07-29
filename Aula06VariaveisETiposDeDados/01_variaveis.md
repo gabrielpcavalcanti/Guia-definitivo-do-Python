@@ -66,6 +66,7 @@ O cast é feito colocando o valor que queremos transformar dentro de funções, 
 * int() -> Transforma em inteiro.
 * float() -> Transforma em float
 * str() -> transforma em String
+* list() -> transforma em lista
 
 Lembrando que nem sempre é possível transformar um valor em outro. Uma String não pode virar um número a menos que o texto seja um número.
 

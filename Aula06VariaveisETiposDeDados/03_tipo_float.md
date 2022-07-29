@@ -4,7 +4,7 @@ Representa os núemros reais da matemática, ou seja, os que possuiem casas deci
 
 Como a linguagem segue o padrão amaricano, o separador decimal é o ponto. A vírgula possui outra função na linguagem, separação de argumentos na função, separação de elementos numa lista ou dicionário e na criação de truplas.
 
-obs: Se não entendeu algum termo, não se preocupe, veremos mais na frente, tudo com detalhes.
+Obs: Se não entendeu algum termo, não se preocupe, veremos mais na frente, tudo com detalhes.
 
 A divisão no python sempre gera um número do tipo float, a menos que for utilizado o Cast ou o símbolo // (transforma a divisão num inteiro). Ambos os casos descartam a parte decimal, elas não execultam o arredendamento. Se quiser arendondar o número, utilize a função round( ).
 

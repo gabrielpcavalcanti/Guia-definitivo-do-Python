@@ -27,6 +27,33 @@ teste para o comando
 esse texto está na linha de baixo
 ```
 
+### Fatiando uma String
+
+Podemos fatirar uma String utilizando o que chamamos de Slicing (que é fatiamento, em inglês). basta colocar as [ ] e o intervalo que 
+queira que a String seja escrita. Lembrando que o Python começa contando do 0 e não do 1,
+
+```Python
+string_6 = "frase grande para demonstrar o sllicing"
+
+print(string_6[0:4])
+print(string_6[1:15])
+print(string_6[3:7])
+print(string_6[:20])
+print(string_6[8:])
+print(string_6[:])
+
+```
+```Python
+fras
+rase grande pa
+se g
+frase grande para de
+ande para demonstrar o slicing
+frase grande para demonstrar o slicing
+```
+
+Terminando essa introdução, agora vamos ver alguns métodos que as Strings possuem.
+
 ```python
 print(dir("teste"))
 ```

@@ -48,6 +48,24 @@ lista_4[-1] # [1, 2, 8.549]
 item_2 = lista[1] # item_2 = 2
 ```
 
+## Copiar uma lista
+
+Talvez seja necessário copiar uma lista e coloca-la em outra variável. Podemos fazer isso de duas maneiras.
+
+```Python
+lista_1 = list(range(1,100,20))
+lista_copia_1 = lista_1
+lista_copia_2 = lista_1[:]
+
+print(lista_copia_1)
+print(lista_copia_2)
+
+```
+```Python
+[1, 21, 41, 61, 81]
+[1, 21, 41, 61, 81]
+```
+
 ## índice do elemento de uma lista
 
 Podemos saber qual é o índice do elemento de uma lista, atravez da função index(n). Onde n é
@@ -76,6 +94,26 @@ print(lista)
 
 ```python
 [1, 2, 3, 'toquei', 5]
+```
+
+## fatiar uma lista
+
+Assim como é possivel fazer o slicing de uma String, é possível fazer de uma lista também. Funciona da mesma forma, mas se não 
+estiver lembrando, funciona assim:
+
+```Python
+nomes = ["Gabriel", "Sofia", "Eduardo", "Marina", "Felipe"]
+
+print(nomes[0:3])
+print(nomes[1:2])
+print(nomes[2:5])
+print(nomes[:2])
+```
+```Python
+['Gabriel', 'Sofia', 'Eduardo']
+['Sofia']
+['Eduardo', 'Marina', 'Felipe']
+['Gabriel', 'Sofia']
 ```
 
 ## Acrecentar elementos de uma lista
@@ -245,8 +283,7 @@ print(dir_list)
 ```phython
 ['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
 ```
-
-A palavra in pode ser usada para verificar se um elemento está ou não numa lista. Ele retorna um valor booleano.
+* A palavra in pode ser usada para verificar se um elemento está ou não numa lista. Ele retorna um valor booleano.
 
 ```python
 lista = ['oi', 'tchau', 42, 22]
@@ -260,7 +297,7 @@ True
 False
 ```
 
-O método sort( ) organiza os elementos da lista em por ordem crescente ou em ordem alfabética.
+* O método sort( ) organiza os elementos da lista em por ordem crescente ou em ordem alfabética.
 
 ```python
 lista_num = [4, 6, 2, 8, 1, 6, 9, 20]
@@ -278,7 +315,7 @@ print(lista_str)
 ['a', 'c', 'r', 't']
 ```
 
-O método count( ), conta a quantidade de vez que o elemento está presente na lista.
+* O método count( ), conta a quantidade de vez que o elemento está presente na lista.
 
 ```python
 lista = [1 ,1 ,1 ,1 ,1 , 3, 4, 3]
@@ -294,7 +331,7 @@ print(lista.count(5))
 0
 ```
 
-O método split( ) transforma uma string em uma lista. ele pega os serador do espaço para separar os elementos da lista.
+* O método split( ) transforma uma string em uma lista. ele pega os serador do espaço para separar os elementos da lista.
 
 ```python
 str_1 = "vou virar uma lista"

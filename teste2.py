@@ -29,3 +29,7 @@ class Cachorro(Terrestre, Animal):
 
 rex = Cachorro("rex", 4, "Canis lupus familiaris", "maltês")
 print(rex.andar())
+
+#```Python
+
+#```
