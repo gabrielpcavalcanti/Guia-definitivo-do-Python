@@ -76,7 +76,7 @@ else:
     print("idade inválida")
 ```
 
-## Avançando nas estrururas condicionais
+## Avançando nas estruturas condicionais
 
 Assim que entender como funciona as estruturas condiocionais é possível dar mais complexidade ao código com a mesmas estrutura condicional. 
 

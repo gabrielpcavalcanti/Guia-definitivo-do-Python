@@ -30,7 +30,7 @@ print("O loop for acabou")
 "O loop for acabou"
 ```
 
-### inserindo elementos em uma lista pelo laço for
+### Inserindo elementos em uma lista pelo laço for
 
 Caso queira preencher uma lista com novos elementos, podemos utilizar o método append( ), nada novo. Mas caso estivermos 
 percorrendo uma lista ou utilizando o range( ) com o loop for, podemos inserir novos elementos em uma nova lista ou na mesma, se quiser.
@@ -59,7 +59,7 @@ print(lista)
 [0, 1, 2, 3, 4]
 ```
 
-### percorrer elementos em uma lista fatiada
+### Percorrer elementos em uma lista fatiada
 
 Em vez de percorrer a lista como um todo, podemos somente percorrer um pedaço dela, utilizando o slicing.
 
