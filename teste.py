@@ -1,6 +1,7 @@
-nomes = ("Gabriel", "Sofia", "Eduardo", "Marina", "Felipe")
+a = [1, 2, 3]
+b = [1, 2, 3]
 
-print(nomes[0:3])
-print(nomes[1:2])
-print(nomes[2:5])
-print(nomes[:2])
+c = a + b
+print(c)
+
+print(sum(c))
