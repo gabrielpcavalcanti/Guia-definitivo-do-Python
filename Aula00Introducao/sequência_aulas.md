@@ -68,4 +68,6 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 2 - [02_iteracoes_com_listas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula09Cole%C3%A7%C3%B5es/02_iteracoes_com_listas.md)
 
-3 - [03_truplas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula09Cole%C3%A7%C3%B5es/02_truplas.md)
+3 - [03_truplas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula09Cole%C3%A7%C3%B5es/03_truplas.md)
+
+4 - [04_trupas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula09Cole%C3%A7%C3%B5es/04_dicionarios.md)
