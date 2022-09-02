@@ -70,4 +70,19 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 3 - [03_truplas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula09Cole%C3%A7%C3%B5es/03_truplas.md)
 
-4 - [04_trupas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula09Cole%C3%A7%C3%B5es/04_dicionarios.md)
+4 - [04_dicionarios.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula09Cole%C3%A7%C3%B5es/04_dicionarios.md)
+
+**Desenvolvimento da programação: Pasta Aula10Funções**
+
+1 - [01_funcoes.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/01_funcoes.md)
+
+2 - [02_funcoes_com_parametros.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/02_funcoes_com_parametros.md)
+
+3 - [03_funcoes_com_retorno.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/03_funcoes_com_retorno.md)
+
+4 - [04_funcoes_com_args.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/04_funcoes_com_args.md)
+
+5 - [05_funcoes_com_kwargs.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/05_funcoes_com_kwargs.md)
+
+6 - [06_docstrings.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/06_docstrings.md)
+
