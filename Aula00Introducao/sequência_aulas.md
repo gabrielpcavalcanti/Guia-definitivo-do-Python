@@ -91,5 +91,5 @@ proprío, para estimular sua criatividade.
 
 Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
-**Tópicos avançados da programação: Pasta Aula11**
+**Tópicos avançados da programação: Pasta Aula11Comprehensions**
 
