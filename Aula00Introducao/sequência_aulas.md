@@ -86,3 +86,10 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 6 - [06_docstrings.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/06_docstrings.md)
 
+Novamente, antes de prosseguir, eu sugiro que pare e faça todos os exercícios possiveis com o conhecimento já adquirido. Tente também criar um programa, um pequeno projeto por se
+proprío, para estimular sua criatividade. 
+
+Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
+
+**Tópicos avançados da programação: Pasta Aula11**
+
