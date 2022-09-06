@@ -1,12 +1,9 @@
-# Compreheinsions em Pyhton
+# List compreheinsions
 
 É uma forma mais sucinta de escrever código, mais inteligente e elegante. 
 É uma das formas que alguns chamam de Pythonicas (Uma maneira de escrever código típica da linguagem Python). 
 
-Podemos utilizar compreheinsions em listas e dicionários, vamos ver como funciona cada um.
-
-## List compreheinsions
-
+Podemos utilizar compreheinsions em listas e dicionários, vamos ver as listas nessa aula.
 Criar uma lista a partir de um dado interavel. A sintaxe é a seguinte:
 
 ```Python
@@ -61,7 +58,33 @@ print(num_5)
 
 perceba a diferença no tamanho do código. Concorda que é mais simples e elegante o list compreheinsions.
 
-## List compreheinsions com funções 
+### List compreheinsions com Strings
+
+Podemos utilizar Strings como iteraveis também, assim como fizmos com as listas. 
+
+```Python
+stri = "oi, tudo bem?"
+
+print([letra.upper() for letra in stri])
+```
+
+```Python
+['O', 'I', ',', ' ', 'T', 'U', 'D', 'O', ' ', 'B', 'E', 'M', '?']
+```
+
+Podemos colocar a string dentro de listas e utlizar o list compreheinsions.
+
+```Python
+nomes = ["maria", "joao", "gabriel"]
+
+print([letra.capitalize() for letra in nomes])
+```
+
+```Python
+['Maria', 'Joao', 'Gabriel']
+```
+
+### List compreheinsions com funções 
 
 A variável iteravel pode ser uma função, como no exemplo abaixo.
 
@@ -98,5 +121,3 @@ print(impares)
 [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]
 [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49]
 ```
-
-

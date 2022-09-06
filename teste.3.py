@@ -1,7 +1,5 @@
-numeros = range(1,50)
+numeros = range(1, 10)
 
-pares = [num for num in numeros if num % 2 == 0]
-impares = [num for num in numeros if num % 2 != 0]
+pares = {numero: ("par" if numero % 2 == 0 else "impar") for numero in numeros }
 
 print(pares)
-print(impares)
