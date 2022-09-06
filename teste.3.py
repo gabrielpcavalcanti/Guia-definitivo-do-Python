@@ -1,10 +1,7 @@
-def saudacoes(nomes):
+numeros = range(1,50)
 
-    for name in nomes:
-        msg = "Olá, " + name.title() + "!"
-        print(msg)
+pares = [num for num in numeros if num % 2 == 0]
+impares = [num for num in numeros if num % 2 != 0]
 
-
-usuarios = ["Aline", "Rebecca", "pedro"]
-
-saudacoes(usuarios)
+print(pares)
+print(impares)
