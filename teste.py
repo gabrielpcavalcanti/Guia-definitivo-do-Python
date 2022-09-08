@@ -1,7 +1,12 @@
-a = [1, 2, 3]
-b = [1, 2, 3]
+import statistics
 
-c = a + b
-print(c)
+dados = list(range(10))
 
-print(sum(c))
+media = statistics.mean(dados)
+
+res = filter(lambda valor: valor > media, dados)
+
+print(list(res))
+print(list(res))
+
+help(res)

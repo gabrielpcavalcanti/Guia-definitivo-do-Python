@@ -1,5 +1,10 @@
-numeros = range(1, 10)
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-pares = {numero: ("par" if numero % 2 == 0 else "impar") for numero in numeros }
+cubo = list(map(lambda x: x ** 3, numeros))
 
-print(pares)
+for i in cubo:
+    print(i)
+
+
+
+
