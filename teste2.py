@@ -1,7 +1,3 @@
-nomes = ["Gabriel", "joão", "Sofia", "Rafael", "Larissa"]
+num_3 = (1, 5, 5, 6, 8, 2)
 
-filtro = filter(lambda nome: len(nome) > 5, nomes)
-
-nomes_final = map(lambda nome: f"{nome}", filtro)
-
-print(list(nomes_final))
+print(list(reversed(num_3)))

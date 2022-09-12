@@ -175,6 +175,18 @@ teste
  teste
 ```
 
+* Join: Cria uma string a partir de uma lista. Se não saibe ainda o que é lista, pule isso por enquanto, quando souber o que é, volte aqui e veja.
+
+```Python
+frase = ["Meu ", "nome ", "é " , "Gabriel "]
+
+print(''.join(frase))
+```
+
+```Python
+Meu nome é Gabriel 
+```
+
 Podemos fazer o chamado slice de Strings. Cada caracter de uma String possie um índice. Começa em 0 e vai até a quantidade de caracteres. O slice permite escolher quis indices mostrar. colocamos os ídices dentro de [n:p:q].
 
 n: indica o primiro caracter que vai parecer.

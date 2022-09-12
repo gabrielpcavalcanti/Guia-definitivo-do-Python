@@ -53,4 +53,4 @@ print(autores)
 
 Utilizamos uma expressão lambda dentro do argumento da função sort( ). Fazer isso para diversas funções diferentes é o que faz os lambdas serem poderosos.
 
-Nas próximas aulas veremos algumas funções que funcionama muito bem com expressões lambda: Map, filter, reduce, any, all, generators, sorted, min, max, reversed, len, abs, sum, round e zip,
+Nas próximas aulas veremos algumas funções que funcionama muito bem com expressões lambda: Map, filter, sorted,  reversed, min e max.

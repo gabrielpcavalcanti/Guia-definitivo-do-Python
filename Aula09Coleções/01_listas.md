@@ -342,3 +342,17 @@ print(str_1.split())
 ```python
 ['vou', 'virar', 'uma', 'lista']
 ```
+
+* O método reverse( ), inverte a ordem da lista.
+
+```Pyhton
+num = [1, 2, 3, 4, 5]
+
+num.reverse()
+
+print(num)
+```
+
+```Python
+[5, 4, 3, 2, 1]
+```
