@@ -93,6 +93,14 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 **Tópicos avançados da programação: Pasta Aula11Comprehensions**
 
-1 - [01_list_compreheinsion.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/01_funcoes.md)
+1 - [01_list_compreheinsion.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula11Comprehensions/01_list_compreheinsion.md)
 
-2 - [02_dictionary_compreheinsion.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/02_funcoes_com_parametros.md)
+2 - [02_dictionary_compreheinsion.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula11Comprehensions/02_dictionary_compreheinsion.md)
+
+**Tópicos avançados da programação: Pasta Aula12ExpressõesLambdas**
+
+1 - [01_expressoes_lambdas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/01_expressoes_lambdas.md)
+
+2 - [02_map_e_filter.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/02_map_e_filter.md)
+
+3 - [03_algumas_funcoes_integradas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/03_algumas_funcoes_integradas.md)
