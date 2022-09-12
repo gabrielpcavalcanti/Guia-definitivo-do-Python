@@ -285,17 +285,3 @@ print(5 * nome_11)
 ```python
 oioioioioi
 ```
-### SyntaxError
-
-A medida que evoluimos na programação, percebemos que nem tudo são flores. Iremos nos deparar
-com diversos tipos de erros no nossos programas e temos que estar preparados para corrigi-los.
-
-Com o tempo conseguimos indentificar qual é o tipo de erro e como resolver seu problema.
-
-obs: Para mais detalhes sobre cada um dos tipos de erros, visite essa aula:
-começe desde cedo a entender os tipos de erros para quando começar a estudar eles efetivamente, ficar tudo mais fácil de compreender.
-
-Um dos erros mais comuns quando estamos falando de Strings é o erro de sintaxe. Ele ocorre
-quando o python não reconhce uma secção do código como sendo válida. 
-
-Um exemplo é o caso de confundir no uso aspas simples e duplas no meio de uma String.
