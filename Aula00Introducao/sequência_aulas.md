@@ -93,3 +93,6 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 **Tópicos avançados da programação: Pasta Aula11Comprehensions**
 
+1 - [01_list_compreheinsion.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/01_funcoes.md)
+
+2 - [02_dictionary_compreheinsion.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/02_funcoes_com_parametros.md)
