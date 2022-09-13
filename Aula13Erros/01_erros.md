@@ -96,42 +96,68 @@ IndexError: list index out of range
 
 * ValueError
 
-```Python
+Ocorre quando uma função que pertence ao Python recebe argumentos com o tipo correto mais inapropiados.
 
+```Python
+ print(int('oi')) # Não temo como converter uma palavra em int, teria que ser um número
 ```
 
 ```Python
-
+File "c:\Users\gabri\OneDrive\Documentos\GitHub\Python_teoria\teste_erro.py", line 1
+    print(int('oi'))
+IndentationError: unexpected indent
 ```
 
-* 
+* KeyError
+
+Ocorre quando tentamos acessar um dicionário com uma chave que não existe.
 
 ```Python
+carros = {'Ford': 'Focus', 'Fiat': 'Uno', 'BMW': ' X1'}
 
-```
-
-```Python
-
-```
-
-*
-
-
-```Python
-
+print(carros['Toyota'])
 ```
 
 ```Python
-
+Traceback (most recent call last):
+  File "c:\Users\gabri\OneDrive\Documentos\GitHub\Python_teoria\teste_erro.py", line 3, in <module>
+    print(carros['Toyota'])
+KeyError: 'Toyota'
 ```
 
-*
+* AttributeError
 
+Ocorre quando usamos função que não são atribuidas a certo tipos de dados.
 
 ```Python
+trupla = (1,2,3,4)
 
+trupla.sort() # Não existe a função sort() para truplas.
+trupla.upper() # Não existe a função upper() para truplas.
 ```
 
 ```Python
+Traceback (most recent call last):
+  File "c:\Users\gabri\OneDrive\Documentos\GitHub\Python_teoria\teste_erro.py", line 3, in <module>
+    trupla.sort() # N�o existe a fun��o sort() para truplas.
+AttributeError: 'tuple' object has no attribute 'sort'
+```
 
+* IndentationError
+
+Ocorre quando não respitar a identação do Python.
+
+```Python
+def funcao(): # Não está identado.
+pass
+
+for i in range(5): # Não está identado.
+print(i)
+```
+
+```Python
+  File "c:\Users\gabri\OneDrive\Documentos\GitHub\Python_teoria\teste_erro.py", line 2
+    pass
+    ^
+IndentationError: expected an indented block
 ```

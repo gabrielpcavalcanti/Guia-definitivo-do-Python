@@ -1,3 +1,5 @@
-nums = [1,2,3,4,5]
+def funcao(): # Não está identado.
+pass
 
-print(nums[6]) # Não existe indice 6 na lista nums.
+for i in range(5): # Não está identado.
+print(i)
