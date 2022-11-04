@@ -1,9 +1,8 @@
 # Erros
 
-Nós erramos a todo o momento, em qualquer esfera da vida. Temos que aprender a lidar com eles para que nunca mais se repitam. Na programação não é diferente, ainda mais quando 
-se está aprendendo, erramos muitas e muitas vezes.
+Nós erramos a todo o momento, em qualquer esfera da vida. Temos que aprender a lidar com eles para que nunca mais se repitam. Na programação não é diferente, ainda mais quando se está aprendendo, erramos muitas e muitas vezes.
 
-O que é impotante na programação é saber ler a mensagem de erro, identiicar onde está o erro, qual o tipo de erro e como corrigi-lo ou trata-lo. Veremos tudo isso nessa aula.
+O que é impotante na programação é saber ler a mensagem de erro, identificar onde está o erro, qual o tipo de erro e como corrigi-lo ou trata-lo. Veremos tudo isso nessa aula.
 
 obs: O interpretador do Python para de executar o código quando ele encontra algum erro, tenha em mente isso.
 

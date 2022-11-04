@@ -47,7 +47,6 @@ class filha(base3):
 
 a classe filha recebe da classe base3, que por sua vez recebe da base2, que por sua vez, recebe da classe base1. A herança é feita de forma indireta e a classe filha recebe todos os atributos e métodos das base1, base2 e base3.
 
-
 ## MRO - Method Resolution Order
 
 É um fenômeno que ocorre quando realizamos a herança múltipla. Ele indica qual o método que será execultado primeiro.

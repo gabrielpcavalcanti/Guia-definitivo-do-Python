@@ -87,6 +87,4 @@ def func(var1, var2, var3, var4=3, var=6);
 Obs: Utilizmaos a palavra reservada **pass** para quando quisermos declarar a função ou classe, mas não mexer com ela no momento. Quando 
 for trabalhar na função novamente é necessário retirar a palavra pass.
 
-Obs: Caso não tenha notado, foi utilizado o nome parâmetro e argumento. Eles significam a mesma coisa, ou seja, são as variáveis que ficam dentro
-dos ( ). A diferença é que o nome parâmetro é usado na criação da função e o argumento, na declaração. É somente nomeclarura, mas significam a
-mesma coisa.
+Obs: Caso não tenha notado, foi utilizado o nome parâmetro e argumento. Eles significam a mesma coisa, ou seja, são as variáveis que ficam dentro dos ( ). A diferença é que o nome parâmetro é usado na criação da função e o argumento, na declaração. É somente nomeclarura, mas significam a mesma coisa.
