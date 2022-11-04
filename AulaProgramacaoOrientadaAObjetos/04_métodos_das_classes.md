@@ -13,15 +13,15 @@ São métodos criados dentro da classe em que se pode acessar eles quando se cri
 ```Python
 class User:
 
-    def __init__(self, frist_name, last_name, altura, dataaniversario):
+    def __init__(self, frist_name, last_name, altura, data_aniversario):
         self.frist_name = frist_name
         self.last_name = last_name
         self.altura = altura
-        self.dataaniversario = dataaniversario
+        self.data_aniversario = data_aniversario
 
     def describe_user(self):
         """ faz um relatório com as informaçãoes do usuário """
-        print(f"nome: {self.frist_name} {self.last_name}\naltura: {self.altura} metros\ndata aniversário: {self.dataaniversario}")
+        print(f"nome: {self.frist_name} {self.last_name}\naltura: {self.altura} metros\ndata aniversário: {self.data_aniversario}")
 
     
     def greet_user(self):
@@ -35,6 +35,13 @@ user_01.describe_user()
 user_01.greet_user()
 ```
 
+```Pyhton
+nome: Gabriel Cavalcanti  
+altura: 1.7 metros        
+data aniversário: 14/05/98
+Olá Gabriel Cavalcanti, seja bem vindo!
+```
+
 foi criado dois métodos, describe_user e greet_user. Para acessar eles fora da classe, primeiro é criado uma instância da classe
 e depois, com a notação ponto, chama o método da classe utilizando o objeto criado, no caso user_01.
 
@@ -45,11 +52,9 @@ os métodos são funções, ou seja, tudo que as funções são capazes de fazer
 Funciona com a mesma lógica que os atributos de classe. Somente a classe tem acesso ao método e precisa colocar um decorador para 
 que funcione. 
 
-Além disso, não se utiliza a palavra self e sim cls. Não estamos mais relaciondo com o objeto da classe e sim com a classe em si, então
-é preciso passar como parâmetro o cls (classe) e não mais o self. Como não passamos mais o self, nenhum dos atributos do construtor podem ser utilizados dentro de um método de classe.
+Além disso, não se utiliza a palavra self e sim cls. Não estamos mais relaciondo com o objeto da classe e sim com a classe em si, então é preciso passar como parâmetro o cls (classe) e não mais o self. Como não passamos mais o self, nenhum dos atributos do construtor podem ser utilizados dentro de um método de classe.
 
-Ele utiliza como parâmetro obrigatório a palavra cls, que indica a própia classe. Esse tipo de método faz referencia a própia classe e não ao 
-objeto, que nem o self faz.
+Ele utiliza como parâmetro obrigatório a palavra cls, que indica a própia classe. Esse tipo de método faz referencia a própia classe e não ao objeto, que nem o self faz.
 
 ```Python
 class Pessoa:
@@ -80,9 +85,14 @@ pessoa_01.esta_comendo() # Método de instância
 Pessoa.vivo(True) # Método de classe
 ```
 
+```Python
+Ele já comeu
+Esta vivo
+```
+
 ## Alterando valores de atributos com métodos
 
-Agora vamos ver como aletrar o valor de atributos com os métodos. Vamos utilizar a classe dos carros, utlizadas na aula de 04_atributos_de_classe.md
+Agora vamos ver como aletrar o valor de atributos com os métodos. Vamos utilizar a classe dos carros, utlizadas na aula de 03_atributos_de_classe.md
 
 É possível mudar de duas formas: definir o valor com um método ou incrementa-lo.
 
@@ -118,7 +128,7 @@ carro.ler_odometro()
 Odometro do carro: 50
 ```
 
-Se quiser deixar o programa mais complexo, podemos colocar uma condição de alterar o valor do odometro. Já que pode ser um valor menor, vamos adcionais isso ao programa.
+Se quiser deixar o programa mais complexo, podemos colocar uma condição de alterar o valor do odometro. Já que pode ser um valor menor, vamos adcionair isso ao programa.
 
 ```Python
 

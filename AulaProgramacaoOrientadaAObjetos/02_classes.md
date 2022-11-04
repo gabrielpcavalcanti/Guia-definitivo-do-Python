@@ -10,7 +10,7 @@ Por exemplo, um cachorro: ele possui nome, cor, tamanho, raça etc. Esses seriam
 
 ### Métodos
 
-Representam os comportamentos do objeto representado pela classe. Fazemos esses comportamentos atravez das funções. Então funções dentro de classes são chamados de métodos.
+Representam os comportamentos do objeto representado pela classe. Fazemos esses comportamentos atravéz das funções. Então funções dentro de classes são chamados de métodos.
 
 por exemplo, na classe do cachorro podemos pensar em função de latir, correr, ser fofo, nadar, comer etc.
 
@@ -47,4 +47,3 @@ rex = Cachorro()
 ```
 
 Como a classe não possui nada ainda, não é preciso colocar nenhum parâmetro dentro o objeto, mas será preciso quando a classe tiver o contrutor, os atributos e os outros métodos. 
-

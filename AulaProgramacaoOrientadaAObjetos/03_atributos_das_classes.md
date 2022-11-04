@@ -32,7 +32,7 @@ class Cachorro:
         self.raca = raca
 ```
 
-Entenda: quando utilizamos o self.atributo estamos dizendo o seguinte, o atributo x da classe y recebe x. Percebe que ele está se auto referenciado, ou seja, utilizando um atributo (self) para representar outros atributos dele mesmo. 
+Entenda: quando utilizamos o self.atributo estamos dizendo o seguinte: o atributo x da classe y recebe x. Percebe que ele está se auto referenciado, ou seja, utilizando um atributo (self) para representar outros atributos dele mesmo. 
 
 O self da acesso aos atributos da classe a um objeto/instância individual. Ele faz isso de forma automática. 
 
@@ -117,7 +117,7 @@ print(carro_01._tamanho) # Dará erro
 
 São atributos declarados fora do construtor. Nada mais são variáveis que podemos utilizar em qualquer método da classe. 
 
-Colocamos eles antes do construtor e para chamar ele dentro de um método, incluindo o construtor, chamamos o NomeDaClasse.nome_do_atributo.
+Colocamos eles antes do construtor e para chamar ele dentro de um método, incluindo o construtor, chamamos o NomeDaClasse.nome_do_atributo_de_classe.
 
 ```Python
 

@@ -1,1 +1,0 @@
-arquivo = open("C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\Python_teoria\\Aula14Arquivos\\texto_teste.txt")

@@ -1,4 +1,4 @@
-# Herança múltipla 
+# Herança múltipla e polimosrfismo
 
 Como o nome indica, é a possibilidade de uma classe herdar mais de 
 uma classe. Pode ser quantas quiser, não a limite de herança.
@@ -79,7 +79,9 @@ print(rex.andar())
 O animal rex anda
 ```
 
-Agora quando criamos um método na classe filha com o mesmo nome de um método da classe mãe e criamos uma istância da classe filha, o python não mais execulta o método da classe mãe e sim o da classe filha. Esse processo é chamado de polimorfismo.
+### Polimorfismo
+
+Agora quando criamos um método na classe filha com o mesmo nome de um método da classe mãe e criamos uma instância da classe filha, o python não mais execulta o método da classe mãe e sim o da classe filha. Esse processo é chamado de polimorfismo.
 
 ```Python
 class Animal:
@@ -109,21 +111,3 @@ print(rex.andar())
 ```Python
 O cachorro rex anda
 ```
-
-```Pyhton
-
-
-
-
-```
-
-
-
-
-
-
-
-
-
-
-
