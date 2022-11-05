@@ -74,7 +74,6 @@ def lol():
 print(lol())
 ```
 
-
 ## decoradores com argumento:
 
 ```Python
@@ -110,4 +109,3 @@ print(comida_favorita('pizza', 'churrasco'))
 
 print(comida_favorita('sanduiche', 'pizza'))
 ```
-
