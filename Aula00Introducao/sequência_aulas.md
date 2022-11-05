@@ -127,7 +127,22 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 2 - [02_tratamento_de_erros.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula15Erros/02_tratamento_de_erros.md)
 
-**Tópicos avançados da programação: Pasta Aula16IteradoresEGeradores**
+**Tópicos avançados da programação: Pasta Aula16Decoradores**
 
+1 - [01_funcoes_de_maior_grandeza.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula15Erros/01_erros.md)
 
+2 - [02_decoradores.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula15Erros/02_tratamento_de_erros.md)
 
+**Programação orientada a objetos - POO: Pasta Aula17ProgramacaoOrientadaAObjetos**
+
+ - [01_o_que_e_poo.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/01_funcoes.md)
+
+2 - [02_classes.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/02_funcoes_com_parametros.md)
+
+3 - [03_atributo_das_classes.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/03_funcoes_com_retorno.md)
+
+4 - [04_metodos_das_classes.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/04_funcoes_com_args.md)
+
+5 - [05_hereanca.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/05_funcoes_com_kwargs.md)
+
+6 - [06_heranca_multipla_e_polimorfismo.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/06_docstrings.md)
