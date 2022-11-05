@@ -86,8 +86,16 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 6 - [06_docstrings.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/06_docstrings.md)
 
-Novamente, antes de prosseguir, eu sugiro que pare e faça todos os exercícios possiveis com o conhecimento já adquirido. Tente também criar um programa, um pequeno projeto por se
-proprío, para estimular sua criatividade. 
+**Desenvolvimento da programação: Pasta Aula11Modulos**
+
+1 - [01_dunde_main_dunder_name.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula11Modulos/01_dunde_main_dunder_name.md)
+
+2 - [02_modulos.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula11Modulos/02_modulos.md)
+
+3 - [03_pacotes.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula11Modulos/03_pacotes.md)
+
+
+Novamente, antes de prosseguir, eu sugiro que pare e faça todos os exercícios possiveis com o conhecimento já adquirido. Tente também criar um programa, um pequeno projeto por se proprío, para estimular sua criatividade. 
 
 Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
@@ -107,17 +115,17 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 **Tópicos avançados da programação: Pasta Aula14Arquivos**
 
-1 - [01_arquivos_abertura, leitura e fechamento .md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/01_expressoes_lambdas.md)
+1 - [01_arquivos_abertura, leitura e fechamento .md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula14Arquivos/01_arquivos_abertura%2C%20leitura%20e%20fechamento%20.md)
 
-2 - [02_arquivos_escrita.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/02_map_e_filter.md)
+2 - [02_arquivos_escrita.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula14Arquivos/02_arquivos_escrita.md)
 
-3 - [03_arquivos_mais_modos.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/03_algumas_funcoes_integradas.md)
+3 - [03_arquivos_mais_modos.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula14Arquivos/03_arquivos_mais_modos.md)
 
 **Tópicos avançados da programação: Pasta Aula15Erros**
 
-1 - [01_erros.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/01_expressoes_lambdas.md)
+1 - [01_erros.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula15Erros/01_erros.md)
 
-2 - [02_tratamento_de_erros.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/02_map_e_filter.md)
+2 - [02_tratamento_de_erros.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula15Erros/02_tratamento_de_erros.md)
 
 **Tópicos avançados da programação: Pasta Aula16IteradoresEGeradores**
 
