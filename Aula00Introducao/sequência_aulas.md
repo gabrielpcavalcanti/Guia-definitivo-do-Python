@@ -91,16 +91,35 @@ proprío, para estimular sua criatividade.
 
 Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
-**Tópicos avançados da programação: Pasta Aula11Comprehensions**
+**Tópicos avançados da programação: Pasta Aula12Comprehensions**
 
 1 - [01_list_compreheinsion.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula11Comprehensions/01_list_compreheinsion.md)
 
 2 - [02_dictionary_compreheinsion.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula11Comprehensions/02_dictionary_compreheinsion.md)
 
-**Tópicos avançados da programação: Pasta Aula12ExpressõesLambdas**
+**Tópicos avançados da programação: Pasta Aula13ExpressõesLambdas**
 
 1 - [01_expressoes_lambdas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/01_expressoes_lambdas.md)
 
 2 - [02_map_e_filter.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/02_map_e_filter.md)
 
 3 - [03_algumas_funcoes_integradas.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/03_algumas_funcoes_integradas.md)
+
+**Tópicos avançados da programação: Pasta Aula14Arquivos**
+
+1 - [01_arquivos_abertura, leitura e fechamento .md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/01_expressoes_lambdas.md)
+
+2 - [02_arquivos_escrita.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/02_map_e_filter.md)
+
+3 - [03_arquivos_mais_modos.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/03_algumas_funcoes_integradas.md)
+
+**Tópicos avançados da programação: Pasta Aula15Erros**
+
+1 - [01_erros.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/01_expressoes_lambdas.md)
+
+2 - [02_tratamento_de_erros.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula12Express%C3%B5esLambdas/02_map_e_filter.md)
+
+**Tópicos avançados da programação: Pasta Aula16IteradoresEGeradores**
+
+
+
