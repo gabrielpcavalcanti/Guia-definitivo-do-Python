@@ -1,4 +1,4 @@
-# Python_teoria
+# Guia definitivo do Python para Windows
 
 Esse repositório contém minhas anotações durante o estudo da linguagem de programação python. São arquivos que fiz durante as aulas que assisti e li. Elas estão no formato .md e algumas em .pptx. 
 
