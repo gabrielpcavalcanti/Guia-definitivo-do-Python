@@ -1,6 +1,6 @@
 # Módulos Python
 
-Módulos são arquivos em python, ou seja, todo arquivo python é um módulo, mas utilizamos o termo módulo para um arquivo que contem classes, funções com um objetivo em comum e que podem ser  utilizados no código via importação.
+Módulos são arquivos em python, ou seja, todo arquivo python é um módulo, mas utilizamos o termo módulo para um arquivo que contém classes, funções com um objetivo em comum e que podem ser utilizados no código via importação.
 
 Qualquer um pode criar módulos em Python para seram utilizados no própio código ou disponibilizar para que outras pessoas utilizem.
 
@@ -8,7 +8,7 @@ Qualquer um pode criar módulos em Python para seram utilizados no própio códi
 
 Alguns módulos são ditos padrões do pyhton porque não necessita a sua instalação, somente a importação. Eles não fazer parte da linguagem padrão do Pyhton, mas podem ser importados facilmente.
 
-### Exempos
+### Exemplos
 
 * os
 * sys
@@ -29,7 +29,7 @@ import os
 import math
 ```
 
-Dessa forma, todas as funções, classes serão importadas para o seu programa. Não é recomendado fazer dessa maneira porque acupa muita memória desnecessáriamente.
+Dessa forma, todas as funções, classes serão importadas para o seu programa. Não é recomendado fazer dessa maneira porque ocupa muita memória desnecessáriamente.
 
 Nesse tipo de importação, é necessário colocar o nome do módulo/pacote antes de função que ele contem.
 
@@ -40,8 +40,9 @@ import math
 print(math.pi)
 print(math.sqrt(4))
 
-# Saída
+```
 
+```Python
 3.141592653589793
 2.0
 ```
@@ -57,14 +58,14 @@ from random import random, randrange
 print(random()) 
 print(randrange(0, 101, 2))
 
-# Saída
-
-# Qualquer número de 0.0 a 1.0
-# Qualquer número interiro de 0 a 100.
-
 ```
 
-Caso importe muitas funções de um mesmo módulo ou pacote, é costume colocar eleas dentro de uma trupla.
+```Python
+# Qualquer número de 0.0 a 1.0
+# Qualquer número interiro de 0 a 100.
+```
+
+Caso importe muitas funções de um mesmo módulo ou pacote, é costume colocar eles dentro de uma trupla.
 
 ```python
 from random import (random, randrange, randint, choice)
@@ -88,4 +89,4 @@ import tkinter as tk
 from math import factorial as fac, degrees as deg
 ```
 
-Obs: O apelido não pode ser uma palavra reservada da linguagem nem uma variável ue for criada depois.
+Obs: O apelido não pode ser uma palavra reservada da linguagem nem uma variável que for criada depois.

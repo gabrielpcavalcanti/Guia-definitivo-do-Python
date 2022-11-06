@@ -19,6 +19,7 @@ res = [numero * 10 for numero in numeros]
 print(res)
 
 print([numero / 5 for numero in numeros])
+
 ```
 
 ```Python
@@ -49,6 +50,7 @@ for num in numeros:
     num_5.append(num_3)
 
 print(num_5)
+
 ```
 
 ```Python
@@ -60,12 +62,13 @@ perceba a diferença no tamanho do código. Concorda que é mais simples e elega
 
 ### List compreheinsions com Strings
 
-Podemos utilizar Strings como iteraveis também, assim como fizmos com as listas. 
+Podemos utilizar Strings como iteraveis também, assim como fizemos com as listas. 
 
 ```Python
 stri = "oi, tudo bem?"
 
 print([letra.upper() for letra in stri])
+
 ```
 
 ```Python
@@ -78,6 +81,7 @@ Podemos colocar a string dentro de listas e utlizar o list compreheinsions.
 nomes = ["maria", "joao", "gabriel"]
 
 print([letra.capitalize() for letra in nomes])
+
 ```
 
 ```Python
@@ -97,6 +101,7 @@ numeros = [1, 2, 3, 4, 5, 6, 7 ,8, 9, 10]
 
 res3 = [quadrado(numero) for numero in numeros]
 print(res3)
+
 ```
 
 ```Python
@@ -113,11 +118,12 @@ numeros = range(1,51)
 pares = [num for num in numeros if num % 2 == 0]
 impares = [num for num in numeros if num % 2 != 0]
 
-print(pares)
-print(impares)
+print(f"Número pares de 1 a 51: {pares}")
+print(f"Número impares de 1 a 51: {impares}")
+
 ```
 
 ```python
-[2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]
-[1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49]
+Número pares de 1 a 51: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]
+Número impares de 1 a 51: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49]
 ```

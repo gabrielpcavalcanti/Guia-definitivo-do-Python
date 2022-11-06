@@ -2,13 +2,13 @@
 
 A partir de agora o universo da programação se abre. As possíbilidades aumentam concideravelmente.
 
- Até agora somente executamos códigos que leam linha poor linha, com as estruturas condicionais isso muda, já que o código pode pular linhas dependendo se condições são satisfeitas ou não. 
+ Até agora somente executamos códigos que leam linha por linha, com as estruturas condicionais isso muda, já que o código pode pular linhas dependendo se condições são satisfeitas ou não. 
 
 Esse tipo de estrutura possibilita uma maior complexidade e ao mesmo tempo facilidade para escrever um código.
 
 Como o nome diz, é uma condição. Faremos uma "Pergunta" para o programa é caso for satisfeira fará uma coisa, se não, fará outra.
 
-Existem três estruturas condicionais no Python, são elas o if (se), else (se não) e elif( se não se). Esse última é uma junção das outras duas.
+Existem três estruturas condicionais no Python, são elas o if (se), else (se não) e elif(se não se). Esse última é uma junção das outras duas.
 
 ## indentação
 
@@ -37,13 +37,15 @@ valor = 19
 
 if valor > 18:
     print(f'sua idade é {idade}.')
+
 ```
 ```Python
 Sua idade é 19
 ```
+
 ## Else
 
-Você pode estar se perguntando se caso a condição seja falsa o que acontece. Ai que entra o else. Ela é uma estrutura que somente pode ser usada com o if junto, nunca sozinha. 
+Você pode estar se perguntando se caso a condição seja falsa o que acontece. Ai que entra o else. Ela é uma estrutura que somente pode ser usada com o if junto, nunca sozinha. O uso do else não é obrigatório.
 
 ```python
 nome = 'rafael'
@@ -53,6 +55,7 @@ if nome == 'gabriel':
 
 else:
     print("Seu nome deveria ser gabriel")
+
 ```
 
 ## Elif
@@ -61,7 +64,7 @@ A condição elif é uma junção das duas outras. Ela serve para colocar vária
 
 Só utilize o elif se a condição ainda estiver de acordo com o if original, caso contrário, o programa pode interromper a verificação de condições e não funcionar adquadamente.
 
-O comamdo else sempre será o ultimo comando condicional e ele nunca tem um condição assiciada, somente o else: . Além disso, o else não é obrigatótio, ou seja, caso nenhum dos testes passem e não queria qe faça nada com o resultado obtido ou ainda que esses dados sejam inválidos, não coloque o comando else.
+O comamdo else sempre será o ultimo comando condicional e ele nunca tem um condição associada, somente o else: . Além disso, o else não é obrigatótio, ou seja, caso nenhum dos testes passem e não queria que faça nada com o resultado obtido ou ainda que esses dados sejam inválidos, não coloque o comando else.
 
 ```Python
 idade = 18
@@ -74,13 +77,18 @@ elif idade > 0 and idade < 18 :
 
 else:
     print("idade inválida")
+
 ```
+
+```Python
+maior de idade
+``` 
 
 ## Avançando nas estruturas condicionais
 
 Assim que entender como funciona as estruturas condiocionais é possível dar mais complexidade ao código com a mesmas estrutura condicional. 
 
-Além disso é possível misturae estruturas condicionais com as de repetição, listas, truplas, etc. As possibilidades são infinitas. vermos tudo mais para frente.
+Além disso é possível misturar estruturas condicionais com as de repetição, listas, truplas, etc. As possibilidades são infinitas. vermos tudo mais para frente.
 
 Podemos colocar estruturas condicionais dentro de estrututuras condicionais, quantas quisermos.
 
@@ -103,13 +111,14 @@ elif idade <18:
 
 else:
     print("Deu errro, digite novamente")
+
 ```
 
 Perceba a hierarquia dos blocos de comando. Os que estiverem dentro de outra condição será dependente da de fora. As que estiveram na mesmo posiçãom será de mesma hierarquia.
 
 ### operadores lógicos
 
-Já vimos os operadores lógicos and, or, not e is. Podemos utilizar eles dentros das nossas condições aumentando o nosso leque de possibilidades.
+Já vimos os operadores lógicos and, or, not e is. Podemos utilizar eles dentros das nossas condições aumentando o nosso leque de possibilidades. Vejamos alguns exemplos.
 
 ```Python
 ligado = True
@@ -128,6 +137,7 @@ elif ligado and Desligado:
 
 else:
     print("Está desligado")
+
 ```
 
 ```Python
@@ -138,6 +148,7 @@ if valor < 5 or valor >= 2:
 
 else:
     Print(valor - 2)
+
 ```
 
 ```Python
@@ -145,4 +156,5 @@ ligado = True
 
 if not ligado:
     print("Deligado")
+
 ```

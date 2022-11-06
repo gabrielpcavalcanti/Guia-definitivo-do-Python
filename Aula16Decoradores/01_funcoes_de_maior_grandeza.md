@@ -28,6 +28,7 @@ rindo = faz_me_rir('Fernanda')
 print(rindo())
 print(rindo())
 print(rindo())
+
 ```
 
 ```Python
@@ -55,6 +56,7 @@ def cumprimento(pessoa):
 
 print(cumprimento('Angelina'))
 print(cumprimento('Felicity'))
+
 ```
 
 ```Python

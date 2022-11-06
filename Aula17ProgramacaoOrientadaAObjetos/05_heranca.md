@@ -49,6 +49,8 @@ class Pessoa:
 
     def nome_completo(self):
         return f'O seu nome completo é: {self.nome} {self.sobrenome}'
+
+
 ```
 
 ## Super( )
@@ -87,6 +89,7 @@ class Cliente(Pessoa):
 cliente_01 = Cliente("Gabriel", "Cavalcanti", "23", "119.056.864-04")
 
 print(cliente_01.nome_completo())
+
 ```
 
 ```Python

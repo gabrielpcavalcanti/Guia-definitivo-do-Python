@@ -108,6 +108,7 @@ rex = Cachorro("rex", 4, "Canis lupus familiaris", "maltês")
 
 print(rex.andar())
 ```
+
 ```Python
 O cachorro rex anda
 ```

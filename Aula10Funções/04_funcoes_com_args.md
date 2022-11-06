@@ -4,6 +4,7 @@ O *args é um parâmetro como qualquer outro. Podemos colocar o nome que quiser,
 O que importa, na verdade, e o *. 
 
 ele tem o poder de colocar todos os valores extras em um função dentro de uma trupla, portanto tudo que sabemos sobre truplas pode ser utilizado aqui.
+
 Normalmente as função vem somente com o *args ou com todos os outros parâmetros posicionais, o *args e por fim, os default. 
 
 Ele não é um argumento obrigatório, então a utilização dele é opicional.
@@ -22,6 +23,7 @@ def sabor_pizza(*args):
 sabor_pizza("pepperoni")
 sabor_pizza("pepperoni", "cheese")
 sabor_pizza("cebola", "alho", "milho")
+
 ```
 
 ```python
@@ -54,6 +56,7 @@ def sabor_pizza(tamanho, *args, bom=True):
 sabor_pizza("M", "pepperoni")
 sabor_pizza("G","pepperoni", "cheese")
 sabor_pizza("P", "cebola", "alho", "milho")
+
 ```
 
 ```Pyhton

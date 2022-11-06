@@ -1,7 +1,7 @@
 # Função print( )
 
 Acabamos de quebrar a maldição, trazendo sorte para a nossa jornada e apredendemos nosso
-primeiro comando em Phython, a função interna print( ).
+primeiro comando em Python, a função interna print( ).
 
 Por incrível que pareça a função print( ) apresenta diversas pequenas configurações que
 podem ser feitas e passam despercebidos da maioria dos programadores.
@@ -10,6 +10,7 @@ Se utilizarmos a função interna help( ), podemos ver o que função print( ) f
 
 ```python
 print(help(print))
+
 ```
 
 ```python
@@ -45,6 +46,7 @@ Dica: Sempre brinque com os parâmetetros das funções. Quando mais você testa
 
 ```python
 print("oi,", "tudo bem", sep='-')
+
 ```
 
 ```python
@@ -56,6 +58,7 @@ oi-tudo bem
 ```python
 print("oi,", end=' ')
 print("tudo bem")
+
 ```
 
 ```python

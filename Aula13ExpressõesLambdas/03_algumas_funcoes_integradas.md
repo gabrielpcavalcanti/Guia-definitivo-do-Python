@@ -4,8 +4,7 @@ Veremos aqui algumas funções integradas no Python.
 
 ## Sorted( )
 
-funciona quase da mesma forma do método sort( ) visto em listas, com a diferença dele funcionar com qualquer iterável e retorna uma lista 
-nova, não modifica uma já existente. Sempre retorna uma lista, mesmo que o dado original não for.
+funciona quase da mesma forma do método sort( ) visto em listas, com a diferença dele funcionar com qualquer iterável e retorna uma lista nova, não modifica uma já existente. Sempre retorna uma lista, mesmo que o dado original não for.
 
 ```Python
 num = [1, 5, 9, 14, 55, 77]
@@ -43,13 +42,13 @@ print(sorted(num_2, reverse=True))
 
 ## Reversed( )
 
-Assim como o sorted( ), o reversed( ) funciona para todos os conjutos de dados e não somente listas, como é o caso do método reverse( ). Ele gera um objeto diferente. É preciso
-utilizar o cast para tansformar ele em lista ou trupla.
+Assim como o sorted( ), o reversed( ) funciona para todos os conjutos de dados e não somente listas, como é o caso do método reverse( ). Ele gera um objeto diferente. É preciso utilizar o cast para tansformar ele em lista ou trupla.
 
 ```Python
 num_3 = (1, 5, 5, 6, 8, 2)
 
 print(list(reversed(num_3)))
+
 ```
 
 ```Python

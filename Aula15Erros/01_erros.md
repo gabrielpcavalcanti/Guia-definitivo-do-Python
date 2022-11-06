@@ -61,6 +61,9 @@ File "c:\Users\Avell\Documents\GitHub\Python_teoria\teste_erro.py", line 2
 SyntaxError: '(' was never closed
 ```
 
+Veja que ele so mostrou o primeiro erro. Assim que ele identifica o erro, o programa para a execussão e tudo que vinher 
+depois não é lido.
+
 * TypeError
 
 Ocorre quando uma função/operação/ação é aplicada a um tipo de dado errado.

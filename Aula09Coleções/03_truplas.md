@@ -1,6 +1,6 @@
 # Truplas
 
-Truplas são uma estrutura de dado muito parecido com as listas, com duas grandes diferenças. A primira que podemos declarar elas usanso () ou só colocando os dados separados com vírgula. Como visto abaixo:
+Truplas são uma estrutura de dado muito parecido com as listas, com duas grandes diferenças. A primira que podemos declarar elas usanso ( ) ou só colocando os dados separados com vírgula. Como visto abaixo:
 
 ```python
 trupla = (1, 2, 3, 4, 5)
@@ -11,7 +11,7 @@ A segundo é principal diferença é que elas são imutáveis, ou seja,, não é
 
 Pode-se estar perguntando para que usar truplas em vez de lista, já que é bem mais versátil trabalhar com listas. A resposta é que se determinado dado não muda ou não queremos que ele mude durante o processo, truplas são uma boa solução. Como por exemplo, dias da semana, meses ou coordenadas.
 
-Obs: Truplas com um único elemento não são consideradas truplas é sim o tipo da dado escrito.
+Obs: Truplas com um único elemento não são consideradas truplas e sim o tipo da dado escrito.
 Para virar uma trupla, adicione uma vírgula no fim.
 
 ```python
@@ -20,6 +20,7 @@ trupla_2 = (2,)
 
 print(type(trupla))
 print(type(trupla_2))
+
 ```
 
 ```python
@@ -40,6 +41,7 @@ print(trupla[2])
 print(trupla[0])
 print(trupla[4])
 print(trupla[10])
+
 ```
 
 ```python
@@ -51,8 +53,7 @@ IndexError: tuple index out of range
 
 ## fatiar uma trupla
 
-Assim como é possivel fazer o slicing de uma String e numa lista, é possível fazer de uma trupla também. Funciona da mesma forma, mas se não 
-estiver lembrando, funciona assim:
+Assim como é possivel fazer o slicing de uma String e numa lista, é possível fazer de uma trupla também. Funciona da mesma forma, mas se não estiver lembrando, funciona assim:
 
 ```Python
 nomes = ("Gabriel", "Sofia", "Eduardo", "Marina", "Felipe")
@@ -69,7 +70,6 @@ print(nomes[:2])
 ('Eduardo', 'Marina', 'Felipe')
 ('Gabriel', 'Sofia')
 ```
-
 
 ## Determinar o indice
 
@@ -114,7 +114,7 @@ print(trupla)
 
 ## Deletar a trupla
 
-Basta usar o comando del + nome da trupla
+Basta usar o comando del + nome da trupla.
 
 ```Python
 trupla = (1, 2, 3, 4)
@@ -153,7 +153,7 @@ print(trupla_01)
 
 ## Converter trupla em lista
 
-Podemos usar o cast numa trupla para transforma-la numa lista
+Podemos usar o cast numa trupla para transforma-la numa lista.
 
 ```python
 trupla = (1,2,4,'oi', True)
@@ -161,6 +161,7 @@ trupla = (1,2,4,'oi', True)
 lista = list(trupla)
 
 print(lista)
+
 ```
 
 ```python
@@ -177,6 +178,7 @@ print(len(trupla_3))
 print(max(trupla_3))
 print(min(trupla_3))
 print(sum(trupla_3))
+
 ```
 
 ```python

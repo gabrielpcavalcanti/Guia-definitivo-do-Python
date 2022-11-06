@@ -2,14 +2,11 @@
 
 É uma boa prática, mas não obrigatório, colocar a chamada DocString. Ela serve para explicar o que determidada função faz. 
 
-Nem toda vez o nome da
-função explica com detalhes o que faz, ai que ela entra. Começa colocando tres " e termina com outros três  ". Pode-se usar ' também. Isso facilita a
-leitura do código para você e para os outros. Nem toda função necessita de DocStrings, mas é bom colocar sempre que achar importante.
+Nem toda vez o nome da função explica com detalhes o que faz, ai que ela entra. Começa colocando tres " e termina com outros três  ". Pode-se usar ' também. Isso facilita a leitura do código para você e para os outros. Nem toda função necessita de DocStrings, mas é bom colocar sempre que achar importante.
 
-DoStrings e comentários tem diferenças. As DocStrings resume o que a função faz, indica os parâmetros da função e os retornos. Os comentários
-dão informações pontuais de uma linha ou um conjunto pequenos de linha.
+DoStrings e comentários tem diferenças. As DocStrings resume o que a função faz, indica os parâmetros da função e os retornos. Os comentários dão informações pontuais de uma linha ou um conjunto pequenos de linha.
 
-Existem vários modelos de doc-strings. Podem ser de uma linha com o da função hello_word() ou várias linhas. Como visto abaixo.
+Existem vários modelos de doc-strings. Podem ser de uma linha com o da função hello_word( ) ou várias linhas. Como visto abaixo.
 
 ```python
 def some_function(argument1):
@@ -66,11 +63,13 @@ def some_function(argument1):
 
     return argument1
 
+
 print(help(some_function))
 print(some_function.__doc__)
 
-# Saída
+```
 
+```Python
 Help on function some_function in module __main__:
 
 some_function(argument1)

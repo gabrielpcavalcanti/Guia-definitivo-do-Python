@@ -2,7 +2,7 @@
 
 Representa os núemros reais da matemática, ou seja, os que possuiem casas decimais. Podem ser positivos ou negativos.
 
-Como a linguagem segue o padrão amaricano, o separador decimal é o ponto. A vírgula possui outra função na linguagem, separação de argumentos na função, separação de elementos numa lista ou dicionário e na criação de truplas.
+Como a linguagem segue o padrão americano, o separador decimal é o ponto. A vírgula possui outra função na linguagem, separação de argumentos na função, separação de elementos numa lista ou dicionário e na criação de truplas.
 
 Obs: Se não entendeu algum termo, não se preocupe, veremos mais na frente, tudo com detalhes.
 

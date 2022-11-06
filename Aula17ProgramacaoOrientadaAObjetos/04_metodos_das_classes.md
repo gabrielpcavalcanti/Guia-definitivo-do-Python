@@ -28,11 +28,11 @@ class User:
         print(f"Olá {self.frist_name} {self.last_name}, seja bem vindo!")
     
 
-
 user_01 = User("Gabriel", "Cavalcanti", 1.70, "14/05/98")
 
 user_01.describe_user()
 user_01.greet_user()
+
 ```
 
 ```Pyhton
@@ -157,6 +157,7 @@ carro.atualizar_odometro(50)
 carro.ler_odometro()
 
 carro.atualizar_odometro(30)
+
 ```
 ```Python
 Odometro do carro: 50
@@ -198,6 +199,7 @@ carro.ler_odometro()
 
 carro.incrementar_odometro(100)
 carro.ler_odometro()
+
 ```
 ```Python
 Odometro do carro: 24900
@@ -225,6 +227,7 @@ print(Car.odometro)
 carro_2 = Car("BMW", "X6", 2021)
 
 print(Car.odometro)
+
 ```
 ```Python
 1

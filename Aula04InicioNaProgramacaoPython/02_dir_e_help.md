@@ -8,7 +8,7 @@ função interna do Python ou não.
 
 A função dir( ) mostra todos os métodos e atributos de determinado objeto. Basta colocar o objeto dentro dos parentêses para funcionar.
 
-Obs: Se não souber o que é método ou atributo, veremos na parte de orientação ao objeto. Mas sá para desncargo de conciência, métodos é outro nome para função.
+Obs: Se não souber o que é método ou atributo, veremos na parte de orientação ao objeto. Mas sá para desencargo de conciência, métodos é outro nome para função.
 
 ```python
 dir(5)
@@ -29,7 +29,7 @@ dir("oi")
 
 Perceba que ele listou todos os métodos possíveis para determinado objeto, no caso foi números inteiros e Strings, respectivamente.
 
-Agora se quisermos saber para que serve determinado método, utilizamos a função help(). Ela mostrará a documentação do método.
+Agora se quisermos saber para que serve determinado método, utilizamos a função help( ). Ela mostrará a documentação do método.
 
 ```python
 help(max)
@@ -66,7 +66,7 @@ None
 Obs: Caso não esteja usando o terminal é necessário colocar a função print( ). print(help("oi".upper)), por exemplo, para poder aparecer na tela a informação do método.
 
 No primeiro caso, o help mostra a documetação de uma função inteira, todos os argumentos
-possíveis; No segundo caso, ele mostra o que o método upper faz com a String, ous seja,
+possíveis; No segundo caso, ele mostra o que o método upper faz com a String, ou seja,
 transforma todas as letras em maiúsculo.
 
 Tanto o dir( ) quanto o help( ) são funções internas do Python. Se preferir não utilizar elas durante a escrita do código, como alternativa, acesse a documentação oficial do Python para entender melhor sobre determinado objeto ou pesquise na internet.

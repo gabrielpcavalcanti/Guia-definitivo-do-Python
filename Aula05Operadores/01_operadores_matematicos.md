@@ -26,8 +26,9 @@ o resto da divisão de dois números e o // da a a parte inteira da divisão.
 ### Soma
 
 ```python
-4 + 10
-5.25 + 3.25
+print(4 + 10)
+print(5.25 + 3.25)
+
 ```
 
 ```python
@@ -38,8 +39,9 @@ o resto da divisão de dois números e o // da a a parte inteira da divisão.
 ### Subtração
 
 ```python
-7 - 8
-3.6 - 2
+print(7 - 8)
+print(3.6 - 2)
+
 ```
 
 ```python
@@ -50,8 +52,9 @@ o resto da divisão de dois números e o // da a a parte inteira da divisão.
 ### Multiplicação
 
 ```python
-3 * 2
-25.2 * 4
+print(3 * 2)
+print(25.2 * 4)
+
 ```
 
 ```python
@@ -62,8 +65,9 @@ o resto da divisão de dois números e o // da a a parte inteira da divisão.
 ### Divisão
 
 ```python
-1 / 2
-100 / 4
+print(1 / 2)
+print(100 / 4)
+
 ```
 
 ```python
@@ -73,8 +77,9 @@ o resto da divisão de dois números e o // da a a parte inteira da divisão.
 ### Divisão inteira
 
 ```python
-1 // 2
-100 // 4
+print(1 // 2)
+print(100 // 4)
+
 ```
 
 ```python
@@ -85,8 +90,8 @@ o resto da divisão de dois números e o // da a a parte inteira da divisão.
 ### Módulo
 
 ```python
-50 % 4
-36 % 6
+print(50 % 4)
+print(36 % 6)
 ```
 
 ```python
@@ -97,8 +102,8 @@ o resto da divisão de dois números e o // da a a parte inteira da divisão.
 ### Potenciação
 
 ```python
-2 ** 5
-3 ** 3
+print(2 ** 5)
+print(3 ** 3)
 ```
 
 ```python
@@ -111,8 +116,9 @@ Não sei se percebeu, mas o Python por padrão não tem a operação de radicia�
 ```python
 import math
 
-math.sqrt(16)
-math.sqrt(100)
+print(math.sqrt(16))
+print(math.sqrt(100))
+
 ```
 
 ```python
@@ -123,8 +129,9 @@ math.sqrt(100)
 ```python
 # Caso não queira utilizar o sqrt( )
 
-16 ** (1/2)
-27 ** (1/3)
+print(16 ** (1/2))
+print(27 ** (1/3))
+
 ```
 
 ```python
@@ -142,11 +149,12 @@ Em relação aos operadores, A potencia tem preferencia, depois a divisão e mul
 
 ```python
 x = ( 4 + 5 * 2) / 1 - 3
-print(x) 
+print(x)
+
 ```
 
 ```python
 11.0
 ```
 
-obs: x, no exemplo acima é uma variável. Não se preucupe porque veremos com calma em outra aula e você usará isso toda hora na programação.
+obs: x, no exemplo acima é uma variável, caso ainda não saiba o que é variável, veremos com calma em outra aula.

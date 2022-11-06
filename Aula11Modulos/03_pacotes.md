@@ -10,7 +10,7 @@ A importação de pacotes, tanto padrão quanto de terceiros é feita da mesma m
 
 ## Criação ou instalação de pacotes
 
- pacotes podem ser feitos por você ou outras pessoas e disponibilizadas para qualquer que deseja utiliza-lo.
+Pacotes podem ser feitos por você ou outras pessoas e disponibilizadas para qualquer que deseja utiliza-lo.
 
 Para ter acesso ao módulo de terceiros, é feita a instalação via pip (explicada na aula de ambientes virtuais). E quando instalada, basta importar.
 

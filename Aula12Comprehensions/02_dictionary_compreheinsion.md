@@ -32,6 +32,7 @@ numeros = range(1,6)
 correspondencia = {string[i]: numeros[i] for i in range(0, len(string))}
 
 print(correspondencia)
+
 ```
 
 ```Python
@@ -44,6 +45,7 @@ numeros = range(1, 51)
 pares = {numero: ("par" if numero % 2 == 0 else "impar") for numero in numeros }
 
 print(pares)
+
 ```
 
 ```Python

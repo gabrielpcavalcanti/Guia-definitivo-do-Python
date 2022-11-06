@@ -133,16 +133,26 @@ Quando tiver feito isso e se sentir preparado, prossiga para a proxima etapa.
 
 2 - [02_decoradores.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula15Erros/02_tratamento_de_erros.md)
 
+Finalizamos a parte avançada da programação. Estudamos muitos tópicos interessantes e úteis aqui, fazendo você se desenvolver 
+ainda mais. Faça exercício, refatore códigos, deixando eles mais completos. Assim que terminar, se sentir confiante vá para a 
+próxima etapa, que é a cereja do bolo da linguagem Python, você verá.
+
 **Programação orientada a objetos - POO: Pasta Aula17ProgramacaoOrientadaAObjetos**
 
- - [01_o_que_e_poo.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/01_funcoes.md)
+1 - [01_o_que_e_poo.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula17ProgramacaoOrientadaAObjetos/01_o_que_e_poo.md)
 
-2 - [02_classes.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/02_funcoes_com_parametros.md)
+2 - [02_classes.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula17ProgramacaoOrientadaAObjetos/02_classes.md)
 
-3 - [03_atributo_das_classes.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/03_funcoes_com_retorno.md)
+3 - [03_atributo_das_classes.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula17ProgramacaoOrientadaAObjetos/03_atributos_das_classes.md)
 
-4 - [04_metodos_das_classes.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/04_funcoes_com_args.md)
+4 - [04_metodos_das_classes.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula17ProgramacaoOrientadaAObjetos/04_metodos_das_classes.md)
 
-5 - [05_hereanca.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/05_funcoes_com_kwargs.md)
+5 - [05_hereanca.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula17ProgramacaoOrientadaAObjetos/05_heranca.md)
 
-6 - [06_heranca_multipla_e_polimorfismo.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula10Fun%C3%A7%C3%B5es/06_docstrings.md)
+6 - [06_heranca_multipla_e_polimorfismo.md](https://github.com/Gabriel-Cavalcanti/Python_teoria/blob/main/Aula17ProgramacaoOrientadaAObjetos/06_heranca_multipla_e_polimorfismo.md)
+
+Imagino que tenha percorrido a maioria dos conteúdos do Python. Fiz meu melhor para trazer o conteúdo mais completo possível e 
+com a melhor qualidade. Espero que tenha gostado! 
+
+Ainda existem muito mais coisas para se aprender, o conhecimento nunca acaba. Então aprenda tudo que está presente aqui, faça
+muitos exercícios e projetos e seja bem sucedido. Qualquer coisa é só falar comigo, estou aberto a conversar e crescer com você.

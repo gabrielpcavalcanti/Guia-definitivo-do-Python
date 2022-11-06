@@ -1,7 +1,7 @@
 # Tipo inteiro (int)
 
 O tipo inteiro tem as mesmas propiedades e definições da matemática. Ele abrange todos
-os números negativos, positivos e o zero que não tenha ponto flutuante - números decimais.
+os números negativos, positivos e o zero,eles não tem ponto flutuante - números decimais.
 
 Podemos armazenar qualquer número inteiro dentro de variáveis e a partir dela fazer operaçãoes com outras variáveis ou com outros tipos numéricos.
 
@@ -19,6 +19,7 @@ print(num_2)
 print(num_3)
 print(num_4)
 print(num_5)
+
 ```
 
 ```python
@@ -30,7 +31,7 @@ print(num_5)
 -16
 ```
 
-Se o número interio for muito grande fica difícel de ler no computador, conseguir vizualizar com clareza. Para contornar isso é posível inserir  _  a cada tres números.
+Se o número interio for muito grande, fica difícel de ler no computador, conseguir vizualizar com clareza. Para contornar isso é posível inserir  _  a cada tres números.
 
 ```python
 num_6 = 1_000_000_000

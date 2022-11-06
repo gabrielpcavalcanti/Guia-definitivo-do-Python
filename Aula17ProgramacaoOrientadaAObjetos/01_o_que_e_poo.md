@@ -9,6 +9,3 @@ O objetivo o POO é mapear objetos do mundo real para modelos computacionais. Fa
 Quando estamos desenvolvendo um sofware, os objetos do mundo real que serão representados pelas classes, são chamados de entidades. 
 
 por exemplo, queremos representar um carro. O carro será uma entidade que será represendado no computador através de um classe dentro do código.
-
-
-

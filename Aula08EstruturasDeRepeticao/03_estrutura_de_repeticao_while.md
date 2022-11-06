@@ -1,11 +1,6 @@
 # Estrutra de repetição: While
 
-É o segundo tipo de estrutura que é vista no Python, também conhecido com loops. Diferente das estruturas condicionais,
-as de repetição executam um determinado bloco de código até uma condição ser satísfeita ou as iterações acabarem.
-
-As duas estruturas de repetição no Python são While e o for. Elas exercem a mesma função, mas cada uma da sua maneira.
-
-## While
+É o segundo tipo de estrutura de repetição vista no Python, funciona de forma um pouco diferente do for, veremos a seguir.
 
 A estrutura do while funciona da seguinte maneira:
 
@@ -37,7 +32,7 @@ while n < 10:
 9
 ```
 
-Perceba que dentro do bloco de comando, é posto um incremento para a variável n. Se isso não ocorre, o loop fica infinito. Não necessáriamento o loop tem que finalizar, há casos que o loop fica infinito de propósito, como o de uma janela aberta quando roda um programa (ela tem que ser infinita, se não o programa fecha se o controle do usuário).
+Perceba que dentro do bloco de comando, é posto um incremento para a variável n. Se isso não ocorre, o loop fica infinito. Não necessáriamento o loop tem que finalizar, há casos que o loop fica infinito de propósito, como o de uma janela aberta quando roda um programa (ela tem que ser infinita, se não o programa fecha sem o controle do usuário).
 
 ## While else
 
@@ -51,6 +46,7 @@ n = 0
 while n < 10:
     print(n)
     n += 1
+
 else:
     print()
     print(f'O valor de n é {n}')
@@ -85,7 +81,7 @@ while c <= 10:
 
 print()
 
-# Se quisermos colocar o os números correndo na horozontal, basta colocar print(x, end=' ')
+# Se quisermos colocar o os números correndo na horizontal, basta colocar print(x, end=' ')
 
 x = 1
 while x <11:
@@ -122,7 +118,7 @@ print()
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
-* O segundo modo de usar o while é combinado com as condições. Com elas, podemos decidir se o loop continua rodando pu ele para.
+* O segundo modo de usar o while é combinado com as condições. Com elas, podemos decidir se o loop continua rodando ou ele para.
 Podemos testar diversas condições, como visto a seguir:
 
 ```Python
@@ -133,6 +129,7 @@ while True:
 
     if nota < 0 or nota > 10:
         continue
+
     else:
         print("O valor é válido é vale:", nota)
         break
@@ -149,9 +146,11 @@ senha = input("Digite sua senha: ")
 while usuario == senha:
     usuario = input("Digite o seu usuário: ")
     senha = input("Digite sua senha: ")
+
 if usuario != senha:
     print(usuario)
     print(senha)
 
 print()
+
 ```

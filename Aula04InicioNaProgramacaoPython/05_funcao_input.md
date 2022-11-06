@@ -14,6 +14,7 @@ Obs: Não é necessário escrever algo dentro o input( ). Colocamos um texto par
 input("Digite algo no teclado: ")
 
 palavra = input("Digite uma palavra: ") # Não irá aparecer nada na tela pois armazenamos numa variável. Se declararmos a variável, irá sim aparecer o que o usuário escreveu.
+
 ```
 
 Podemos ter a saida que quiser, mas todas serão Strings. A menos que especifiquemos o tipo de variável. Isso é chamado se cast, ou seja, transformar um tipo em outro. Lembre: nem sempre é possível fazer isso.

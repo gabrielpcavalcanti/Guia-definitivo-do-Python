@@ -4,7 +4,7 @@ Já sabendo que as classes representam objetos do mundo real, no python elas pod
 
 ### Atributos 
 
-São características e estados de um  objeto que a classe está representando.
+São características e estados de um objeto que a classe está representando.
 
 Por exemplo, um cachorro: ele possui nome, cor, tamanho, raça etc. Esses seriam os atributos da classe cachorro.
 
@@ -44,6 +44,7 @@ class Cachorro:
 
 doguinho_01 = Cachorro() 
 rex = Cachorro()
+
 ```
 
 Como a classe não possui nada ainda, não é preciso colocar nenhum parâmetro dentro o objeto, mas será preciso quando a classe tiver o contrutor, os atributos e os outros métodos. 

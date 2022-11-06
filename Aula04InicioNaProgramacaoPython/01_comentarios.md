@@ -10,7 +10,7 @@ Comentários no python podem ser feitos de duas formas:
 
 * A primeira é utilizando #. Esse tipo de comentário é de apenas uma linha. Se quisermos ter um comentário numa linha abaixo, é preciso utilizar outra #;
 
-* O segundo tipo e utilizando três aspas dupas """ e fechando com mais três aspas duplas """ ou três aspas simples no começo e no final . Nesse caso, tudo que estiver dentro das aspas. será um comentário, ou seja, não será lido pelo interpretador.
+* O segundo tipo e utilizando três aspas dupas """ e fechando com mais três aspas duplas """ ou três aspas simples no começo e no final. Nesse caso, tudo que estiver dentro das aspas. será um comentário, ou seja, não será lido pelo interpretador.
 
 Utiliza-se o segundo tipo de comentário para explicar funções. Chamamos nesse caso de docStrings (documentação da função). Falaremos de docString quando estudarmos funções.
 

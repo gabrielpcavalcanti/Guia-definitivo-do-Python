@@ -14,11 +14,11 @@ obs: Se estiver vendo esse arquivo sem saber nada sobre a linguagem, não fique 
 
 ### indentação
 
-Você pode estar ser perguntando o que é indentação. É uma forma de deixar o código mais legivel e definir a hierarquia entre os blocos de comando. Pode usar apenas um espaço para a indentação, não dará erro, mas utilize sempre multiplos de 4 para isso.
+Você pode estar ser perguntando o que é indentação. É uma forma de deixar o código mais legivel e definir a hierarquia entre os blocos de comando. Utilize sempre multiplos de 4 para isso.
 
 Em outras linguagens de programação como C ou java utilizam o bloco de código por meio de { }. Em Python, um bloco de código é iniciado por : e na próxima linha (onde o bloco inicia), possui quatro espaços de indentação.  
 
-É utlizado para criação de classes, funções, estruturas de controle (if e else) e estruturas de repetição (while e for).
+É utlizado para criação de classes, funções, estruturas de controle (if e else) e estruturas de repetição (while e for) e mais.
 
 O padrão é utilizar quatro espaços, mas se o TAB do seu computador estiver configurado para dar quatro espaços, pode utilizar o TAB. Não é recomendado. Sempre use os espaços para evitar problemas.
 
@@ -38,11 +38,9 @@ for i in range(5):
 
 ### Linhas em branco
 
-Na hora de declarar uma classe ou função é recomendado que dê dois espaços em branco após o bloco de comando terminar.  
-
-Dentro das classes é recomandado que de um espaço em branco para separar os métodos, inclusive no construtor.  
-
-Entre os métodos da classe, utiliza somente um espaço para separa-los.
+· Na hora de declarar uma classe ou função é recomendado que dê dois espaços em branco após o bloco de comando terminar.  
+· Dentro das classes é recomandado que de um espaço em branco para separar os métodos, inclusive no construtor.  
+· Entre os métodos da classe, utiliza somente um espaço para separa-los.
 
 ```python
 class Classe:
@@ -65,7 +63,7 @@ Todo script deve ser finalizado com uma linha em branco. Perceba que todo final 
 
 ### Imports
 
-O python possui um vasto conjunto de pacotes que podem ser importados para o seu programa (é necessário fazer a instalação dos pacotes primeiro). Eles devem ser colocados no inicio do código, sendo os primeiros comandos ou depois de comentários iniciais que possam haver.
+O python possui um vasto conjunto de pacotes que podem ser importados para o seu programa (Alguns pacotes são necessário fazer a instalação outros já vem com a linguagem por deafault). Eles devem ser colocados no inicio do código, sendo os primeiros comandos ou depois de comentários iniciais que possam haver.
 
 ```python
 import numpy as np

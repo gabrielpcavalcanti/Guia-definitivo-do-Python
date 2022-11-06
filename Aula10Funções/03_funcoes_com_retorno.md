@@ -1,8 +1,6 @@
 # Funções com retorno
 
-Funções também podem retornar valores. Utilizamos a palavra reverva da **return**. é necessário passar a função print( ) para que o resultado do
-return apareça na tela. Retornar um valor é devolver uma valor ou um conjunto de valores ao programa. A instrução **return** toma um valor que está 
-em uma função e o envia de volta à linha que a chamou.
+Funções também podem retornar valores. Utilizamos a palavra reverva da **return**. É necessário passar a função print( ) para que o resultado do return apareça na tela. Retornar um valor é devolver uma valor ou um conjunto de valores ao programa. A instrução **return** toma um valor que está em uma função e o envia de volta à linha que a chamou.
 
 ```python
 def soma(num1, num2):
@@ -13,6 +11,7 @@ soma_qualquer = soma(3, 4)
 
 print(soma_qualquer)
 print(soma(1,41))
+
 ```
 
 ```python
@@ -24,9 +23,7 @@ Quando chamamos um valor, precisamos forncer uma variável para em que o valor d
 
 ## Funções com retorno e valores deafault
 
-Podemos passar parâmetros opcionais com funções de retorno também. Lembrando que eles tem que estar no final e caso querira utiliza-lo sem 
-seu valor padrão, tem que colocar ele sempre no final e na ordem que aparece no corpo da definição da função. Caso não o faça, a função pode
-se embralhar, cuidado!
+Podemos passar parâmetros opcionais com funções de retorno também. Lembrando que eles tem que estar no final e caso querira utiliza-lo sem seu valor padrão, tem que colocar ele sempre no final e na ordem que aparece no corpo da definição da função. Caso não o faça, a função pode se embralhar, cuidado!
 
 ```python
 def formar_roupa(tipo, tamanho, cor, frase="Esrampa padrão"):
@@ -39,6 +36,7 @@ roupa_01 = formar_roupa("Camisa", "M", "Preta"))
 print(roupa_01)
 print(formar_roupa("Camisa", "M", "Preta", "Rock in roll"))
 print(formar_roupa("Camisa", "Preta", "Rock in roll", "M"))
+
 ```
 
 ```python
@@ -49,14 +47,14 @@ O tipo da roupa é Camisa, seu tamnho é Preta, com a cor Rock in roll e com a e
 
 ## Função com estruturas condicionais
 
-A função pode devlver qualquer tipo de valor que quisermos, como listas e dicionários. Faremos um programa que utiliza disso 
+A função pode devolver qualquer tipo de valor que quisermos, como listas e dicionários. Faremos um programa que utiliza disso 
 e das estruturas condicionais.
 
 ```python
 def construir_pessoa(nome, sobrenome, tipo=''):
     """Devolve um dicionário ou uma lista com o nome e sombrenome de uma pessoa"""
 
-    print("Escreva 'D' para que a siada seja um dicionário e 'L' para uma lista")
+    print("Escreva 'D' para que a saida seja um dicionário e 'L' para uma lista")
 
     tipo1 = input("Digite o valor do tipo: ")
 
@@ -71,19 +69,19 @@ def construir_pessoa(nome, sobrenome, tipo=''):
     else:
         print("Valor inválido")
 
+
 eu = construir_pessoa("Gabriel", "Cavalcanti")
 
 print(eu)
+
 ```
 
 ## Função com laço while
 
-No exemplo passado utilizamos estruturas condicionais para o nosso fim, também podemos utilizar estruturas de repetição dentro de funções. Na verdade,
-podemos colocar o que quisermos dentro de funções. 
+No exemplo passado, utilizamos estruturas condicionais para o nosso fim, também podemos utilizar estruturas de repetição dentro de funções. Na verdade, podemos colocar o que quisermos dentro de funções. 
 
 ```python
 def soma(num1, num2):
-
     return num1 + num2
 
 
@@ -93,7 +91,12 @@ while True:
 
     soma_teste = soma(num1, num2)
 
-    print(soma_teste)
+    if num1==9999 or num2==9999:
+        break
+    
+    else:
+        print(soma_teste)
+
 ```
 
 ## Função com laço for
@@ -111,6 +114,7 @@ def saudacoes(nomes):
 usuarios = ["Aline", "Rebecca", "pedro"]
 
 saudacoes(usuarios)
+
 ```
 
 ```Python
@@ -146,7 +150,7 @@ print(conta(9,6))
 
 ## return como break
 
-O return também possui a função do break num loop, ou seja, caso o interpretador passe por um return, a função é encerrada naquela declaração.
+O return também possui a função do break, ou seja, caso o interpretador passe por um return, a função é encerrada naquela declaração.
 
 ```python
 def e_par(num):
@@ -156,8 +160,10 @@ def e_par(num):
     else:
         return
 
+
 print(e_par(4))
 print(e_par(5))
+
 ```
 
 ```python

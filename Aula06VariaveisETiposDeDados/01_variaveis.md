@@ -82,6 +82,7 @@ um_numero_de_uma_string = int("45")
 print(numero_inteiro)
 print(numero_real_2)
 print(um_numero_de_uma_string)
+
 ```
 
 ```python
@@ -137,66 +138,4 @@ Se já estiver fazendo isso, parabéns. Caso não, é bom começar.
 Segue abaixo alguns exemplos de programas que utilizam todo conheceimento já adquirido, que
 são: funções print( ) e input ( ), operadores, funções dir( ) e help( ) e variáveis.
 
-Para ter acesso a uma gama bem maior de exercícios, veja meu outro [repositório](https://github.com/Gabriel-Cavalcanti/Exercicios) no GitHub:
-
-### Exercícios
-
-Para melhor organização do deu estudo, sujiro que tente resolver antes de ver a solução e
-sempre salve os exercícios, para ver sua evolução no futuro.
-
-1) Escreva uma mensagem, armazene ela em uma variável e mostre ela na tela
-
-```python
-mensagem = "Meu primeiro exercício"
-
-print(mensagem)
-
-```
-
-```python
-Meu primeiro exercício
-```
-
-2) Por meio do teclado, digite uma palavra ou frase, armazene em uma variável e impirma a
-mensagem na tela.
-
-```python
-frase = input("Digite uma palavra ou frase: ")
-
-print(frase)
-
-```
-
-3) Peça ao usuário que entre com três números inteiros e imprima a soma deles.
-
-```python
-num_1 = int(input("Digite um número inteiro: "))
-num_2 = int(input("Digite um número inteiro:  "))
-num_3 = int(input("Digite um número inteiro: "))
-
-sum = num_1 + num_2  + num_3
-
-print(f'A soma entre os números é: {sum}')
-
-```
-
-4) Utilize a função help( ) na função len( )
-
-```python
-print(help(len))
-
-```
-
-```python
-Help on built-in function len in module builtins:
-
-len(obj, /)
-    Return the number of items in a container.
-
-None
-```
-
-Esse são apenas alguns exemplos bem simples para fixar o conteúdo, para exercícios mais
-complexos, veja o repositoório.
-
-Sempre tente fazer os exercícios, mesmo que não consiga resolve-los. Isso estimula o reciocínio e é divertido, acredite.
+Para ter acesso a uma gama bem maior de exercícios, veja meu outro [repositório](https://github.com/Gabriel-Cavalcanti/Exercicios) no GitHub.

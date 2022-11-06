@@ -1,7 +1,6 @@
 # Funções com **kwargs
 
-Funciona quase da mesma forma que *args, com com duas diferenças: precisa ser argumentos nomeados para funcionar e ele cria um dicionário em vez de colcoar os 
-elementos numa trupla. De resto tudo continua igual, apenas o fato que ganhamos o poder dos dicionários, não mais das tuplas.
+Funciona quase da mesma forma que *args, com com duas diferenças: precisa ser argumentos nomeados para funcionar e ele cria um dicionário em vez de colcoar os elementos numa trupla. De resto tudo continua igual, apenas o fato que ganhamos o poder dos dicionários, não mais das tuplas.
 
 ```Python
 def pessoas(**kwargs):
@@ -9,6 +8,7 @@ def pessoas(**kwargs):
 
 
 pessoas(nome1="Gabriel", nome2="Júlia", nome3="José")
+
 ```
 
 ```Pyhton
@@ -24,6 +24,6 @@ def ordem_parametros(parametro_posicionais, *args, parametros="default", **kwarg
 
 ```
 
-Assim como o *, o ** tem a função de desempacotar. Com a diferenç que agora é m dicionário e não mais uma lista. 
+Assim como o *, o ** tem a função de desempacotar. Com a diferença que agora é um dicionário e não mais uma lista. 
 
 O nome da chave em um dicionário tem que ser o mesmo nos parâmetros da função.

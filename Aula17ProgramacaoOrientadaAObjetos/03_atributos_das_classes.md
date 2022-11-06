@@ -30,6 +30,8 @@ class Cachorro:
         self.cor = cor
         self.tamanho = tamanho
         self.raca = raca
+
+
 ```
 
 Entenda: quando utilizamos o self.atributo estamos dizendo o seguinte: o atributo x da classe y recebe x. Percebe que ele está se auto referenciado, ou seja, utilizando um atributo (self) para representar outros atributos dele mesmo. 
@@ -56,6 +58,7 @@ class Cachorro:
 
 doguinho_01 = Cachorro("toto", "preto", 0.48, "pitbull")
 doguinho_02 = Cachorro("lala", "branco", 0.25, "maltês")
+
 ```
 
 O Python executa o construtor automaticamente sempre que criamos um novo objeto de uma classe.
@@ -83,6 +86,7 @@ print(doguinho_02.tamanho)
 print("A raça do meu cachorro é " + doguinho_02.raca.title())
 
 ```
+
 ```Python
 toto
 0.25
@@ -95,7 +99,7 @@ No pyhton todos os atributos de uma classe são públicos, mas caso queria avisa
 
 Ainda sim é possível acessar o atributo privado fora da classe, mas para isso funcionar é preciso utilixar esse "truque": _NomeDaClasse__nome_do_atributo_privado. Caso não faça isso, dará erro. 
 
-Em outras linguagens de programação e impossíve acessar um atributo privado fora da classe, o Pyhton não faz isso.
+Em outras linguagens de programação e impossível acessar um atributo privado fora da classe, o Pyhton não faz isso.
 
 ```Python
 class Carro:
@@ -130,6 +134,8 @@ Class Produto:
         self.marca = marca
         self.funcao = funcao
         self.valor = valor + (Produto.imposto * valor)
+
+        
 ```
 
 Utilizamos o atributo imposto dentro do construtor e não precisamos declarar ele dentro dos parâmetros. Ele pode ser usado dentro de qualquer método, basta chamar ele pelo nome_da_classe.atributo_de_classe.

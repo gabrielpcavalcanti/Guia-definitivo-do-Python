@@ -20,6 +20,7 @@ Se uma Sring ficar muito grande, podemos separar ela com o comando \n. Quando o 
 ```python
 string_5 = "teste para o comando \nesse texto está na linha de baixo"
 print(string_5)
+
 ```
 
 ```python
@@ -29,8 +30,7 @@ esse texto está na linha de baixo
 
 ### Fatiando uma String
 
-Podemos fatirar uma String utilizando o que chamamos de Slicing (que é fatiamento, em inglês). basta colocar as [ ] e o intervalo que 
-queira que a String seja escrita. Lembrando que o Python começa contando do 0 e não do 1,
+Podemos fatirar uma String utilizando o que chamamos de Slicing (que é fatiamento, em inglês). basta colocar as [ ] e o intervalo que queira que a String seja escrita. Lembrando que o Python começa contando do 0 e não do 1,
 
 ```Python
 string_6 = "frase grande para demonstrar o sllicing"
@@ -43,6 +43,7 @@ print(string_6[8:])
 print(string_6[:])
 
 ```
+
 ```Python
 fras
 rase grande pa
@@ -61,7 +62,6 @@ print(dir("teste"))
 ```python
 ['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii',
 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
-
 ```
 
 Alguns desses métodos são interessantes, veremos alguns.
@@ -71,6 +71,7 @@ Alguns desses métodos são interessantes, veremos alguns.
 ```python
 nome = "cachorro feliz"
 print(nome.upper())
+
 ```
 
 ```python
@@ -82,6 +83,7 @@ CACHORRO FELIZ
 ```python
 nome_1 = "Fulano De Tal"
 print(nome_1.lower())
+
 ```
 
 ```python
@@ -93,6 +95,7 @@ fulano de tal
 ```python
 nome_2 = "amor de mae"
 print(nome_2.title())
+
 ```
 
 ```python
@@ -104,6 +107,7 @@ Amor De Mae
 ```python
 nome_4 = 'eu sou feliz'
 print(nome_4.capitalize())
+
 ```
 
 ```python
@@ -115,6 +119,7 @@ Eu sou feliz
 ```python
 nome_3 = "amor de pai"
 print(nome_3.split())
+
 ```
 
 ```python
@@ -128,6 +133,7 @@ print(nome_3.split())
 
 nome_5 = '473'
 print(nome_5.isnumeric())
+
 ```
 
 ```python
@@ -139,22 +145,25 @@ True
 
 nome_6 = 'iowww'
 print(nome_5.isupper())
+
 ```
 
 ```python
 False
 ```
+
 ```python
 # isspace: Verifica se possui espaços.
 nome_7 = 'arvore'
 print(nome_7.isspace())
+
 ```
 
 ```python
 False
 ```
 
-* Strip: Remove os espaços em branco de uma String. Possui duas variações lstrip() e rstrip(). 
+* Strip: Remove os espaços em branco de uma String. Possui duas variações lstrip( ) e rstrip( ). 
 
 ```python
 s = " teste "
@@ -166,6 +175,7 @@ print(s)
 print(s_strip)
 print(s_lstrip)
 print(s_rstrip)
+
 ```
 
 ```python
@@ -187,7 +197,7 @@ print(''.join(frase))
 Meu nome é Gabriel 
 ```
 
-Podemos fazer o chamado slice de Strings. Cada caracter de uma String possie um índice. Começa em 0 e vai até a quantidade de caracteres. O slice permite escolher quis indices mostrar. colocamos os ídices dentro de [n:p:q].
+Podemos fazer o chamado slice de Strings. Cada caracter de uma String possie um índice. Começa em 0 e vai até a quantidade de caracteres. O slice permite escolher quais indices mostrar. colocamos os ídices dentro de [n:p:q].
 
 n: indica o primiro caracter que vai parecer.
 
@@ -207,6 +217,7 @@ print(nome_8[1:7])
 print(nome_8[4:9])
 print(nome_8[::-1])
 print(nome_8[:9:3])
+
 ```
 
 ```python
@@ -241,6 +252,7 @@ num_2 = 4.3
 num_3 = 45.84815178181
 
 print("Esse é o número {}, esse é o número {}e esse é o número {}. Arredondando o tereiro número, temos: {:.2f}".format(num, num_2, num3, num3)) # :.2f arredonda número real para duas casas decimais.
+
 ```
 
 ```python
@@ -255,6 +267,7 @@ num_2 = 4.3
 num_3 = 45.84815178181
 
 print(f'Esse é o número {num}, esse é o número {num_2}e e esse é o número {num_3}. Arredondando o tereiro número, temos: {round(num_3, 2)}') # round() arredonda número real para quantas casas decimais quisermos.
+
 ```
 
 ```python
@@ -268,6 +281,7 @@ nome_9 = "oi,"
 nome_10 = " tudo bem"
 
 print(nome_9 + nome_10)
+
 ```
 
 ```python
@@ -280,6 +294,7 @@ E por fim, podemos 'multiplicar' Strings. A multiplicação nesse caso faz a Str
 nome_11 = "oi"
 
 print(5 * nome_11)
+
 ```
 
 ```python

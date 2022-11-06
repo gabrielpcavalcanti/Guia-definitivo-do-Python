@@ -14,28 +14,28 @@ Se ficou perdido, vamos ver como a sintaxe funciona e um exemplo prático.
 variavel = map('função ou lambda', 'iteravel')
 ```
 
-A função Map recebe dois argumentos: uma função ou lambda e um iterável. O iterável será o parâmetro da função ou do lambda. O Map vai criar um objeto que pode ser transformado 
-em qualquer outro tipo de dado, mas geralmente utilizamos listas ou truplas.
+A função Map recebe dois argumentos: uma função ou lambda e um iterável. O iterável será o parâmetro da função ou do lambda. O Map vai criar um objeto que pode ser transformado em qualquer outro tipo de dado, mas geralmente utilizamos listas ou truplas.
 
-Veremos um exemplo:
+Vejemos um exemplo:
 
 ```Python
 def quadrado(num):
     return num ** 2
+
 
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 quadrados = list(map(quadrado, numeros))
 
 print(quadrados)
+
 ```
 
 ```Python
 [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 
-criamos a função quadrado, que recebe apenas um valor e uma lista contendo números. Cada número da lista dunciona como parâmetro dentro da função. Map percorre todos os valores
-e retorna um objeto que será transformado por uma lista.
+criamos a função quadrado, que recebe apenas um valor e uma lista contendo números. Cada número da lista funciona como parâmetro dentro da função. Map percorre todos os valores e retorna um objeto que será transformado por uma lista.
 
 Agora um outro exemplo, utilizando lambdas:
 
@@ -45,6 +45,7 @@ numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 cubo = list(map(lambda x: x ** 3, numeros))
 
 print(cubo)
+
 ```
 
 ```Python

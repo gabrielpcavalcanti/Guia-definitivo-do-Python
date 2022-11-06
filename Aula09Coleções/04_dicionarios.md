@@ -43,6 +43,7 @@ print(usuario)
 teste = {}.fromkeys(range(1, 11), "novo")
 
 print(teste)
+
 ```
 ```Python
 {'a': 'b'}
@@ -59,6 +60,7 @@ dic = {'pri': 1, 'sec': 2, 'terc': 3}
 
 print(dic['pri'])
 print(dic['terc'])
+
 ```
 
 ```python
@@ -77,6 +79,7 @@ print(dic_2.get("ru"))
 pais = dic_2.get("ru", "Não encontrado") #Podemos colocar um parâmetro opcional que é acionado quando o valor da chave não é encontrado no dicionário.
 
 print(pais)
+
 ```
 
 ```Python
@@ -85,13 +88,14 @@ None
 Não encontrado
 ```
 
-Podemos ainda Acessar somente as chaves ou valores, utilizando os métodos values( ) e keys( ).
+Podemos ainda acessar somente as chaves ou valores, utilizando os métodos values( ) e keys( ).
 
 ```python
 dic = {'pri': 1, 'sec': 2, 'terc': 3}
 
 print(dic.keys())
 print(dic.values())
+
 ```
 
 ```python
@@ -111,8 +115,10 @@ print('prie' in dic)
 
 if 'pri' in dic:
     print("Está no dicionário")
+
 else:
     print("Não está no dicionário")
+
 ```
 
 ```Python
@@ -131,6 +137,7 @@ dic = {'pri': 1, 'sec': 2, 'terc': 3}
 dic['quat'] = 4
 
 print(dic)
+
 ```
 
 ```Python
@@ -145,6 +152,7 @@ dic = {'pri': 1, 'sec': 2, 'terc': 3}
 dic['pri'] = 4
 
 print(dic)
+
 ```
 
 ```Python
@@ -188,6 +196,7 @@ print(dic_4)
 del dict_4
 
 print(dic_4)
+
 ```
 
 ```python
@@ -204,6 +213,7 @@ Usamos a função len( ).
 dic_5 = {'maca': 3, 'pera': 4, 'banana': 9}
 
 print(len(dic_5))
+
 ```
 
 ```python
@@ -220,6 +230,7 @@ dic_5 = {'maca': 3, 'pera': 4, 'banana': 9}
 print(sum(dic_5.values()))
 print(max(dic_5.values()))
 print(min(dic_5.values()))
+
 ```
 
 ```Python
@@ -230,7 +241,7 @@ print(min(dic_5.values()))
 
 # Copiar um dicionário
 
-Há duas maineiras de fazer isso, utilizando o método .copy( ) ou fazendo um shellow copy (que altera ambos os dicionários)
+Há duas maineiras de fazer isso, utilizando o método .copy( ) ou fazendo um shellow copy (que altera ambos os dicionários).
 
 ```Python
 dic_5 = {'maca': 3, 'pera': 4, 'banana': 9}
@@ -243,6 +254,7 @@ dic_6["novo"] = "sim"
 
 print(dic_5)
 print(dic_6)
+
 ```
 
 ```Python
@@ -262,6 +274,7 @@ dic_6["novo"] = "sim"
 
 print(dic_5)
 print(dic_6)
+
 ```
 
 ```Python
@@ -284,6 +297,7 @@ print()
 
 for i in dic_7:
     print(dic_7[i])
+
 ```
 
 ```Python
@@ -307,6 +321,7 @@ dic_7 = {'pri': 1, 'sec': 2, 'terc': 3, 'quart': 4, 'quit': 5, 'sext': 6}
 
 for i in dic_7:
     print(f"Chave: {i} e valor com valor {dic_7[i]}")
+
 ```
 
 ```Python
@@ -328,6 +343,7 @@ print()
 
 for i in dic_7.keys():
     print(dic_7[i])
+
 ```
 
 ```Python
@@ -335,6 +351,7 @@ dic_7 = {'pri': 1, 'sec': 2, 'terc': 3, 'quart': 4, 'quit': 5, 'sext': 6}
 
 for i, j in dic_7.items():
     print(f"chave: {i}, valor: {j}")
+    
 ```
 
 ```Python

@@ -1,10 +1,8 @@
 # Break e continue
 
-O while e o for permite a utilização de dois comandos: break e continue. A função deles é parar a excução de um pedaço do loop, no caso do continue
-ou de todo o loop, no caso do break.
+O while e o for permite a utilização de dois comandos: break e continue. A função deles é parar a excução de um pedaço do loop, no caso do continue ou de todo o loop, no caso do break.
 
-O continue é posto quando queremos analizar uma condição dentro do blobo while. Quando o bloco da condição terminar, o loop volta a funcionar
-normalmente.
+O continue é posto quando queremos analizar uma condição dentro do blobo while. Quando o bloco da condição terminar, o loop volta a funcionar normalmente.
 
 ```python
 n = 0
@@ -81,6 +79,7 @@ if usuario != senha:
     print(senha)
 
 print()
+
 ```
 
 No caso do for, funciona da mesma forma, segue um exemplo:

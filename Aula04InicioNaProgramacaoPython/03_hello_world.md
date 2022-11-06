@@ -7,8 +7,7 @@ primeiro passo que todos devem aprender para começar sua jornada pelo mundo da 
 que se faz é escrever "Hello World" e mostra na tela. É o começo de um novo mundo de varias possibilidades.
 
 ps: Reza a lenda que caso não escreva Hello World como o primeiro programa em qualquer
-linguagem, a pessoa estará fadada a nunca aprender a programar na tal linguagem. Então, para não ter dúvidas, siga o comando, entenda e execute seu primeiro programa em Python para
-não ser amaldiçoado e te dar sorte na nova linguagem.
+linguagem, a pessoa estará fadada a nunca aprender a programar na tal linguagem. Então, para não ter dúvidas, siga o comando, entenda e execute seu primeiro programa em Python para não ser amaldiçoado e te dar sorte na nova linguagem.
 
 No Python, a maneira de se fazer isso é utilizando a função interna print( ). O Python possui
 diversas funções internas. A medida que for aprendendo, conhecerá mais funções ao ponto de
@@ -19,6 +18,7 @@ entre aspas, simples ou dupas, dentro dos parentêses.
 
 ```python
 print("Hello World")
+
 ```
 ```python
 Hello World!!!

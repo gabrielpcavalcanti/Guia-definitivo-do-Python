@@ -54,7 +54,11 @@ Talvez seja necessário copiar uma lista e coloca-la em outra variável. Podemos
 
 ```Python
 lista_1 = list(range(1,100,20))
+
+# Maneira 1
 lista_copia_1 = lista_1
+
+# Maneira 2
 lista_copia_2 = lista_1[:]
 
 print(lista_copia_1)
@@ -74,6 +78,7 @@ o elemento da lista.
 ```python
 lista = [1, 2, 3, 4]
 print(lista.index(2))
+
 ```
 
 ```python
@@ -98,7 +103,7 @@ print(lista)
 
 ## fatiar uma lista
 
-Assim como é possivel fazer o slicing de uma String, é possível fazer de uma lista também. Funciona da mesma forma, mas se não 
+Assim como é possivel fazer o slicing de uma String, é possível fazer de uma lista também. Funciona da mesma forma, caso não 
 estiver lembrando, funciona assim:
 
 ```Python
@@ -118,7 +123,8 @@ print(nomes[:2])
 
 ## Acrecentar elementos de uma lista
 
-O método append acrecenta qualquer elemento ao final e o método insert, acrecenta em qualquer posição
+O método append acrecenta qualquer elemento ao final e o método insert, acrecenta em qualquer posição (escolhendo qual o índece que
+queremos e depois o dado que queremos inserir).
 
 ```python
 lista_4 = [1, 4.6, 'gato', [1, 2, 8.549]]
@@ -127,6 +133,7 @@ lista_4.append('acrecentei no final da lista')
 lista_4.insert(0, 'coloquei no primeiro elemento')
 
 print(lista_4)
+
 ```
 
 ```python
@@ -144,22 +151,26 @@ lista_4.pop()
 lista_4. pop(0)
 
 print(lista_4)
+
 ```
 ```Python
 [1, 4.6, 'gato', [1, 2, 8.549]]
 ```
 
-O pop ainda nos permite guardar o valor do elemento excluido numa variável Mas lembre-se o elemento sai da lista.
+O pop ainda nos permite guardar o valor do elemento excluido numa variável, mas lembre-se: o elemento sai da lista.
 
 ```Python
 lista_4 = [1, 4.6, [1, 2, 8.549]]
 
 elemento_pop = lista_4.pop(2)
 print(elemento_pop)
+print(lista_4)
+
 ```
 
 ```python
-gato
+[1, 2, 8.549]
+[1, 4.6]
 ```
 A Funçao del deleta um elemento.
 
@@ -179,19 +190,21 @@ Função remove remove um elemento em específico.
 ```python
 lista_4.remove(4.6)
 print(lista_4)
+
 ```
 
 ```python
 [1]
 ```
 
-Se quisermos eleminar todos os elementos de uma lista, basta usar o método clear().
+Se quisermos eleminar todos os elementos de uma lista, basta usar o método clear( ).
 
 ```python
 lista = [1, 2, 3, 4, 5]
 lista.clear()
 
 print(lista)
+
 ```
 
 ```python
@@ -233,24 +246,26 @@ print(lista_3)
 
 ## Tamanho, máximo, mínimo e soma de uma lista
 
-O tamanho de uma lista pode ser determinado usando a função len( )
+O tamanho de uma lista pode ser determinado usando a função len( ).
 
 ```pyton
 lista = [1 ,2 ,3 , 4, 5, 6]
 print(len(lista))
+
 ```
 
 ```python
 6
 ```
 
-O maior e menor valor da lista é detrminado usando as funções max( ) e min( )
+O maior e menor valor da lista é detrminado usando as funções max( ) e min( ).
 
 ```python
 lista = [1 ,2 ,3 ,4 ,5 ,6]
 
 print(max(lista))
 print(min(lista))
+
 ```
 
 ```python
@@ -264,6 +279,7 @@ a soma de elementod de uma lisata é dado pela função sum( ). Lembranso que pr
 lista_num = [1, 2, 3, 4, 5, 7]
 
 print(sum(lista_num))
+
 ```
 
 ```python
@@ -278,6 +294,7 @@ algumas outras funções que podem ser usadas com listas, mas tamém com outros 
 ```python
 dir_list = dir([])
 print(dir_list)
+
 ```
 
 ```phython
@@ -290,6 +307,7 @@ lista = ['oi', 'tchau', 42, 22]
 
 print('oi' in lista)
 print(3 in lista)
+
 ```
 
 ```python
@@ -308,6 +326,7 @@ lista_str.sort()
 
 print(lista_num)
 print(lista_str)
+
 ```
 
 ```python
@@ -323,6 +342,7 @@ lista = [1 ,1 ,1 ,1 ,1 , 3, 4, 3]
 print(lista.count(1))
 print(lista.count(3))
 print(lista.count(5))
+
 ```
 
 ```python
@@ -331,12 +351,13 @@ print(lista.count(5))
 0
 ```
 
-* O método split( ) transforma uma string em uma lista. ele pega os serador do espaço para separar os elementos da lista.
+* O método split( ) transforma uma string em uma lista. ele pega os separador do espaço para separar os elementos da lista.
 
 ```python
 str_1 = "vou virar uma lista"
 
 print(str_1.split())
+
 ```
 
 ```python
@@ -351,6 +372,7 @@ num = [1, 2, 3, 4, 5]
 num.reverse()
 
 print(num)
+
 ```
 
 ```Python

@@ -1,6 +1,6 @@
 # Operadores Lógicos
 
-São dois os operadores Loógicos. Sempre retornam um valor booleano, ou seja, verdadeiro ou falso.
+São dois os operadores Lógicos. Sempre retornam um valor booleano, ou seja, verdadeiro ou falso.
 
 * 'E': Simbolizado por and.
 * 'OU': Simbolizado por or.
@@ -13,7 +13,8 @@ O valor so vai ser verdadeiro se as duas condições forem verdadeiras. O resto 
 print(True and True) 
 print(True and False) 
 print(False and True) 
-print(False and False) 
+print(False and False)
+
 ```
 
 ```python
@@ -25,13 +26,14 @@ False
 
 ### Tabela verdade do OU:
 
-O valor so vai ser falso se as duas condições fore, falsas
+O valor so vai ser falso se as duas condições fore falsas.
 
 ```Python
 print(True or True) 
 print(True or False) 
 print(False or True) 
-print(False or False) 
+print(False or False)
+
 ```
 
 ``` Pyhton
@@ -49,6 +51,7 @@ b = False
 
 print(not a)
 print(not b)
+
 ```
 
 ```python
