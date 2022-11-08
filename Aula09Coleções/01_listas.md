@@ -273,7 +273,7 @@ print(min(lista))
 1
 ```
 
-a soma de elementod de uma lisata é dado pela função sum( ). Lembranso que precisa ser números e não strings ou boolens.
+a soma de elementos de uma lista é dado pela função sum( ). Lembrando que precisa ser números e não strings ou boolens.
 
 ```python
 lista_num = [1, 2, 3, 4, 5, 7]
