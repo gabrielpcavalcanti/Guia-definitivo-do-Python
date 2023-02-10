@@ -1,6 +1,6 @@
 # Funções com retorno
 
-Funções também podem retornar valores. Utilizamos a palavra reverva da **return**. É necessário passar a função print( ) para que o resultado do return apareça na tela. Retornar um valor é devolver uma valor ou um conjunto de valores ao programa. A instrução **return** toma um valor que está em uma função e o envia de volta à linha que a chamou.
+Funções também podem retornar valores. Utilizamos a palavra reservada **return**. É necessário passar a função print( ) para que o resultado do return apareça na tela. Retornar um valor é devolver uma valor ou um conjunto de valores ao programa. A instrução **return** toma um valor que está em uma função e o envia de volta à linha que a chamou.
 
 ```python
 def soma(num1, num2):
