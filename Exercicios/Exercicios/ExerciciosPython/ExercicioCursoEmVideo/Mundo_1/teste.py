@@ -1,0 +1,1 @@
+num1= float(input("digite dois números: "))

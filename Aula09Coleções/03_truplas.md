@@ -7,7 +7,7 @@ trupla = (1, 2, 3, 4, 5)
 trpla_2 = 1, 2, 3, 4, 5
 ```
 
-A segundo é principal diferença é que elas são imutáveis, ou seja,, não é possivel adicinor,remoner ou trocar elementos de uma trupla.
+A segundo é principal diferença é que elas são imutáveis, ou seja, não é possivel adicinor,remover ou trocar elementos de uma trupla.
 
 Pode-se estar perguntando para que usar truplas em vez de lista, já que é bem mais versátil trabalhar com listas. A resposta é que se determinado dado não muda ou não queremos que ele mude durante o processo, truplas são uma boa solução. Como por exemplo, dias da semana, meses ou coordenadas.
 

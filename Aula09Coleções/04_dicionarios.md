@@ -342,8 +342,24 @@ for i in dic_7.values():
 print()
 
 for i in dic_7.keys():
-    print(dic_7[i])
+    print(i)
 
+```
+
+```python
+1
+2   
+3   
+4   
+5   
+6   
+    
+pri 
+sec 
+terc
+quart
+quit
+sext
 ```
 
 ```Python
