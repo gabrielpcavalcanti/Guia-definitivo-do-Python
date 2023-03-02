@@ -165,3 +165,16 @@ janela['bg'] = "orange"
 
 janela.mainloop()
 ```
+
+outra forma de mudar a cor do background é com o método .configure(background='#282828')
+
+``` Python
+from tkinter import * 
+
+janela = Tk()
+
+janela.title("Janela")
+janela.configure(background='#282828')
+
+janela.mainloop()
+```

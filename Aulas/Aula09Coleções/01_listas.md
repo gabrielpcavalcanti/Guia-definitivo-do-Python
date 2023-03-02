@@ -148,7 +148,7 @@ O método pop deleta o último elemento da lista, se nunhum parâmetro for espec
 lista_4 = ['coloquei no primeiro elemento', 1, 4.6, 'gato', [1, 2, 8.549], 'acrecentei no final da lista']
 
 lista_4.pop()
-lista_4. pop(0)
+lista_4.pop(0)
 
 print(lista_4)
 
