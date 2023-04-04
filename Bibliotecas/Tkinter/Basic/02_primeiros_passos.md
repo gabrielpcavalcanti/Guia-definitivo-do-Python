@@ -15,7 +15,7 @@ janela = Tk() # inicializa.
 janela.mainloop() # loop.
 ```
 
-Geralmente o nome utilizado para janela principal é root, mas para fins didaticos, decidir colocar o nome "janela". Pode utilizar o nome que quiser, fique a vontade.
+Geralmente o nome utilizado para janela principal é root, mas para fins didaticos, decidir colocar o nome "janela" nas primeiras aulas. Pode utilizar o nome que quiser, fique a vontade.
 
 ## Alguns métodos iniciais
 
