@@ -1,4 +1,4 @@
-# Creat new Windows
+# Create new Windows
 
 Podemos abrir mais de uma janela com o Tkinter, ou abir uma nova janela atravez
 de um comando. Utilizamos o método Toplevel( ) para executar essas tarefas.
