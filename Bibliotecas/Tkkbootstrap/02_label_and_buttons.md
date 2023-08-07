@@ -13,12 +13,15 @@ label = tb.Label(text='', font=('', num), bootstyle='')
 label.pack()
 ```
 
+Temos uma opção para o bootstyle que é a "inverse", que coloca a cor escolhida como plano de fundo, não mais como cor da letra.
+
 ### Button
 
-Para criar um botão, mesmo esquema. Uma das opções opcionai para os botõess é a outline e link, fica dentro do bootstyle;
+Para criar um botão, mesmo esquema. Uma das opções opcionais para os botõess é a outline e link, fica dentro do bootstyle; Outra opção é o
+state (que indica de o botão é ativado ou desativado por padrão)
 
 ```Python
-bbt = tb.Button(text='', font=('', num), bootstyle='success, outline or link')
+bbt = tb.Button(text='', font=('', num), bootstyle='success, outline or link', state="disabled")
 
 bbt.pack()
 ```
@@ -29,7 +32,7 @@ Botões fazem ações, funciona da mesma forma que o tkinter. Define uma funçã
 def command():
     pass
 
-bbt = tb.Button(text='', font=('', num), bootstyle='success, outline', command=command)
+bbt = tb.Button(text='', font=('', num), bootstyle='success outline', command=command)
 
 bbt.pack()
 ```

@@ -125,7 +125,7 @@ Colocamos eles antes do construtor e para chamar ele dentro de um método, inclu
 
 ```Python
 
-Class Produto:
+class Produto:
 
     imposto = 1.5 # Atributo de classe.
 
@@ -139,6 +139,38 @@ Class Produto:
 ```
 
 Utilizamos o atributo imposto dentro do construtor e não precisamos declarar ele dentro dos parâmetros. Ele pode ser usado dentro de qualquer método, basta chamar ele pelo nome_da_classe.atributo_de_classe.
+
+É possível ver todos os atributos tanto de classes quanto de instâncias atraves do método **__dict__**. 
+
+```Python
+
+class Produto:
+
+    imposto = 1.5 # Atributo de classe.
+
+    def __init__(self, nome, marca, funcao, valor):
+        self.nome = nome
+        self.marca = marca
+        self.funcao = funcao
+        self.valor = valor + (Produto.imposto * valor)
+
+
+item1 = Produto("celular", "Apple", "tudo", 10000)
+
+print(Produto.__dict__)
+print()
+print(item1.__dict__)
+
+```
+
+```Python
+{'__module__': '__main__', 'imposto': 1.5, '__init__': <function Produto.__init__ at 0x000002190C9A2680>, '__dict__': <attribute '__dict__' of 'Produto' objects>, '__weakref__': <attribute '__weakref__' of 'Produto' objects>, '__doc__': None}
+
+{'nome': 'celular', 'marca': 'Apple', 'funcao': 'tudo', 'valor': 25000.0}
+```
+
+Perceba que o atributo de classe só aparece na classe e não na instância, mas mesmo assim, é possível acessar o atributo de classe atravez de uma
+instância. 
 
 ## Alterando valores de atributos
 
@@ -187,3 +219,26 @@ print(carro.odometro)
 ```Python
 50
 ```
+
+## Validando parâmetros do construtor 
+
+Na criação do método construtor é possível colocar condições para que os parâmetros possam entrar no objeto ou não, caso crie um objeto que não
+atenda os parâmetros, dará erro. É possível fazer isso de duas formas: a primeira é definindo o tipo do parâmetro e a segunda é utilizando a
+palavra reservada **assert**. 
+
+```Python
+class Item:
+
+    def __init__(self, name: str, price: float, quantity: int):
+        # Validate to the recived arguments
+        assert price >=0, f"Price {price} need to be greater then or equal to zero!"
+        assert quantity >=0, f"Price {quantity} need to be greater then or equal to zero!"
+
+        self.name = name
+        self.price = price
+        self.quantity = quantity
+
+```
+
+Perceba que após o nome dos atributos existe o : e em seguida o tipo (Essa é a primeira forma). Logo abaixo, aparece o **assert** com a condição
+e uma frase opcional, que aparece quando der erro. 

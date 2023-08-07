@@ -18,7 +18,7 @@ arquivo = open("C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\Python_teoria\\A
 
 A função open( ) possui diversos parâmetros opcionais, mas os mais importantes são o name, que é o nome do arquivo; o modo dele, que o que escolhemos fazer com arquivos (veremos mais a frente); e o encoding, que é a formatação do texto. Sempre utilize UTF-8, vai facilitar a sua vida.
 
-o tipo do arquivo resultante da função open( ) é o <class '_io.TextIOWrapper'>, so para daber que a unica coisa que fizemos até agora foi abrir e mais nada, veremos agora diversas coisas que podemos fazer com os arquivos.
+o tipo do arquivo resultante da função open( ) é o <class '_io.TextIOWrapper'>, so para saber que a única coisa que fizemos até agora foi abrir e mais nada, veremos agora diversas coisas que podemos fazer com os arquivos.
 
 ## Leitura de arquivos 
 
@@ -147,6 +147,22 @@ print(len(arquivo.readlines()))
 
 ```Python
 4
+```
+
+## Contar a quantidade de carcateres no texo
+
+Se o arquivo lido for do tipo .txt, é possível utilizar uma função para saber quantos caracters o texto possui.
+
+```Python
+arquivo = open("texto_teste.txt")
+
+arquivo.read()
+
+print(arquivo.tell())
+```
+
+```Python
+458
 ```
 
 ## Fechar o arquivo

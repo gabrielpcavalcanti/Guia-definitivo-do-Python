@@ -1,11 +1,12 @@
 # Introdução
 
-TTK bootstrap é uma biblioteca de deica tkinter mais bonito, com uma cara mais moderna. Temos diversos temas que podemos utilizar e vários widgets tmb.
+TTKbootstrap é uma biblioteca que deixa o tkinter mais bonito, com uma cara mais moderna. Temos diversos temas que podemos utilizar e vários widgets tmb.
 
-A primeira coisa como sempre é fazer o download e importar a biblioteca, então vamos importar 2 bibliotecas.
+A primeira coisa como sempre é fazer o download (com o método pip padrão do Pyhton) e importar a biblioteca. Sempre temos que importar a trkbootstrap, geralmente com o apelido tb, mas pode colocar qualquer um e podemos também, além de outros, importar um módulo da biblioteca, 
+.constants, que poderá ser útil depois. 
 
 ```Python
-import ttkbootstrap as ttkb
+import ttkbootstrap as tb
 from ttkbootstrap.constants import *
 ```
 

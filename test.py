@@ -1,19 +1,27 @@
-from tkinter import *
+class Item:
 
-root = Tk()
-root.title("Checkboxes")
-root.geometry("400x400")
+   all = []
 
-def show():
-    mylabel = Label(root, text=var.get()).pack()
+   def __init__(self, name: str, price: float, quantity: int):
 
+      self.name = name
+      self.price = price
+      self.quantity = quantity
 
-var = StringVar()
+      # Actions to execute
+      Item.all.append(self)
+    
 
-check = Checkbutton(root, text="Checkboxes", variable=var, onvalue="check", offvalue="Offcheck")
-check.deselect()
-check.pack()
+   @staticmethod
+   def is_numeric(num):
+        if isinstance(num, float):
+            print("It is numeric")
+        elif isinstance(num, int):
+            print("It is numeric")
+        else:
+            print("It is not numeric")
+ 
 
-btn = Button(root, text="Show Selection", command=show).pack()
+Item.is_numeric(3)
+Item.is_numeric("oi")
 
-root.mainloop()

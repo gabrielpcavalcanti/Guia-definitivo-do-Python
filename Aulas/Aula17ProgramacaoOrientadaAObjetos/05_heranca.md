@@ -3,7 +3,7 @@
 A ideia é a mesma que o seu própio significado, ou seja, herdar algo, alguma coisa. No caso da programação é herdar
 código (Atributos e métodos de uma classa criada ou já pré-existente). Com a herança é possível reaproveitar código e extender nossas classes.
 
-Para a herança funcionar da melhor forma possível, é precciso pensar em classes genéricas que servem para muitas outras entidades. Por exemplo: 
+Para a herança funcionar da melhor forma possível, é preciso pensar em classes genéricas que servem para muitas outras entidades. Por exemplo: 
 uma cliente e um funcionário, ambos são pessoas, então a classe generica seria uma pessoa. A classe cliente e funcionário herdariam os atributos e métodos da classe pessoas.
 
 inicialmente vamos contruir as classes funcionário e cliente. Nada de novo aqui.
@@ -36,7 +36,7 @@ class Cliente:
 ```
 
 Perceba que tanto funcionário quando cliente são pessoas. Então podemos criar uma classe genérica. Essa classe é chamada de:
-classe mãe, classe pai, classe genética ou super classes. Já as classes que vao herdar são chamadas de classes filhas ou classes base.
+classe mãe, classe pai, classe genética ou super classes. Já as classes que vão herdar são chamadas de classes filhas ou classes base.
 
 ```Python
 class Pessoa:

@@ -21,7 +21,7 @@ print(soma(1,41))
 
 Quando chamamos um valor, precisamos forncer uma variável para em que o valor de retorno possa ser armazenado.
 
-## Funções com retorno e valores deafault
+## Funções com retorno e valores default
 
 Podemos passar parâmetros opcionais com funções de retorno também. Lembrando que eles tem que estar no final e caso querira utiliza-lo sem seu valor padrão, tem que colocar ele sempre no final e na ordem que aparece no corpo da definição da função. Caso não o faça, a função pode se embralhar, cuidado!
 

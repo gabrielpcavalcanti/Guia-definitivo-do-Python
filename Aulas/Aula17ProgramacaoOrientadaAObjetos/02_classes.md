@@ -47,4 +47,4 @@ rex = Cachorro()
 
 ```
 
-Como a classe não possui nada ainda, não é preciso colocar nenhum parâmetro dentro o objeto, mas será preciso quando a classe tiver o contrutor, os atributos e os outros métodos. 
+Como a classe não possui nada ainda, não é preciso colocar nenhum parâmetro dentro o objeto, mas será preciso quando a classe tiver o construtor, os atributos e os outros métodos. 

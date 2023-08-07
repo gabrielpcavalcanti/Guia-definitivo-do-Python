@@ -12,40 +12,40 @@ Há duas maneiras de realizar a herança múltiplas: por multiderivação direta
 Quando a herança é feita de forma direta, simples assim.
 
 ```Python
-class base1:
+class mae1:
     pass
 
-class base2:
+class mae2:
     pass
 
-class base3:
+class maee3:
     pass
 
-class filha(base1, base2, base3):
+class filha(mae1, mae2, mae3):
     pass
 ```
 
-A classe filha herda todos as atributos e métodos das classes base1, base2 e base3.
+A classe filha herda todos as atributos e métodos das classes mae1, mae2 e mae3.
 
 ## Multiderivação indireta
 
 Ocorre quando você herda de uma classe que ja está herdando de outra, ou seja, a última classe filha recebe todos os métodos da classe mãe, mas a classe mãe é filha de outra classe mãe.  
 
 ```Python
-class base1:
+class mae1:
     pass
 
-class base2(base1):
+class mae2(mae1):
     pass
 
-class base3(base2):
+class mae3(mae2):
     pass
 
-class filha(base3):
+class filha(mae3):
     pass
 ```
 
-a classe filha recebe da classe base3, que por sua vez recebe da base2, que por sua vez, recebe da classe base1. A herança é feita de forma indireta e a classe filha recebe todos os atributos e métodos das base1, base2 e base3.
+a classe filha recebe da classe mae3, que por sua vez recebe da mae2, que por sua vez, recebe da classe mae1. A herança é feita de forma indireta e a classe filha recebe todos os atributos e métodos das mae1, mae2 e mae3.
 
 ## MRO - Method Resolution Order
 
