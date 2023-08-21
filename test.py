@@ -1,27 +1,31 @@
-class Item:
+base_string = "spectrum_256_id_{}.spc"
+lista_strings = []
 
-   all = []
+for i in range(15, 1225):
+    nova_string = base_string.format(i)
+    lista_strings.append(nova_string)
 
-   def __init__(self, name: str, price: float, quantity: int):
+for i in range(1293, 1450):
+    nova_string = base_string.format(i)
+    lista_strings.append(nova_string)
 
-      self.name = name
-      self.price = price
-      self.quantity = quantity
+for i in range(1551, 2395):
+    nova_string = base_string.format(i)
+    lista_strings.append(nova_string)
 
-      # Actions to execute
-      Item.all.append(self)
-    
 
-   @staticmethod
-   def is_numeric(num):
-        if isinstance(num, float):
-            print("It is numeric")
-        elif isinstance(num, int):
-            print("It is numeric")
-        else:
-            print("It is not numeric")
- 
+for i in os.listdir():
 
-Item.is_numeric(3)
-Item.is_numeric("oi")
+    caminho_do_arquivo = f"{os.getcwd()}\\{i}"
+
+    if i in lista_strings:
+        try:
+            os.remove(caminho_do_arquivo)
+            #print(f"O arquivo '{caminho_do_arquivo}' foi deletado com sucesso.")
+        except FileNotFoundError:
+            print(f"O arquivo '{caminho_do_arquivo}' não foi encontrado.")
+        except Exception as e:
+            print(f"Ocorreu um erro ao tentar deletar o arquivo: {e}")
+    else:
+        continue
 
