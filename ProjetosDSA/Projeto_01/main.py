@@ -22,7 +22,4 @@ while True:
     letra = input("Digite uma letra: ")
 
     if letra in palavra_escolhida:
-        
-
-
-
+        pass
