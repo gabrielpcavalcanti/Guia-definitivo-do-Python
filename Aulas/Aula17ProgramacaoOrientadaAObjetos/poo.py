@@ -38,4 +38,3 @@ print(Item.all)
 #for instance in Item.all:
 #  print(instance.name)
 
-

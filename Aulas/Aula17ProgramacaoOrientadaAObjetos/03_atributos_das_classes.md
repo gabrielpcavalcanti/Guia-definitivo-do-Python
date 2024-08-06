@@ -18,7 +18,9 @@ class Cachorro:
 
 os atributos que desejamos colocar na classe ficam dentro dos parâmetros da função \__init__. 
 
-Só que antes disso, precismoas entender uma coisa, todo método dentro de uma classe possui como primeiro parâmetro uma palavra que vai ser utilizada para se auto referenciar dentro do classe. Utilizamos a palavra "self" para esse fim. Podemos utilizar qualquer outra, mas é uma convensão entre todos os programadores que utilizam Python.
+Só que antes disso, precismoas entender uma coisa, todo método dentro de uma classe possui como primeiro parâmetro uma palavra que vai ser utilizada para se auto referenciar dentro da classe. Utilizamos a palavra "self" para esse fim. Podemos utilizar qualquer outra, mas é uma convensão entre todos os programadores que utilizam Python.
+
+Toda vez que criamos um objeto ou uma instância da classe e inicializamos ela, atributo self serve para referenciar a esse objeto criado.
 
 Então o primeiro parâmetro será o self e em seguida todos os outro atributos da classe.
 
@@ -99,7 +101,7 @@ No pyhton todos os atributos de uma classe são públicos, mas caso queria avisa
 
 Ainda sim é possível acessar o atributo privado fora da classe, mas para isso funcionar é preciso utilixar esse "truque": _NomeDaClasse__nome_do_atributo_privado. Caso não faça isso, dará erro. 
 
-Em outras linguagens de programação e impossível acessar um atributo privado fora da classe, o Pyhton não faz isso.
+Em outras linguagens de programação é impossível acessar um atributo privado fora da classe, o Pyhton não faz isso.
 
 ```Python
 class Carro:
@@ -138,7 +140,7 @@ class Produto:
         
 ```
 
-Utilizamos o atributo imposto dentro do construtor e não precisamos declarar ele dentro dos parâmetros. Ele pode ser usado dentro de qualquer método, basta chamar ele pelo nome_da_classe.atributo_de_classe.
+Utilizamos o atributo imposto dentro da classe e não precisamos declarar ele dentro dos parâmetros. Ele pode ser usado dentro de qualquer método, basta chamar ele pelo nome_da_classe.atributo_de_classe.
 
 É possível ver todos os atributos tanto de classes quanto de instâncias atraves do método **__dict__**. 
 
