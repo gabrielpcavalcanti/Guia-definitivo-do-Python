@@ -1,6 +1,6 @@
 # PEP8 - Style Guide for Python Code
 
-PEP é uma sigla para Python Enhancement Proposals. Como nome diz são propostas para que a lingugem Python, com o objetivo de que a linguagem cresça e evolua cada vez mais.
+PEP é uma sigla para Python Enhancement Proposals. Como nome diz são propostas para que a linguagem Python, com o objetivo de que a linguagem cresça e evolua cada vez mais.
 
 A PEP8 foi criado com o objetivo de criar um padrão em qualquer código Python de qualquer sistema operacional. Todas as recomendações feitas pela PEP8 não precisam ser seguidas, mas é altamente recomendável que siga elas para o código ser mais legivel e bem apresentável.
 
