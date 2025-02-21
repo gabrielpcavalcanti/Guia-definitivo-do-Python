@@ -1,6 +1,6 @@
 # Python Good Habits
 
-No Python e em qualquer linugagem de programação, existem boas regras de conduta a serem usadas e maniras mais adequadas de escrever o código, tornado-o mais claro a todos. 
+No Python e em qualquer linugagem de programação, existem boas regras de conduta a serem usadas e maneiras mais adequadas de escrever o código, tornado-o mais claro a todos. 
 
 Você não precisa seguir essas recomendações, mas será bom aprende-las desde o início. Ficará natural e fácil com o aprender da programação. 
 
