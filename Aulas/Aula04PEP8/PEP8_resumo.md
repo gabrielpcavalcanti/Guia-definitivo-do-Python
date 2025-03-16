@@ -119,7 +119,7 @@ import os
 
 # Comentário em bloco
 # exemplo de como o um comentário em bloco funciona.
-# Veja se vale a pena usar ou não.
+# Veja se vale a pena usar ou não
 
 itens = os.listdir(".")
 
@@ -231,12 +231,12 @@ As classes e exceções utilizam o padrão PascalCase, ou seja, a primeira letra
 
 ```python
 class ErroMatematico(Exception):
-    """Exceção base para erros matemáticos."""
+    
     pass
 
 
 class DivisaoPorZeroError(ErroMatematico):
-    """Exceção lançada quando ocorre divisão por zero."""
+    
     pass
 
 
@@ -250,7 +250,7 @@ class Calculadora:
             return a / b
         except DivisaoPorZeroError as e:
             print(e)
-            return None  # Retorna None em caso de erro
+            return None  # Retorna None em caso de erro.
 
 ```
 

@@ -1,6 +1,6 @@
 # Sucesso no estudo da programação.
 
-Para conseguir aprender, se desenvolver e ter ducesso em qualquer linguagem é preciso saber três coisas:
+Para conseguir aprender, se desenvolver e ter ducesso em qualquer linguagem é preciso saber três concelhos:
 
 ## 1 - O básico da linguagem
 
@@ -43,3 +43,8 @@ Todos essas 3 coisas são exenciais para que vire um bom programador, não deixe
 1 -Escolha um projeto, 
 2- Junte-se a uma comunidade e/ou 
 3- Faça um estágio. 
+
+---
+- Pesquise a respeito desses concelhos apresentadas e veja se faz sentido para você, se concorda ou não;
+
+Proxima Aula: Instalação_do_Python.ppxt -> pasta: 01_Preparacoes_iniciais.

@@ -29,11 +29,13 @@ Tem linguagem com sitaxes mais fáceis, outras mais difícies, mas todas fazem t
 
 As linguagens de programação são cridas com alguns pensamentos em mente. Eles modam como a linguagem vai funcionar. Não existe maneira certa para criar uma liguagem, só existe a maneira da qual você quer que seja e as pessoas que gostem ou não. O sucesso ou fracasso da linguagem indpendem desses fatores. 
 
-O primeiro deles é se a linguagem de programação é compilada ou interpretada. O Python é uma linguagem interpretada, mas vamos ver primeiro o que é cada um e seus pontos positivos e negativos.
+O primeiro deles é se a linguagem de programação é compilada ou interpretada. O Python é uma linguagem interpretada e compilada, mas vamos ver primeiro o que é cada um e seus pontos positivos e negativos.
 
 Lingugens compiladas são quando o código é traduzido para linguagem de máquina antes da execução, por exemplo, C, C++. Elas tem as vantagens de ter um alto desempenho, otimizadas e ter um maior controle sobre o hardware. Em contrapartida, são menos flexiveiz, tem um desenvolvimento mais demorado e a depuração mais difícil.
 
 Já as linguagens interpretadas, o código é executado linha por linha sem necessidade de compilação. Têm as vantagens da facilidade de depuração, portabilidade e desenvolvimento rápido. Em questão das desvantagens, tem um desempenho mais lento e consome mais recursos.
+
+Digo que o Python é compilado também porque o arquivo é compilado para bytecode e não para machinecode e daí e interpretado. Alguns podem conciderar que não é compilado porque nao "vai" até a linguagem de máquina, mas saiba que o arquivo é compilado para bytecode.
 
 Não há o que ser feito, uma vez a linguagem criada, o bonos e ônus estará lá.
 
@@ -48,3 +50,11 @@ Elas tem maior portabilidade entre sistemas operacionais, uso de bibliotecas e f
 Já as de baixo nível são mais próximas do hardware, permitindo maior controle sobre o funcionamento do processador e da memória. Elas são mais eficientes e rápidas, mas o código é mais difícil de escrever e entender.
 
 Elas possuim um maior desempenho e controle sobre os recursos do sistema, são usadas para desenvolvimento de sistemas operacionais, drivers e jogos, mas tem um código mais complexo e difícil de depurar e são menos portáveis entre diferentes arquiteturas de hardware.
+
+---
+
+- Revise e anote cada um dos conceitos vistos nessa aula;
+- Pesquise linguagens de programação que se adequem aos tipos vistos aqui. Pesquiser pensando em perguntas desse tipo. Quais delas são de auto nível?, quais são interpretadas? etc;
+- Pesquise mais informações a respeito desse conceitos, fique a vontade.
+
+Proxima Aula: 02_Sucesso_no_estudo_da_programação.md -> Pasta 00_Introducao.
