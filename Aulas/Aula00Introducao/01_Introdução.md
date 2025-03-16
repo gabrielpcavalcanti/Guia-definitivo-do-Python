@@ -6,17 +6,24 @@ Não se prenda muito a detalhes agora, por que se não, vai ficar preso sem sair
 
 ## 1 - O que é Python?
 
-Python é uma linguagem de programação de propósito geral, ou seja, pode ser aplicada em diversas áras da computação, como por ecemplo, data science, inteligencia artificial e desenvolvimento web.
+Python é uma linguagem de programação de propósito geral, ou seja, pode ser aplicada em diversas áras da computação, como por exemplo, data science, inteligencia artificial e desenvolvimento web.
+
+O Python foi criado por Guido van Rossum no final dos anos 1980 e lançado oficialmente em 1991.
+
+O nome "Python" não veio da cobra, mas sim do grupo de comédia britânico Monty Python, do qual Guido era fã.
 
 ## 2 - Por que usar Python?
 
 Python se tornou uma das linguagen de programação mais utilizadas no planeta nas últimas décadas por causa sua facilidade de aprendizado e sua versatilidade. Além do mais, ela foi a linguagem escolhida para trabalhar com machine learning e interligencia artificial, a área mais forte do momento na computação (e será por bastante tempo). 
 
-Mesmo que ela não seja perfeita, veremos os problemas depois, ela é otima para iniciar os estudos para uma linguagem de programação, tem inúmeros exmplos e tuturiais na internt e em livro e é muito poderosa uma vez que a domine. Por isso da escolha dela.
+Mesmo que ela não seja perfeita, veremos os problemas depois, ela é otima para iniciar os estudos para uma linguagem de programação, tem inúmeros exemplos e tuturiais na internt e em livro e é muito poderosa uma vez que a domine. Por isso da escolha dela.
 
 ## 3 - O que é linguagem de programação?
 
 Uma linguagem de programação é um conjunto de regras e instruções que permitem aos programadores escrever códigos para serem interpretados ou compilados por um computador. É um sistema formal composto por regras, símbolos e estruturas que permitem a escrita de algoritmos e instruções para que um computador possa entender e executar tarefas.
+
+Tem linguagem com sitaxes mais fáceis, outras mais difícies, mas todas fazem tudo, mesmo que existam linguagens de programação mais adequadas para determinadas tarefas. Com o passar do tempo, programadores escolhem um linguagem para determinada tarefa e novas ferramentas vão sendo criadas, adequando mais ainda uma linguagem a uma determinada área da programação. Pyhton é bom para ciencia de dados e IA, mas pode fazer web tmb, criaçao de jogos, e ...
+
 
 ## 4 - Linguagem de programção interpretada vs compilada.
 

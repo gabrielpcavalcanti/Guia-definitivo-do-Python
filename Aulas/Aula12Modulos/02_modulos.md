@@ -1,5 +1,7 @@
 # Módulos Python
 
+
+
 Módulos são arquivos em python, ou seja, todo arquivo python é um módulo, mas utilizamos o termo módulo para um arquivo que contém classes, funções com um objetivo em comum e que podem ser utilizados no código via importação.
 
 Qualquer um pode criar módulos em Python para seram utilizados no própio código ou disponibilizar para que outras pessoas utilizem.

@@ -1,5 +1,7 @@
 # Pacotes Python
 
+O python possui um vasto conjunto de pacotes que podem ser importados para o seu programa (Alguns pacotes são necessário fazer a instalação outros já vem com a linguagem por deafault). 
+
 Pacotes em Python são diretórios que contem módulos, simples assim.
 
 O Pyhton vai reconhecer que o diretório com os aquivos/módulos é um pacote se for colocado um arquivo ```__init__.py``` dentro dele. Esse arquivo não precisa conter nenhuma informação.

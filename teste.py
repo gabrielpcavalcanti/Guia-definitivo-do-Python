@@ -1,10 +1,18 @@
-l1 = [2,4,3]
-l2 = [5,6,4]
+nome = "Gabriel"
+sobrenome = "Cavalcanti"
+nome_completo = "Gabriel Cavalcanti"
 
-l1.reverse()
-l2.reverse()
+# Para f strigas, uso aspas simples.
 
-numeros = map(int, l1.split())
-variavel_numeros = numeros
+nome = "Alice"
+idade = 25
 
-print(variavel_numeros)
+print(f'Olá, meu nome é {nome} e eu tenho {idade} anos.')
+
+# Caso dentro de uma string tenha a necessidade do uso de aspas, use aspas dupas para a string e aspas simples dentro dela.
+
+string_longa = "Uso das 'aspas simples' dentro de uma string"
+
+# Se dentro de uma f string tenha o uso de aspas, use aspas duplas.
+
+print(f'Olá, meu nome é "{nome}" e eu tenho {idade} anos.')
