@@ -26,7 +26,7 @@ Quando o Python é instalado, uma "IDE" é instalada junta, o IDLE. É um progra
 
 Existem outras IDE, como o eclipse, notepad++, RStudio, Dev-C++, Vim etc. Use a que achar melhor.
 
-Dentro dessa pasta desse arquivo tem um PowerPoint explicando como instalar e configura o vscode e o PyCharm Community Edition para usar o Python.
+Dentro dessa pasta desse arquivo tem um PowerPoint explicando como instalar e configura o vscode para usar o Python.
 
 ## 3 - Ambientes virtuais
 

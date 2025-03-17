@@ -4,5 +4,5 @@
     "editor.wordWrapColumn": 80,   // Define o limite de 80 caracteres
     //"editor.rulers": [80],         // Exibe uma linha visual para o limite de 80 caracteres
     "editor.formatOnType": true,   // Formatação automática ao digitar
-    "editor.autoIndent": true,
+    "editor.autoIndent": "full",
 }

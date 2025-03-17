@@ -100,7 +100,7 @@ e clique em OK.
 
 Isso irá criar uma Pasta chamada Envs na pasta do usuário. Todas os ambientes virtual serão criados lá, sem a necessidade de ficar mudando de diretório.  
 
-### 3 - Criando e actvanado um ambiente virtual
+### 3 - Criando e ativanado um ambiente virtual
 
 Abra o terminal e digite:
 
@@ -135,6 +135,28 @@ Pode fazer da mesma forma da maneira um ou simplismente digitar:
 ```
 rmvirtualenv <ambiente virtual>
 ```
+
+### 7 - Listar os ambiente virtuais existente
+
+```
+workon
+```
+
+Listar pacotes instalados no ambiente virtual atual
+
+```
+lssitepackages
+```
+
+### 8 - Criar um ambiente virtual e instalar pacotes automaticamente
+
+Se você quiser criar um ambiente e instalar pacotes do requirements.txt ao mesmo tempo:
+
+```mkvirtualenv nome_do_ambiente -r requirements.txt
+
+```
+
+Isso instala todas as dependências listadas no arquivo requirements.txt logo após a criação do ambiente.
 
 ## Instalando pacotes
 

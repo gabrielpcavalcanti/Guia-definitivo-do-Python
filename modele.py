@@ -6,5 +6,5 @@ def conect():
     time.sleep(3)
     print("you are conncted!")
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     conect()
