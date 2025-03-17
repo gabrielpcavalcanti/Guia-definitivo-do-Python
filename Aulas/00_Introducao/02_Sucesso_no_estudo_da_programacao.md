@@ -47,4 +47,4 @@ Todos essas 3 coisas são exenciais para que vire um bom programador, não deixe
 ---
 - Pesquise a respeito desses concelhos apresentadas e veja se faz sentido para você, se concorda ou não;
 
-Proxima Aula: Instalação_do_Python.ppxt -> pasta: 01_Preparacoes_iniciais.
+Proxima Aula: 01_introducao -> pasta: 01_PreparacoesIniciais.
