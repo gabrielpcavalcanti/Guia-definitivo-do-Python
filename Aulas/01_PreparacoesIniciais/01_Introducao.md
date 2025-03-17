@@ -26,15 +26,13 @@ Quando o Python é instalado, uma "IDE" é instalada junta, o IDLE. É um progra
 
 Existem outras IDE, como o eclipse, notepad++, RStudio, Dev-C++, Vim etc. Use a que achar melhor.
 
-Dentro dessa pasta desse arquivo tem um PowerPoint explicando como instalar e configura o vscode para usar o Python.
-
 ## 3 - Ambientes virtuais
 
 Ambientes virtuais no Python são espaços isolados onde você pode instalar pacotes e dependências sem interferir no sistema global ou em outros projetos.
 
 É de certa forma a maneira correta de iniciar um projeto no Python, além da organização das pastas e outras questões. Não é preciso utilizar eles, mas é altamente recomendado e será utiliado nesse curso. Eles evitam conflitos entre versões de pacotes, mantem projetos organizados e independentes e Facilitar a reprodução do ambiente de desenvolvimento em outros computadores.
 
-Existe também um arquivo 03_ambiente_virtual explicando como criar e configurar um ambiente virtual no Python.
+Existe também um arquivo 02_ambiente_virtual explicando como criar e configurar um ambiente virtual no Python.
 
 ## 4 - Comando do cmd e do pip
 
@@ -44,8 +42,13 @@ Para quem usa linux, utilizar comando é normal e é conciderada o melhor sistem
 
 Existe um arquivo nessa aula mostrando os principais comando do terminal do windows (pode ser usado o cmd ou o powerShell) e os comando do pip (Python Package Installer) que é o gerenciador de pacotes do Python. Ele permite instalar, atualizar e remover bibliotecas e frameworks facilmente. 
 
-Sempre volte na aula 02_Comandos_cmd_e_pip para rever os comando caso esqueça. 
+Sempre volte na aula 03_Comandos_cmd_e_pip para rever os comando caso esqueça. 
 
 ---
+Siga esse passos para concluir essa pasta:
 
-Proxima Aula: -> pasta: .
+1 - Instalar o Python e/ou as IDE`s (ver arquivos .pptx) caso não tenha instalado.
+
+2 - Estude a Aula: 02_ambientes virtuais.
+
+3 - Vá para a Aula: 03_Comandos_cmd_e_pi ou pule direto para a Pasta: 02_CursoGitEGithub.

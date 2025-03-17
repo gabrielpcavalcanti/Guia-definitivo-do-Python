@@ -221,6 +221,7 @@ Uma maneira mais rápida, sem ter que precisar mudar nas variáveis do ambiente 
 ```
 virtualenv --python=<versão> <ambiente virtual>” 
 ```
-
 O Interessante com esse método é que se sair do ambiente virtual, o python principal se torna a versão do ambiente virtual. Mas se fechar o cmd e abrir de novo. A versão do python volta a ser a padrão.
+
 ---
+Proxima Aula: 03_Comandos_cmd_e_pip.md -> Pasta 01_PreparacoesIniciais.

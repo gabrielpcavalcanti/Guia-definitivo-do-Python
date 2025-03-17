@@ -132,3 +132,4 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
 ---
+Proxima Aula: 01_Introducao.md -> Pasta 02_CursoGitEGithub.
