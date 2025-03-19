@@ -1,0 +1,3 @@
+# Pull request
+
+The purpose of a pull request is to obtain a peer review of changes made to the branch. In other words, to validate that the changes are correct when coding, many teams will have conditions around the unit tests and integration tests. These conditions will usually include validating that the standards have been met for merging back into the main line, a team will also check for any issues that might have been missed.

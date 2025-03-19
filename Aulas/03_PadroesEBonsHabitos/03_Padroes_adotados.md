@@ -110,7 +110,7 @@ O l minúsculo e o O maiúsculo se paracem muito com os números 1 e 0, respecti
 
 ### c) Tamanho dos nomes
 
-É uma questão relativa, um mesmo nome pode ser grande para você e pequeno para mim. Um objeto com uma unica palavra, independente da extenção dela, é o pafrão.
+É uma questão relativa, um mesmo nome pode ser grande para você e pequeno para mim. Um objeto com uma unica palavra, independente da extenção dela, é o padrão.
 
 Concidero nomes muito grandes quando são compostos por mais de cinco palavras. Então nunca use para nomear nada. Menos que isso, independete da extenção de cada palavra, é o padrão adotado aqui.
 
@@ -177,9 +177,11 @@ Se quiser brincar, tudo bem, mas troque quando a brincadeira tiver perdido a gra
 
 ### O tamanho do nome deve corresponder ao tamanho do escopo
 
-Prefira nomes mais curtos, mas contanto que sejam claros e dê contexo. Caso não dê, use nomes mais longo. 
+Prefira nomes mais curtos, mas contanto que sejam claros e dê contexo. Caso não dê, use nomes mais longo. Melho um nome longo que um comentário ou doctring longa.
 
 Permita-se criar nomes maiores se o escopo for maior, nomes menos se o escopo for melhor. Não precisa necessáriamente seguir isso (pode muito bem ter nomes curtos para escopos grandes e vice-versa).
+
+Não tenha medo de perder tempo escolhendo um nome. Na verdade, você deve experimentar vários nomes diferentes e ler o código com cada um deles.
 
 ### Não deixe de usar palavras específicas da programação
 
@@ -317,8 +319,9 @@ print(result)
 
 ```
 
+## 5 - Padrão para funções
 
-## 5 - Padrão para arquivos
+## 6 - Padrão para arquivos
 
 ### a) Sempre use with para abertura e fechamento de arquivos
 
@@ -337,15 +340,23 @@ with open("example.txt", "r") as file:
     
 ```
 
-## 6 - Padrão para exceções
+## 7 - Padrão para exceções
 
 ### a) Sempre especifique as exceções 
 
+### b) Todas as exceções e blocos try/exept devem estar dentro de funções
+
+Um bom hábito é criar um funções que execulta um única tarefa. Criar funções que fazem uma tarefa e ainda tratam das exceções não é uma única tarefa. Então delegue funções apenas para tratar os erros.
+
 ```python
 def divide(a, b):
+    """Performs division and returns the result."""
+    return a / b
 
+def handle_division(a, b):
+    """Handles exceptions when performing division."""
     try:
-        result = a / b
+        result = divide(a, b)
         print(f"Result: {result}")
 
     # Correct and commonly used form.
@@ -363,10 +374,8 @@ def divide(a, b):
     except:
         print(f"Unexpected error.")
 
-
 ```
 
+### c) - Context maneger
 
-### b) - Context maneger
-
-## 7 - Padrões para programação orientada a objetos
+## 8 - Padrões para programação orientada a objetos

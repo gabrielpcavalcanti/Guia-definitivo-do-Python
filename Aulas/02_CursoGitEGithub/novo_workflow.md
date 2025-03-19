@@ -1,20 +1,7 @@
-# Branch
-
-Quando utilizamod o comanfo git status, além de outras informações ele nos fornece o branch atual.
-
-
-
-To create this new branch, I use the git checkout command by typing git checkout dash b. I then call this new branch feature forward slash lesson, which I'll refer to as feature lesson for the purpose of this video.
-I could also use git branch and pass in the name as well. These methods are the same and can both be used to create a branch.
-The key difference between them is that git branch just creates a branch. But git checkout dash B moves me from the main branch into the branch that I created.
-
-I can verify that I've been moved between branches by running the git branch command. This will then tell me if I have switched from the main branch to another. Any changes that I make will now only occur in this new branch.
-
-It's important to remember that the main branch has no indication or knowledge of any of these changes even when I push code to the main repository, this is because that branch exists in isolation. The new branch needs to be merged back into the main branch to recognize changes in the feature lesson branch. 
-
-The purpose of a pull request is to obtain a peer review of changes made to the branch. In other words, to validate that the changes are correct when coding, many teams will have conditions around the unit tests and integration tests. These conditions will usually include validating that the standards have been met for merging back into the main line, a team will also check for any issues that might have been missed.
+# Workflow novo
 
 The next step is to add a file to the new branch. I can create a simple text file called test2.txt using the command touch test2.txt. Then I add it using the git add command. I then commit it using the git commit command. Once I've committed the new file, I need to push my changes up to the remote repository with git push. I type git push- u origin feature lesson.
+
 
 It's good practice to specify dash U. This means that I'm only going to get updates from the upstream, which in this case will be the main branch. The result of this is that the origin won't be my main branch anymore. Instead, it's feature lesson. I press the enter key and this pushes the new branch up to the remote repository. As I am using https, I will be prompted for my login information. Once this action has been completed, GitHub will recognize that a new branch has been added. It will then prompt me to create a poll requests that can be compared against another branch, in this case, the main branch.
 
@@ -24,3 +11,21 @@ It's particularly useful if you have features that are closely tied together. Fo
 
 I'm still in the feature lesson branch. I can check out my main branch by typing git checkout main. Then I run the git pull command. I'll then receive the latest changes that were merged in from the feature branch that I just created. Notice that the test2.txt file is now available. I can also verify that by doing a simple check within the directory by using the ls command. This returns a read-me file test.txt and the test2.txt, which is from my branch. You have now learned the branching workflow, which will use regularly when collaborating with other developers.
 
+---
+
+This is a common workflow when working with Git on a team of developers:
+
+Create a branch for a new change
+Make the change
+Merge the branch back into main (or whatever branch your team dubs the "default" branch)
+Remove the branch
+Repeat
+
+--- 
+
+update repositório - pull or/and fech
+create a new branch
+commit in the new branch
+merge or rebase to main branch 
+push
+pull request

@@ -47,6 +47,12 @@ Ainda veremos o que é branch.
 
 Obs: O branch padrão do Git é **master** e do GitHub é **main**.
 
+E para Renomear um Branch
+
+```
+git branch -m oldname newname
+```
+
 ## Duplicadas
 
 Normalmente, em um armazenamento de chave/valor, como um dicionário Python, não é permitido ter chaves duplicadas. Por mais estranho que pareça, o Git não se importa.

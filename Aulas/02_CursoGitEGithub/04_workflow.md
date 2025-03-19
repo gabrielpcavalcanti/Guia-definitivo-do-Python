@@ -10,9 +10,6 @@ Os fluxos de trabalho são essenciais para garantir que o código seja gerenciad
 
 Vamas aplicar o worflow inical seguindo os passos adiante. Nas próximas aulas tratarei de temas mais complexos. 
 
-
-
-
 ## 1 - Instalando o git
 
 Podemos usar o Git em qualquer sistema operacional, vou mostrar como instalar no windows.
@@ -134,6 +131,28 @@ got --no-pager log -n <10>
 ```
 git cat-file -p <hash> 
 ```
+
+Há alguns sinalizadores que gosto de usar de vez em quando para facilitar a leitura do resultado.
+
+A primeira é --decorate. Pode ser uma das seguintes opções:
+
+- short (o padrão)
+- full (mostra o nome completo da referência)
+- no (sem decoração)
+- oneline (visão mais compacta do log)
+
+```
+git log --oneline
+```
+
+Um comando poderoso para verificar os branchs e merges:
+
+```
+git log --oneline --decorate --graph --parents
+```
+
+
+
 
 ### Alguns termos que é preciso saber:
 
