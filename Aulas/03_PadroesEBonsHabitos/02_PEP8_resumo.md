@@ -74,7 +74,7 @@ class Classe:
     def__init__(self, teste):
         self.teste = teste
 
-    def teste_teste(self):
+    def test_test(self):
         pass
 
 
@@ -161,30 +161,29 @@ plt.show()
 
 ```python
 """
-Este script realiza operações com arquivos e diretórios usando a biblioteca os.
+This script performs operations with files and directories using the os library.
 
-Funcionalidades:
-- Lista os arquivos e diretórios no diretório atual.
-- Mostra o diretório de trabalho atual.
+Features:
+- Lists files and directories in the current directory.
+- Shows the current working directory.
 
-Autor: Seu Nome
-Data: 15/03/2025
+Author: Your Name
+Date: 03/15/2025
 """
 
-import os  # Biblioteca para manipulação de arquivos e diretórios.
+import os  # Library for file and directory manipulation.
 
-# Obtém e exibe o diretório de trabalho atual.
-diretorio_atual = os.getcwd()
+# Get and display the current working directory.
+current_directory = os.getcwd()
 
-print("Diretório atual:", diretorio_atual)
+print("Current directory:", current_directory)
 
-# Lista os arquivos e diretórios no diretório atual.
-itens = os.listdir(".")
+# List files and directories in the current directory.
+items = os.listdir(".")
 
-print("\nArquivos e diretórios:")
+print("\nFiles and directories:")
 
-for item in itens:
-
+for item in items:
     print("-", item)
 
 ```
@@ -212,10 +211,10 @@ from types import (
 Sempre use essa ordem na hora de importar bibliotecas: Primeiro as bibliotecas padrões, depois as externas e por fim as locais.
 
 ```python
-import os  # Padrão
-import math  # Padrão
-import numpy as np  # Externas
-from meu_pacote import modulo_01, modulo_02  # Locais
+import os  # Standart
+import math  # Standart
+import numpy as np  # external
+from my_packege import module_01, module_02  # Local
     
 ```
 
@@ -230,27 +229,26 @@ Para cada objeto no Python existe uma maneira mais adequada de declaração. Pod
 As classes e exceções utilizam o padrão PascalCase, ou seja, a primeira letra de cada palavra é maiúscula e não são separadas por virgula ou _ , são 'coladas'.
 
 ```python
-class ErroMatematico(Exception):
-    
+class MathError(Exception):
     pass
 
 
-class DivisaoPorZeroError(ErroMatematico):
-    
+class DivisionByZeroError(MathError):
     pass
 
 
-class Calculadora:
-    """Classe para operações matemáticas básicas."""
+class Calculator:
+    """Class for basic mathematical operations."""
 
-    def dividir(a, b):
+    @staticmethod
+    def divide(a, b):
         try:
             if b == 0:
-                raise DivisaoPorZeroError("Erro: divisão por zero não é permitida.")
+                raise DivisionByZeroError("Error: division by zero is not allowed.")
             return a / b
-        except DivisaoPorZeroError as e:
+        except DivisionByZeroError as e:
             print(e)
-            return None  # Retorna None em caso de erro.
+            return None  # Returns None in case of an error.
 
 ```
 
@@ -261,16 +259,16 @@ As funções e variáveis seguem o padrão snake_case. Nesse caso, as palavras s
 ```python
 import os
 
-def funcao():
+def function():
     pass
 
 
-def multliplicacao_nums(num1, num2):
+def multliplicacation_nums(num1, num2):
     return num1 * num2
 
 
-fruta = 'maça'
-conta_corrente = 1400
+fruit = 'maça'
+checking_account = 1400
 
 ```
 
@@ -280,7 +278,7 @@ Todas em letras maiúsculas e separadas por _.
 
 ```python
 PI = 3.141592
-VALOR_CONSTANTE = 10
+MAX_NUMBER_OF_CLOTHES = 10
 
 ```
 ## 7 - Espaços em expressões e instruções
@@ -354,27 +352,27 @@ Use aspas duplas para docstrigs. De resto, escolha um padrão e fique com ele.
 
 ```python
 """
-Este script mostra os usos das aspas.
+This script shows the uses of quotation marks.
 
-Funcionalidades:
-- mostra as aspas duplas e simples em uso.
+Features:
+- shows double and single quotes in use.
 
-Autor: Seu Nome
-Data: 15/03/2025
+Authorr: Seu Nome
+Date: 15/03/2025
 """
 
 # Para Strings, uso sempre aspas duplas.
 
-nome = "Gabriel"
-sobrenome = "Cavalcanti"
-nome_completo = "Gabriel Cavalcanti"
+nanem = "Gabriel"
+surname = "Cavalcanti"
+complete_name = "Gabriel Cavalcanti"
 
 # Para f strigas, uso aspas simples.
 
-nome = "Alice"
-idade = 25
+name = "Alice"
+age = 25
 
-print(f'Olá, meu nome é {nome} e eu tenho {idade} anos.')
+print(f'Olá, meu nome é {name} e eu tenho {age} anos.')
 
 # Caso dentro de uma string tenha a necessidade do uso de aspas, use aspas dupas para a string e aspas simples dentro dela.
 
@@ -382,7 +380,7 @@ string_longa = "Uso das 'aspas simples' dentro de uma string"
 
 # Se dentro de uma f string tenha o uso de aspas, use aspas duplas.
 
-print(f'Olá, meu nome é "{nome}" e eu tenho {idade} anos.')
+print(f'Olá, meu nome é "{name}" e eu tenho {age} anos.')
 
 ```
 
@@ -410,11 +408,11 @@ def method(cls):
 Para None, True e False, use "is" ou "is not". ou invés de usar ==. Use "variável is not" em vez de "is variável not".
 
 ```python
-x = None
+idade = None
 
-if x is None:
+if idade is None:
 
-if x is not "something":
+if idade is not 14:
 
 
 ```

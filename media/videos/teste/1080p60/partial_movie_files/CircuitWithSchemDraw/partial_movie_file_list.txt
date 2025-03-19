@@ -1,3 +1,3 @@
 # This file is used internally by FFMPEG.
-file 'file:C:/Users/Avell/Documents/GitHub/Guia-definitivo-do-Python/media/videos/teste/1080p60/partial_movie_files/CircuitWithSchemDraw/3529212410_1977455131_223132457.mp4'
-file 'file:C:/Users/Avell/Documents/GitHub/Guia-definitivo-do-Python/media/videos/teste/1080p60/partial_movie_files/CircuitWithSchemDraw/3040924799_4247107814_2227996361.mp4'
+file 'file:C:/Users/Avell/Documents/GitHub/Guia-definitivo-do-Python/media/videos/teste/1080p60/partial_movie_files/CircuitWithSchemDraw/3529212410_2203034838_223132457.mp4'
+file 'file:C:/Users/Avell/Documents/GitHub/Guia-definitivo-do-Python/media/videos/teste/1080p60/partial_movie_files/CircuitWithSchemDraw/3040924799_2408024828_46250146.mp4'

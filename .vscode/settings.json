@@ -5,4 +5,13 @@
     //"editor.rulers": [80],         // Exibe uma linha visual para o limite de 80 caracteres
     "editor.formatOnType": true,   // Formatação automática ao digitar
     "editor.autoIndent": "full",
+    "terminal.integrated.profiles.windows": {
+    "Windows Terminal CMD": {
+        "path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe",
+        "args": ["-p", "Command Prompt"]
+    }
+},
+"terminal.integrated.defaultProfile.windows": "Command Prompt"
 }
+
+

@@ -88,7 +88,104 @@ if __name__ == '__main__':
 
 Dica: Para não ter que escrever sempre a função main( ) e if statement, algumas IDE`s já vem pré-configuradas e/ou você pode escrever um tamplate e configurar na própria IDE. 
 
-## 2 - Type annotations
+## 2 - Padrões para nomes
+
+Os padrões para nomes adotados seguirão a maiora dos concelhos vistos no livro clean code. Não vou usar tudo a risca, mas boa parte sim, são bons concelhos. 
+
+Procure o livro Clean code de Robert C Martin para saber mais sobre o assunto.
+
+Nomear variáveis, funções, classes, métodos e assim por diante é uma tarefa que parece fácil a princípio, mas se não for bem feita pode levar a problemas sérios. tem uma frase que diz: "Nomear variáveis é 50% do código, e a outra metade é tentar entender o que você quis dizer." Se você nomear de forma "correta", seguindo um padrão, fica muito mais simples entender o que está acontecendo no código.
+
+Vamos ver os padões adotado:
+
+### a) Nome de objetos sempre em inglês e pronunciáveis
+
+Independente se for uma variável, classe, função, trupla etc. Todos os nomes tem que estar em inglês. É a lingua universal utilzada por todos os programadores, então não fuja dessa "regra".
+
+Nunca crie nomes que não estejam no vocabulário da lingua inglesa e que sejam inponunciáveis, como abreciações e trocadilhos. Sempre escreva o nome de forma correta.
+
+### b) Nao usar l ou O isolado nos nomes
+
+O l minúsculo e o O maiúsculo se paracem muito com os números 1 e 0, respectivamente. Então não será utilizado de forma isolada para nomear objetos.
+
+### c) Tamanho dos nomes
+
+É uma questão relativa, um mesmo nome pode ser grande para você e pequeno para mim. Um objeto com uma unica palavra, independente da extenção dela, é o pafrão.
+
+Concidero nomes muito grandes quando são compostos por mais de cinco palavras. Então nunca use para nomear nada. Menos que isso, independete da extenção de cada palavra, é o padrão adotado aqui.
+
+### d) Letra única para nomear objetos
+
+letras únicas geralmente são utilizadas para objetos que não tem muita importancia no código ou são utilizadas para testes. Se se não tem importância, nao deve ser utilizado e se for utlilizado para teste, mude o nome depois no código final
+
+Usar letras para constantes também é comum. Não faça isso, fica ruim de pesquisar pelo código e podem significar situações diferentes. Sempre escreve o nome da constante em letras maiúsculas. É o padrão adotado aqui.
+
+Não será numeros seriados, como a1, a2, c3 etc
+
+### e) Uso de prefixos e sufixos
+
+**Ver o padrao utilizado depois, ainda nao defini**
+
+### f) Nome de classes e metodos
+
+Classes devem ser nomeadas com substantivos ou frases nominais e não ter verbos.
+
+Já os métodos tem que ter verbo ou frases verbais.
+
+---
+
+Os padrões adotados no código escrito são os mostrados acima, mas todos eles estão seguindo alguns princípios descritos no clean code, mostrados abaixo.
+
+### Say what you mean. Mean what you say.
+
+Essa frase resume todos os princípios.
+
+### Use nomes que revelem a intenção
+
+Se um nome precisar de comentários, o nome não revala sua intenção e precisa ser alterado. Ele presisa mostrar porque existe, o que faz e como é utilizado.
+
+```python
+elapsed_time_in_days = 10  # Variable name
+WikiPage  # Class name
+post_payment  # Method name
+```
+
+### Evite desiformações
+
+Evite nomes que dão pistas para significados diferntes ou ambiguos no código, evitando a desinformação.
+
+Ex: Use hypotenuse instead of hp.
+
+Não crie nomes de qualquer que seja o objeto muito pareceidos um com os outros. Será difícil diferenciar os dois.
+
+Ex: XYZControllerForEfficientHandlingOfStrings e XYZControllerForEfficientStorageOfStrings.
+
+
+### Faça distinções significativas
+
+Não mude um nome para outro genérico por causa que já existe outro nome com o significado que você queria. Se os nomes são diferntes, eles tem que significar conceitos diferentes.
+
+Não crie nome de objetos diferntes que já significam o mesmo de outro objeto já criado.
+
+### Escolha claridade em vez de entreterimento
+
+Pode ocorrer que durante um projeto, os programadores crie nome de objetos que fazem sentido no contexo interno, como piadas. É uma forma de se distrair, brincar ou até deixa easter eggs. A questão é: fora desse ambiente, o que está escrito não fará sentido.
+
+Então sempre escolha claridade ao inves de intreterimento. 
+
+Se quiser brincar, tudo bem, mas troque quando a brincadeira tiver perdido a graça.
+
+### O tamanho do nome deve corresponder ao tamanho do escopo
+
+Prefira nomes mais curtos, mas contanto que sejam claros e dê contexo. Caso não dê, use nomes mais longo. 
+
+Permita-se criar nomes maiores se o escopo for maior, nomes menos se o escopo for melhor. Não precisa necessáriamente seguir isso (pode muito bem ter nomes curtos para escopos grandes e vice-versa).
+
+### Não deixe de usar palavras específicas da programação
+
+Lembre-se de que as pessoas que leem seu código serão programadores. Então vá em frente e use termos de ciência da computação (CS), nomes de algoritmos, nomes de padrões, termos matemáticos e assim por diante.
+
+## 3 - Type annotations
 
 Essa feature do Python é muito útil e quase ninguém adota ela, principalmente no inicío, mas mesmo depois, poucos códigos eu vejo utilizam os tyoe annotation. Se você viu em algum projeto ou repositório, de parabéns a quem escreveu, ele teve cuidado e carinho pelo programa escrito.
 
@@ -101,47 +198,47 @@ Vejamos cada um deles agora:
 ### a) Tipos de variáveis primitivas
 
 ```python
-idade: int = 10
-pi_aproximado float = 3.14
-logico: bool = True
-nome: str = "Sofia"
+age: int = 10
+pi_estimated float = 3.14
+logic: bool = True
+name: str = "Sofia"
 
 ```
 
 ### b) Listas
 
 ```python
-numeros: list[int] = [1, 2, 3]
-palavras: list[str] = ["a", "b", "c"]
+numbers_int: list[int] = [1, 2, 3]
+single_letters: list[str] = ["a", "b", "c"]
 
 ```
 
 ### c) Truplas
 
 ```python
-ponto: tuple[int, int] = (10, 20)
-dados: tuple[str, int, float] = ("Alice", 25, 1.75)
+points: tuple[int, int] = (10, 20)
+datas: tuple[str, int, float] = ("Alice", 25, 1.75)
 
 ```
 
 ### d) Dicionários
 
 ```python
-aluno: dict[str, int] = {"idade": 25, "nota": 90}
+student_age_grade: dict[str, int] = {"idade": 25, "nota": 90}
 
 ```
 
 ### e) Conjuntos
 
 ```python
-numeros_unicos: set[int] = {1, 2, 3}
+single_numbers: set[int] = {1, 2, 3}
 
 ```
 
 ### f) Em parametros e argumentos de funções
 
 ```python
-def soma(a: int, b: int) -> int:
+def sumation(a: int, b: int) -> int:
     return a + b
 
 def filtrar_pares(numeros: List[int]) -> List[int]:
@@ -151,25 +248,21 @@ def filtrar_pares(numeros: List[int]) -> List[int]:
 ### g) Em classes 
 
 ```python
-class Pessoa:
+class Person:
 
-    def __init__(self, nome: str, idade: int) -> None:
-        self.nome = nome
-        self.idade = idade
+    def __init__(self, name: str, age: int) -> None:
+        self.name = name
+        self.age = age
 
-    def saudacao(self) -> str:
-        return f"Olá, meu nome é {self.nome}!"
+    def greeting(self) -> str:
+        return f"Hello, my name is {self.name}!"
 
 
-p: Pessoa = Pessoa("Alice", 25)
+p: Person = Person("Alice", 25)
 
-print(p.saudacao())  
+print(p.greeting())
 
 ```
-
-## 3 - Padrões para variáveis
-
-Toda variável seguirá o padão que estiver descrito no clean code, voce pode ve-lo aqui. link arquivo clean code. Ou talvez evaporar o que tiver no arquivo e colocar o que tiver de informaçao durante os arquivos do curso.
 
 ## 4 - Padrões para String
 
@@ -178,16 +271,16 @@ Toda variável seguirá o padão que estiver descrito no clean code, voce pode v
 Mesmo podendo fazer a concatenação tradicional, é preferivel o uso de f-strings em todos os casos e será adotado aqui. Ele facilita a leitura e é mais simples de escrever.
 
 ```python
-nome: str = "Alice"
-idade: int = 25
+name: str = "Alice"
+age: int = 25
 
-# Sem f-string 
-mensagem_tradicional = "Olá, meu nome é " + nome + " e eu tenho " + str(idade) + " anos."
-print(mensagem_tradicional)
+# Without f-string
+traditional_message = "Hello, my name is " + name + " and I am " + str(age) + " years old."
+print(traditional_message)
 
-# Usando f-string
-mensagem_fstring = f'Olá, meu nome é {nome} e eu tenho {idade} anos.'
-print(mensagem_fstring)
+# Using f-string
+fstring_message = f'Hello, my name is {name} and I am {age} years old.'
+print(fstring_message)
 
 ```
 
@@ -203,25 +296,24 @@ Sempre use r"" quando precisar de textos com \ que não devem ser interpretados!
 # Caminho de arquivos 
 
 # Sem raw strings
-caminho: str = "C:\\novo\\teste\\arquivo.txt"
-print(caminho)
+path_file: str = "C:\\novo\\teste\\arquivo.txt"
+print(path_file)
 
 # Com raw strings
-caminho: str = r"C:\novo\teste\arquivo.txt"
-print(caminho)
+path_file: str = r"C:\novo\teste\arquivo.txt"
+print(path_fiel)
 
 ```
 
 ```python
 # Regex
-
 import re
 
-padrao: str = r"\d+"  # Ao invés de "\\d+"
-texto: str = "Idade: 25 anos"
+pattern: str = r"\d+"  # Instead of "\\d+"
+text: str = "Age: 25 years"
 
-resultado = re.findall(padrao, texto)
-print(resultado)
+result = re.findall(pattern, text)
+print(result)
 
 ```
 
@@ -233,15 +325,15 @@ print(resultado)
 Podemos abrir e fechar arquivos com os métodos .open( ) e .close( ), mas caso tenha algum problema entre esses dois comandos, o arquivo nunca vai ser fechado. Para evitar problemas sempre utize with.
 
 ```python
-# Usando open() e close()
-arquivo = open("exemplo.txt", "w")  
-arquivo.write("Olá, mundo!\n")
-arquivo.close()
+# Using open() e close()
+file = open("example.txt", "w")  
+file.write("Hello, world!\n")
+file.close()
 
-# Usando with open()
-with open("exemplo.txt", "r") as arquivo:
-    conteudo = arquivo.read()
-    print(conteudo)
+# Using with open()
+with open("example.txt", "r") as file:
+    content = file.read()
+    print(content)
     
 ```
 
@@ -250,26 +342,27 @@ with open("exemplo.txt", "r") as arquivo:
 ### a) Sempre especifique as exceções 
 
 ```python
-def dividir(a, b):
+def divide(a, b):
 
     try:
-        resultado = a / b
-        print(f"Resultado: {resultado}")
+        result = a / b
+        print(f"Result: {result}")
 
-    # Forma correta e sempre utilizada.
-    except ZeroDivisionError:  
-        print("Erro: Tentativa de dividir por zero!")
-    # Forma correta e sempre utilizada.
-    except TypeError:  
-        print("Erro: Tipos inválidos! Certifique-se de fornecer números.")
+    # Correct and commonly used form.
+    except ZeroDivisionError:
+        print("Error: Attempt to divide by zero!")
+    # Correct and commonly used form.
+    except TypeError:
+        print("Error: Invalid types! Make sure to provide numbers.")
     
-    # Forma errada
-    except Exception as erro:  
-        print(f"Erro inesperado: {erro}")
+    # Incorrect form
+    except Exception as error:
+        print(f"Unexpected error: {error}")
 
-    # Forma ainda mais errada.
-    except:  
-        print(f"Erro inesperado.")
+    # Even worse form.
+    except:
+        print(f"Unexpected error.")
+
 
 ```
 

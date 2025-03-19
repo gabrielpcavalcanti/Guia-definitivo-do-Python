@@ -123,7 +123,7 @@ dentro do ambiente virtual ou fechar o terminal.
 ### 5 - Reativar o ambiente vietual
 
 Use o comando:
-
+ls
 ```
 workon <ambiente virtual>
 ```
@@ -152,8 +152,8 @@ lssitepackages
 
 Se você quiser criar um ambiente e instalar pacotes do requirements.txt ao mesmo tempo:
 
-```mkvirtualenv nome_do_ambiente -r requirements.txt
-
+```
+mkvirtualenv nome_do_ambiente -r requirements.txt
 ```
 
 Isso instala todas as dependências listadas no arquivo requirements.txt logo após a criação do ambiente.

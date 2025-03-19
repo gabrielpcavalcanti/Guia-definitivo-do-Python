@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Avell/Documents/GitHub/Guia-definitivo-do-Python/media/videos/teste/1080p60/partial_movie_files/eixo2/3529212410_839090861_223132457.mp4'
+file 'file:C:/Users/Avell/Documents/GitHub/Guia-definitivo-do-Python/media/videos/teste/1080p60/partial_movie_files/eixo2/3040924799_1754310298_3685813471.mp4'
+file 'file:C:/Users/Avell/Documents/GitHub/Guia-definitivo-do-Python/media/videos/teste/1080p60/partial_movie_files/eixo2/3040924799_1338694901_2614861807.mp4'
+file 'file:C:/Users/Avell/Documents/GitHub/Guia-definitivo-do-Python/media/videos/teste/1080p60/partial_movie_files/eixo2/3040924799_1754310298_1701554780.mp4'
+file 'file:C:/Users/Avell/Documents/GitHub/Guia-definitivo-do-Python/media/videos/teste/1080p60/partial_movie_files/eixo2/3040924799_1916286674_3648485189.mp4'
+file 'file:C:/Users/Avell/Documents/GitHub/Guia-definitivo-do-Python/media/videos/teste/1080p60/partial_movie_files/eixo2/3040924799_2408024828_3244564017.mp4'

@@ -26,6 +26,8 @@ Quando o Python é instalado, uma "IDE" é instalada junta, o IDLE. É um progra
 
 Existem outras IDE, como o eclipse, notepad++, RStudio, Dev-C++, Vim etc. Use a que achar melhor.
 
+Não irei mostrar aqui como instalar uma IDE porque existe inúmeras e para cada uma tem configurações e problemas que podem ocorrer. Seria impossível cobrir todas e ainda mais, e preferencia pessoal. Posso mostrar aqui como baixar o vscode, mas você pode preferir o Vim e assim por diante.
+
 ## 3 - Ambientes virtuais
 
 Ambientes virtuais no Python são espaços isolados onde você pode instalar pacotes e dependências sem interferir no sistema global ou em outros projetos.
@@ -47,7 +49,7 @@ Sempre volte na aula 03_Comandos_cmd_e_pip para rever os comando caso esqueça.
 ---
 Siga esse passos para concluir essa pasta:
 
-1 - Instalar o Python e/ou as IDE`s (ver arquivos .pptx) caso não tenha instalado.
+1 - Instalar o Python e/ou as IDE`s (ver arquivo.pptx) caso não tenha instalado.
 
 2 - Estude a Aula: 02_ambientes virtuais.
 
