@@ -64,4 +64,4 @@ git config --remove-section <section>
 
 O sinalizador --remove-section é usado para remover uma seção inteira da sua configuração do Git. 
 
-
+---

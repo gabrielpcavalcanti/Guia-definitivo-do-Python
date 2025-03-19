@@ -99,7 +99,7 @@ Os últimos 10% referem-se principalmente à correção de erros, reversão de a
 
 ---
 
-Antes de entrar nesses assuntos (que estarão em outro arquivo), vamos falar de ---- outros comandos.
+Antes de entrar nesses assuntos (que estarão em outro arquivo), vamos falar de outro comandos.
 
 ## git log
 
