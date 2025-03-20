@@ -1,6 +1,8 @@
 from manim import *
 import numpy as np
 
+supermarket_bag: list[str] = ['eggs', 'pasta', 'cerial', 'apples', 'oranges','milk']
+
 class eixo2(Scene):
 
     def construct(self):

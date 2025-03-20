@@ -219,7 +219,7 @@ single_letters: list[str] = ["a", "b", "c"]
 
 ```python
 points: tuple[int, int] = (10, 20)
-datas: tuple[str, int, float] = ("Alice", 25, 1.75)
+dates: tuple[str, int, float] = ("Alice", 25, 1.75)
 
 ```
 
@@ -380,5 +380,47 @@ def handle_division(a, b):
 ```
 
 ### c) - Context maneger
+
+## Padrões para aspas
+
+Para Strings em variáveis, uso sempre aspas duplas.
+
+```Python
+name: str = "Gabriel"
+surname: str = "Cavalcanti"
+complete_name: str = "Gabriel Cavalcanti"
+```
+
+Para Strings em uma lista, tuplas ou dicionários, use aspas simples.
+
+```Python
+geometric_forms:list[str] = ['triangle', 'square', 'hexagon']
+```
+
+Para f strigas, uso aspas simples.
+
+```Python
+name: str = "Alice"
+age: int = 25
+
+print(f'Olá, meu nome é {name} e eu tenho {age} anos.')
+
+```
+Caso dentro de uma string tenha a necessidade do uso de aspas, use aspas dupas para a string e aspas simples dentro dela.
+
+```Python
+long_string = "Uso das 'aspas simples' dentro de uma string"
+```
+
+Se dentro de uma f string tenha o uso de aspas, use aspas duplas.
+
+```Python
+long_string = "Uso das 'aspas simples' dentro de uma string"
+
+print(f'Olá, meu nome é "{name}" e eu tenho {age} anos.')
+
+```
+
+
 
 ## 8 - Padrões para programação orientada a objetos
