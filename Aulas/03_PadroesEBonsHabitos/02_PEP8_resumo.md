@@ -119,14 +119,13 @@ import os
 
 # Comentário em bloco
 # exemplo de como o um comentário em bloco funciona.
-# Veja se vale a pena usar ou não
+# Veja se vale a pena usar ou não utilizar.
 
 itens = os.listdir(".")
 
 print("Arquivos e diretórios no diretório atual:")
 
 for item in itens:
-
     print(item)
 
 ```

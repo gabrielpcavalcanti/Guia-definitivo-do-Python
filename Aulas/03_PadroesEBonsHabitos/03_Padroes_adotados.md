@@ -2,17 +2,17 @@
 
 No Python e em qualquer linugagem de programação, existem boas regras de conduta a serem usadas e maneiras mais adequadas de escrever o código, tornado-o mais claro a todos. 
 
-O PEP8 é um guia de estilo, será usado nesse curso. Além do mais, outros padrões serão utilizados e serão mostrados aqui (proprios e do clean code). É o que eu acredito ser a melhor forma de escrever um certo conceito da programação no python. Mas assim como na observação feita no arquivo do PEP8, se não enteder algum conceito, não fique assustado. 
-
-Não utilizarei tudo desde o início, mas com o tempo, mais tópicos serão dados e o padrão de escrita do código mudará um pouco até um ponto que vejo como sendo bem escrito. Não uso tudo desde o início, pq não há necessidade e ficaria muito complexo sem a necessidade.
+O PEP8 é um guia de estilo e o PEP257 é uma convensão para docstring, eles serão usado nesse curso. Além do mais, outros padrões serão utilizados e serão mostrados aqui (próprios e do clean code). É o que eu acredito ser a melhor forma de escrever um certo conceito da programação no python. Mas assim como na observação feita no arquivo do PEP8, se não enteder algum conceito, não fique assustado. 
 
 Esse padrões não precisam ser adotados e você que escolhe eles. Uma vez adotado, siga com eles durante todo o projeto, para manter a consistencia. Escolhi eles porque acredito que seja a melhor forma de escreve e aprender Python.
 
-Alguns dos padrões adotados vão paracer com outras linguagens de programação. Não faria sentiso isso porque o python facilita as coisas e tem sua própria forma de escrever e pode ser pedante de escrever, mas em pontos específicos, isso é bom e mostrarei aqui. 
+Não utilizarei tudo desde o início, mas com o tempo, mais tópicos serão dados e o padrão de escrita do código mudará um pouco até um ponto que vejo como sendo bem escrito. Não uso tudo desde o início, pq não há necessidade e ficaria muito complexo sem a necessidade.
 
 Em projetos e em exercícios mais simples, a maioria desses padrões são desnecessários, mas com o passar o tempo, eles ficam mais complexos e a necessidade de adota-los fica maior, então usar o PEP8 e esses padrões é bom saber desde o início.
 
 Algumas vezes vai parecer que o código fica mais poluído, mas escrito de uma forma elegante, se torna muito útil, como veremos. Muitos dos padrões afetados aqui são obrigatórios em outros linguas, o pyhton da liberdade de escrever em diversas maneiras. 
+
+Alguns dos padrões adotados vão paracer com outras linguagens de programação. Não faria sentiso isso porque o python facilita as coisas e tem sua própria forma de escrever e pode ser pedante de escrever, mas em pontos específicos, isso é bom e mostrarei aqui. 
 
 ## Índice  
 1. [if \_\_name__ == '\_\_main__' e def main( )](#1---if-__name__--__main__-e-def-main-)  
@@ -112,7 +112,7 @@ O l minúsculo e o O maiúsculo se paracem muito com os números 1 e 0, respecti
 
 É uma questão relativa, um mesmo nome pode ser grande para você e pequeno para mim. Um objeto com uma unica palavra, independente da extenção dela, é o padrão.
 
-Concidero nomes muito grandes quando são compostos por mais de cinco palavras. Então nunca use para nomear nada. Menos que isso, independete da extenção de cada palavra, é o padrão adotado aqui.
+Concidero nomes muito grandes quando são compostos por mais de cinco palavras, com exceção de preposição e sufixos e prefíxos. Então nunca use para nomear nada. Menos que isso, independete da extenção de cada palavra, é o padrão adotado aqui.
 
 ### d) Letra única para nomear objetos
 
@@ -253,6 +253,7 @@ def filtrar_pares(numeros: List[int]) -> List[int]:
 class Person:
 
     def __init__(self, name: str, age: int) -> None:
+
         self.name = name
         self.age = age
 
@@ -356,12 +357,14 @@ def divide(a, b):
 def handle_division(a, b):
     """Handles exceptions when performing division."""
     try:
+
         result = divide(a, b)
         print(f"Result: {result}")
 
     # Correct and commonly used form.
     except ZeroDivisionError:
         print("Error: Attempt to divide by zero!")
+        
     # Correct and commonly used form.
     except TypeError:
         print("Error: Invalid types! Make sure to provide numbers.")

@@ -1,6 +1,6 @@
 # Algumas configurações do git
 
-Antes de entrar em tópicos mais complexos é bom saber algumas configurações que você pode fazer no Git.
+Deixo esse arquivo com as principais configurações do Git e GitHub para serem usados no momento que precisar.
 
 ## Ver todas as configurações do repositório
 

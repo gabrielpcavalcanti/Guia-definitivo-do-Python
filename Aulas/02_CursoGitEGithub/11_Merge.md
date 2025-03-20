@@ -28,5 +28,4 @@ A mesclagem irá:
 
 4 - Registra o resultado como um novo commit
 
-
-
+---

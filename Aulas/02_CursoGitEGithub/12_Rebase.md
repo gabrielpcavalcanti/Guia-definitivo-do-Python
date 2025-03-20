@@ -29,3 +29,5 @@ Um histórico linear geralmente é mais fácil de ler, entender e trabalhar. Alg
 Você nunca deve fazer o rebase de um public branch (como a principal) em qualquer outra. Ele foi verificado por outros desenvolvedores e, se você alterar seu histórico, causará muitos problemas para eles.
 
 Entretanto, com sua própria ramificação, você pode fazer o rebase em outros branchs (inclusive em um public branch como a principal) quantas vezes quiser.
+
+---

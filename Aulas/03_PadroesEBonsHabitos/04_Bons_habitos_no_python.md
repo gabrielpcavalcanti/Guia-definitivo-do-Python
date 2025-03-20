@@ -9,7 +9,7 @@ Você não precisa seguir essas recomendações, mas será bom aprende-las desde
 
 Quando explicação de cada tópico for mostrada nas aulas seguintes, irei relembrar desse artigo para que vc de uma ohada e veja o que estou dizendo. Eu ireir enfatizar as formas mostrdas  aqui, mas como lá terá muito mais conteúdo, aqui fica um arquivo só com o essencial de cada bom hábito e não a explicação do que significa cada assunto. 
 
-## 1 - Uso de Comprehension 
+## - Uso de Comprehension 
 
 Essa questão é um pouco complicada. Usar comprehensions facilita a escrita e reduz muito o código e é a forma pythonica de criar listas, dicionários, conjuntos. Podem ser usados dentro de loops também.
 
@@ -24,7 +24,6 @@ Veja exemplos de como usar comprehensions, lembrando que pode mudar dependendo d
 quadrados: list[int] = []
 
 for i in range(5):
-
     quadrados.append(i ** 2)
 
 print("Sem List Comprehension:", quadrados)
@@ -44,6 +43,7 @@ for i in range(1, 4):
 
     if i % 2 == 0:  
         linha = []
+
         for j in range(1, 4):
             linha.append(i * j)
 
@@ -53,7 +53,7 @@ print(matriz)
 
 ```
 
-## 2 - Uso para iterações (loops)
+## - Uso para iterações (loops)
 
 ### a) Não use range(len( ))
 
@@ -66,13 +66,11 @@ A primeira forma é pensar que para acessar elemento de um iterador é preciso s
 list_num: list[int] = [1, 2, 3]
 
 for i in range(len(list_num)):
-
     valor = list_num[i]
 
 # Iterar com elementos - forma boa.
 
 for i in list_num:
-
     print(i)
 
 ```
@@ -84,14 +82,12 @@ Caso queira o valor do índice para algum uso, ainda não use range(len( )), use
 list_num: list[int] = [1, 2, 3, 4, 5]
 
 for i in range(len(list_num)):
-    
     print(i)
 
 # Forma boa
 list_num: list[int] = [1, 2, 3, 4, 5]
 
 for indice, valor in enumerate(list_num):
-
     print(f'Indice: {indice} Valor: {valor}')
 ```
 
@@ -183,51 +179,19 @@ for i, x in enumerate(lista):
 
 ```
 
-## 3 - Uso de funções
 
-Existem certas características que toda as funções deveriam ter. No dia a dia da programação, nem sempre é fácil atingir esse ideal, na verdade pode ser bastente difícil.
 
-Uma maneira que gosto de trabalhar e escrever um reascunho de código de uma função da maneira que conseguir, sem me preocupar com os concelhos mostrados aqui. Depois que escrevi e vi que está funcionando, aplico todos os concelhos até o código ficar bem escrito. 
 
-Fazer esse processo não é uma tarefa simples e demanda prática. Siguindo os conselhos abaixo, ficara mais simples e saberá o que deve ser feito para que seu código deixe de ser um rascunho. 
 
-### a) Devem apenas fazer uma única tarefa
 
-Uma função sempre deve execultar uma única tarefa. Se ela faz mais de uma coisa, ela pode ser desmembrada para tarefaz isoladas. 
 
-Para verificar que uma função está apenas executando uma tarefa, ela so deve execultar as etapas que estão a um nível de abstração do nome declarado da função. Isso não é uma tarefa tão simples, mas tenha isso sempre em mente.
 
-Sempre se pergunte se pode separar ela em mais partes. Se separendo elas, a tarefa atribuida some, ela já está execultando a tarefa e não precisa mais ser desmembrada. Caso contrário, desmembre.
 
-Uma função pode fazer mais de uma coisa e, pior ainda, fazer coisas que nem sabe que está acontecendo. Isso se chama side effects. Trasnsformando as função em apenas uma tarefa, reduz muito esse problema, mas algumas vezes pode ser que não resolva. Fique atento.
 
-Algumas vezes ocorre o contrário. Existe duas funções ou mais que fazem a mesma coisa. Isso se chama duplicatas. Elas nunca são necessária e só confundem. Remova todas até que sobre uma.
 
-### b) Uma função tem que ser pequena
 
-Funções muito grandes tendem a ter mais de uma tarefa, que já vimos que não é o ideal, ficam mais difícil de ler e entender. Mantendo as funções curtas evitam que isso aconteça.
 
-Além disso, funções não devem ter neasting e muitos blocos de if/else. No máximo dois blocos de identação. 
 
-O número máximo de linhas recomendada para uma função e de 20 linhas.
-
-### c) Tente contar uma história com suas funções
-
-obedeça uma hierarquia no programa, sempre coloque funções mais gerais no incício e vá descendo com funções hierequicamente abaixo delas. Isso fará sentido e aprenta como se contasse uma história no seu código, fica mais organizado e elegante.
-
-Essa "filosofia" faz parte do que chamamos de step-down rule. Detalhando um pouco mais: A ideia principal é que o código deve ser escrito de forma que o leitor entenda primeiro os conceitos de alto nível antes de mergulhar nos detalhes de implementação.
-
-O código deve ser estruturado de cima para baixo, seguindo uma hierarquia lógica:
-
-Comece com funções/métodos de alto nível (métodos devem descrever o "o que" o código faz, sem muitos detalhes). Em seguida detalhe as implementações conforme o código desce (As funções chamadas no nível superior devem ser definidas logo abaixo, explicando o "como").
-
-Por fim, cada nível responde perguntas do nível acima, ou seja, se uma função chama outra, a implementação da função chamada deve aparecer logo abaixo.
-
-### d) Poucos argumentos nas funções
-
-Tente ao máximo ter a menor quantidade de argumentos possíveis. Se uma função necessita de argumentos, utilize, mas não crie argumentos inúteis.
-
-Uma forma de fazer isso é escolhendo bem o tipo de dado escolhido para que possa reduzir os argumentos. Por exemplo, ter agumentos separados podem ser unidos numa lista, caso faça sentido.
 
 ## 7 - Uso ara programação orientada a objetos
 

@@ -4,11 +4,14 @@ Começa agora uma das partes mais interessantes da programação, mas muito negl
 
 Um pequeno aviso: Muito do texto e informações nessa paste tirei do curso a Google de controle de versão e do curso deste site: https://www.boot.dev/tracks/backend. 
 
+Obs: Nessa pasta tem um arquivo pdf com a lista dos comandos e conceitos resumidos do Git e GitHub. Veja e use, caso queira.
+
 Vamos começar!
 
 ## 1 - O que é controle de versão?
 
 É um sistema que registra todas as mudaças e modificações para fins de rastreamento. 
+
 
 ## 2 - Finalidade do uso do controle de versão
 
