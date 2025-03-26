@@ -229,6 +229,8 @@ ecils o arap etset
 ttp
 ```
 
+--------------------------------------------------------------------------------------------------------------
+
 No python é possível criar variáveis e colocar-las dentro de Strings. Há três formas de fazer isso:
 
 * Utilizando a ,

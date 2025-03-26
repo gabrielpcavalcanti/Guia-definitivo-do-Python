@@ -34,4 +34,3 @@ Gosto de muitos pontos do livro, mas não ao ponto de segui-lo a risca. Os ponto
 Proxima Aula: Qualquer um dos outros arquivos presentes nessa pasta. 
 
 Quando terminar vá para a Aula: 01_Introducao.md Pasta: 04_PrimeirosConceitos
-

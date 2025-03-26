@@ -1,11 +1,10 @@
 # Python Good Habits
 
-Durante meu estudo de Python, assisti vários cursos,vídeos e li muitos fóruns mostrando formas melhores de escrever em Python. Cada um tem um estil próprio, mas a comunidade prefere de uma maneira e mais importente é seguir um padrão definido por você e/ou pela empresa/projeto que está atuando. 
+Durante meu estudo de Python, assisti vários cursos,vídeos e li muitos fóruns mostrando formas melhores de escrever em Python. Cada um tem um estilo próprio, mas a comunidade prefere de uma maneira e mais importente é seguir um padrão definido por você e/ou pela empresa/projeto que está atuando. 
 
 Separei aqui varias dessas formas de escrever melhor o código para várias áreas dentro da linguagem Python. Não se preocupe em decorar tudo porque provavemente muitas dos tópicos aqui você nem sabe do que se trata. A intenção aqui é ser um repositório de bons hábitos na programação em Python que pode ser usado por você. Não precisa ser utilizado a risca, mas neste curso, será.
 
 Você não precisa seguir essas recomendações, mas será bom aprende-las desde o início. Ficará natural e fácil com o aprender da programação. 
-
 
 Quando explicação de cada tópico for mostrada nas aulas seguintes, irei relembrar desse artigo para que vc de uma ohada e veja o que estou dizendo. Eu ireir enfatizar as formas mostrdas  aqui, mas como lá terá muito mais conteúdo, aqui fica um arquivo só com o essencial de cada bom hábito e não a explicação do que significa cada assunto. 
 

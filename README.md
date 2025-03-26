@@ -2,7 +2,7 @@
 
 Esse repositório contém minhas anotações durante o estudo da linguagem de programação python. São arquivos que fiz durante as aulas que assisti e li. Neles contem explicações dos conteúdos e exemplos de cada tópico apresentado. 
 
-Contém muito conteúdo dos assuntos de python, desde o zero até conceitos bem avaçados. De uma olhada nas aulad para ver em qual nível está.
+Contém muito conteúdo dos assuntos de python, desde o zero até conceitos bem avaçados. De uma olhada nas aulas para ver em qual nível está.
 
 O foco aqui é aprender a linguagem Python de forma pura (pasta Aulas e exercicios) e das principais bibliotecas que o Python possui (pasta bibliotecas). Como o Pyhton é uma linguagem de programação de propósito geral, o conhecimento visto é a basa sólida que precisa possuir para persiguir na sua área de interesse. 
 

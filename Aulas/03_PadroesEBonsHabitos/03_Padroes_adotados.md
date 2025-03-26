@@ -12,18 +12,29 @@ Em projetos e em exercícios mais simples, a maioria desses padrões são desnec
 
 Algumas vezes vai parecer que o código fica mais poluído, mas escrito de uma forma elegante, se torna muito útil, como veremos. Muitos dos padrões afetados aqui são obrigatórios em outros linguas, o pyhton da liberdade de escrever em diversas maneiras. 
 
-Alguns dos padrões adotados vão paracer com outras linguagens de programação. Não faria sentiso isso porque o python facilita as coisas e tem sua própria forma de escrever e pode ser pedante de escrever, mas em pontos específicos, isso é bom e mostrarei aqui. 
+Alguns dos padrões adotados vão paracer com outras linguagens de programação. Não faria sentiso isso porque o Python facilita as coisas e tem sua própria forma de escrever e pode ser pedante de escrever, mas em pontos específicos, isso é bom e mostrarei aqui. 
+
+ Talvez você tenha pensado que “fazer funcionar” era a primeira ordem de
+ negócios para um desenvolvedor profissional. Espero que, a esta altura, este livro
+ o tenha dissuadido dessa ideia. A funcionalidade que você cria
+ hoje tem uma boa chance de mudar na próxima versão, mas a
+ legibilidade do seu código terá um efeito profundo em todas as alterações
+ que serão feitas. O estilo de codificação e a legibilidade estabelecem precedentes
+ que continuam a afetar a capacidade de manutenção e a extensibilidade muito depois de o código original ter sido alterado de forma irreconhecível. Seu estilo e sua disciplina
+ sobrevivem, mesmo que seu código não
+
+Traduzido com a versão gratuita do tradutor - DeepL.com
 
 ## Índice  
 1. [if \_\_name__ == '\_\_main__' e def main( )](#1---if-__name__--__main__-e-def-main-)  
-2. [Type annotations](#2---type-annotations)  
-3. [Padrões para variáveis](#3---padrões-para-variáveis)  
-4. [Padrões para strings](#4---padrões-para-string)  
-5. [Padrões para arquivos](#5---padrão-para-abertura-e-fechamento-de-arquivos)
-6. [Padrões para exceções](#6---padrão-para-exceções)
-7. [Padrões para programação orientada a objetos](#7---padrões-para-programação-orientada-a-objetos)
 
-## 1 - if \_\_name__ == '\_\_main__' e def main( )
+## 1 - if \_\_name__ == '\_\_main__' e def main( ) Organização da presedencia de comando
+
+Arquivos não devem ter mais de 500 linhas. Tente contar uma história, com começo meio e fim.
+
+Sempre siga essa ordem, se um dos elementos seguintes não estiver presente no código, não tem problema, a ordem continua. Primeiro os docstring -> imports -> constantes -> classes -> funcões -> código solto -> if name main. 
+
+Dentro de cada um dessas partes, a parte que tiver mais escopo fica emcima da parte que tiver menos escopo. Cria uma hierequia, mesmo que não precise.
 
 Esse if statement e a função main( ) será explicado com muito detalhe quando formos falar de funções, modulos e classes. 
 
@@ -383,12 +394,13 @@ def handle_division(a, b):
 
 ## Padrões para aspas
 
-Para Strings em variáveis, uso sempre aspas duplas.
+Para Strings em variáveis, uso sempre aspas duplas, a menos que seja char.
 
 ```Python
 name: str = "Gabriel"
 surname: str = "Cavalcanti"
 complete_name: str = "Gabriel Cavalcanti"
+example_char: str = 'h'
 ```
 
 Para Strings em uma lista, tuplas ou dicionários, use aspas simples.
@@ -419,6 +431,16 @@ long_string = "Uso das 'aspas simples' dentro de uma string"
 
 print(f'Olá, meu nome é "{name}" e eu tenho {age} anos.')
 
+```
+
+Caso a string seja muito longa e não quisermos usar o \n, use três aspas duplas, assim como nas docstrings.
+
+```python
+texto_longo: str = """No mundo da programação, escrever código limpo e eficiente é essencial. 
+O Python, conhecido por sua legibilidade e simplicidade, permite que os desenvolvedores 
+criem aplicações poderosas com menos linhas de código. Seja para desenvolver uma aplicação web, 
+automatizar tarefas ou analisar dados, o Python oferece uma ampla variedade de bibliotecas e 
+frameworks para ajudar você a alcançar seus objetivos de forma eficiente."""
 ```
 
 
