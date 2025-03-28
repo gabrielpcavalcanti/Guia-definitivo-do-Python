@@ -9,6 +9,61 @@ Uma maneira que gosto de trabalhar e escrever um reascunho de código da maneira
 
 Fazer esse processo não é uma tarefa simples e demanda prática. Siguindo os conselhos abaixo, ficara mais simples e saberá o que deve ser feito para que seu código deixe de ser um rascunho. 
 
+## Uso de nomes
+
+Os padrões adotados no código escrito são os mostrados acima, mas todos eles estão seguindo alguns princípios descritos no clean code, mostrados abaixo.
+
+### Say what you mean. Mean what you say.
+
+Essa frase resume todos os princípios.
+
+### Use nomes que revelem a intenção
+
+Se um nome precisar de comentários, o nome não revala sua intenção e precisa ser alterado. Ele presisa mostrar porque existe, o que faz e como é utilizado.
+
+```python
+elapsed_time_in_days = 10  # Variable name
+WikiPage  # Class name
+post_payment  # Method name
+```
+
+### Evite desiformações
+
+Evite nomes que dão pistas para significados diferntes ou ambiguos no código, evitando a desinformação.
+
+Ex: Use hypotenuse instead of hp.
+
+Não crie nomes de qualquer que seja o objeto muito pareceidos um com os outros. Será difícil diferenciar os dois.
+
+Ex: XYZControllerForEfficientHandlingOfStrings e XYZControllerForEfficientStorageOfStrings.
+
+
+### Faça distinções significativas
+
+Não mude um nome para outro genérico por causa que já existe outro nome com o significado que você queria. Se os nomes são diferntes, eles tem que significar conceitos diferentes.
+
+Não crie nome de objetos diferntes que já significam o mesmo de outro objeto já criado.
+
+### Escolha claridade em vez de entreterimento
+
+Pode ocorrer que durante um projeto, os programadores crie nome de objetos que fazem sentido no contexo interno, como piadas. É uma forma de se distrair, brincar ou até deixa easter eggs. A questão é: fora desse ambiente, o que está escrito não fará sentido.
+
+Então sempre escolha claridade ao inves de intreterimento. 
+
+Se quiser brincar, tudo bem, mas troque quando a brincadeira tiver perdido a graça.
+
+### O tamanho do nome deve corresponder ao tamanho do escopo
+
+Prefira nomes mais curtos, mas contanto que sejam claros e dê contexo. Caso não dê, use nomes mais longo. Melho um nome longo que um comentário ou doctring longa.
+
+Permita-se criar nomes maiores se o escopo for maior, nomes menos se o escopo for melhor. Não precisa necessáriamente seguir isso (pode muito bem ter nomes curtos para escopos grandes e vice-versa).
+
+Não tenha medo de perder tempo escolhendo um nome. Na verdade, você deve experimentar vários nomes diferentes e ler o código com cada um deles.
+
+### Não deixe de usar palavras específicas da programação
+
+Lembre-se de que as pessoas que leem seu código serão programadores. Então vá em frente e use termos de ciência da computação (CS), nomes de algoritmos, nomes de padrões, termos matemáticos e assim por diante.
+
 
 ## - Uso de funções
 
@@ -69,27 +124,27 @@ Se ver a necessidade de escrever um comentário explicando o código que sente q
 
 Se seguir essa "lei" a quantidade de comentários irá diminuir muito. Não irá cessar, pq comentários não são ruins por essência e são muito úteis quando utilizado corretamente.
 
-## Não os elimine totalmente  
+### a) Não os elimine totalmente  
 
 Existem situações que é imprencidível o uso de comentários. não tenha medo de utiliza-los, na verdade, é recomendado. 
 
-### a) Se for obrigatório, escreva
+### b) Se for obrigatório, escreva
 
 Se tem alguma questão legal envolvida, como copyright e declarações de autoria é preciso escreve-los, não tem o que fazer. 
 
-### b) Informado algo pontual
+### c) Informado algo pontual
 
 Caso veja necessidade de escrever um comentário que descreve algo que um objeto faz, é bem-vindo. 
 
-### c) Explicação de intenção
+### d) Explicação de intenção
 
 Às vezes, um comentário vai além de apenas informações úteis sobre a implementação e fornece a intenção por trás de uma decisão.
 
-### d) Esclarecimento de algo
+### e) Esclarecimento de algo
 
 Algumas vezes o nome de funções e métodos da própria linguagem não são claros e nesses casos você não pode mudar, então colocar um comentário esclarecendo o que a função faz é bem-vindo. 
 
-### e) Avisando de consequências
+### f) Avisando de consequências
 
 Pode ocorrer que procesimento demore muito tempo ou não está completo e caso rode o programa, dará problemas. Comentários avisando questões como essas são válidos.
 
@@ -130,4 +185,12 @@ Comentários devem explicar o que está acontecendo no local onde ele está escr
 ### h) Detalhosos
 
 Comentários com muito detalhes e muitas linhas são inuteis. Provavelmente tem uma forma de reduzir o tamanho e muitas vezes ninguém irá ler ou mesmo entender.
+
+## - Uso no tratamento dos erros
+
+Sempre utilize o try-exept para identificar erros, faça teste e veja os erros que aparecem, trate esses erros, especificandos. 
+
+Especificar demais pode ser algo ruim, tente dividir por categorias: Podemos classificá-los por suas fonte: eles vieram de um componente ou de outro? Ou seu tipo: são falhas de dispositivo, falhas de rede ou erros de programação?
+
+O mais importante deve ser como eles são tratados: crie classes gerais e e destinha os erros ou use classes diferntes para um uma exceção específica. Veja qual serve melhor.
 

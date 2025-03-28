@@ -1,34 +1,28 @@
 # Padrões adotados no curso
 
-No Python e em qualquer linugagem de programação, existem boas regras de conduta a serem usadas e maneiras mais adequadas de escrever o código, tornado-o mais claro a todos. 
+No Python e em qualquer liunguagem de programação, existem boas regras de conduta a serem usadas e maneiras mais adequadas de escrever o código, tornado-o mais claro a todos. 
 
 O PEP8 é um guia de estilo e o PEP257 é uma convensão para docstring, eles serão usado nesse curso. Além do mais, outros padrões serão utilizados e serão mostrados aqui (próprios e do clean code). É o que eu acredito ser a melhor forma de escrever um certo conceito da programação no python. Mas assim como na observação feita no arquivo do PEP8, se não enteder algum conceito, não fique assustado. 
 
 Esse padrões não precisam ser adotados e você que escolhe eles. Uma vez adotado, siga com eles durante todo o projeto, para manter a consistencia. Escolhi eles porque acredito que seja a melhor forma de escreve e aprender Python.
 
-Não utilizarei tudo desde o início, mas com o tempo, mais tópicos serão dados e o padrão de escrita do código mudará um pouco até um ponto que vejo como sendo bem escrito. Não uso tudo desde o início, pq não há necessidade e ficaria muito complexo sem a necessidade.
+Trecho retirado do livro clean code que expressa a motivação de ter bons hábitos: "Talvez você tenha pensado que “fazer funcionar” era a primeira ordem de negócios para um desenvolvedor profissional.  A funcionalidade que você cria hoje tem uma boa chance de mudar próxima versão, mas a legibilidade do seu código terá um efeito profundo em todas as alterações que serão feitas. O estilo de codificação e a legibilidade estabelecem precedentes que continuam a afetar a capacidade de manutenção e a extensibilidade muito depois de o código original ter sido alterado de forma irreconhecível. Seu estilo e sua disciplina sobrevivem, mesmo que seu código não."
 
-Em projetos e em exercícios mais simples, a maioria desses padrões são desnecessários, mas com o passar o tempo, eles ficam mais complexos e a necessidade de adota-los fica maior, então usar o PEP8 e esses padrões é bom saber desde o início.
+Observações: 
 
-Algumas vezes vai parecer que o código fica mais poluído, mas escrito de uma forma elegante, se torna muito útil, como veremos. Muitos dos padrões afetados aqui são obrigatórios em outros linguas, o pyhton da liberdade de escrever em diversas maneiras. 
+- Não utilizarei tudo desde o início, mas com o tempo, mais tópicos serão dados e o padrão de escrita do código mudará um pouco até um ponto que vejo como sendo bem escrito. Não uso tudo desde o início, pq não há necessidade e ficaria muito complexo sem a necessidade.
 
-Alguns dos padrões adotados vão paracer com outras linguagens de programação. Não faria sentiso isso porque o Python facilita as coisas e tem sua própria forma de escrever e pode ser pedante de escrever, mas em pontos específicos, isso é bom e mostrarei aqui. 
+- Em projetos e em exercícios mais simples, a maioria desses padrões são desnecessários, mas com o passar o tempo, eles ficam mais complexos e a necessidade de adota-los fica maior, então usar o PEP8 e esses padrões é bom saber desde o início.
 
- Talvez você tenha pensado que “fazer funcionar” era a primeira ordem de
- negócios para um desenvolvedor profissional. Espero que, a esta altura, este livro
- o tenha dissuadido dessa ideia. A funcionalidade que você cria
- hoje tem uma boa chance de mudar na próxima versão, mas a
- legibilidade do seu código terá um efeito profundo em todas as alterações
- que serão feitas. O estilo de codificação e a legibilidade estabelecem precedentes
- que continuam a afetar a capacidade de manutenção e a extensibilidade muito depois de o código original ter sido alterado de forma irreconhecível. Seu estilo e sua disciplina
- sobrevivem, mesmo que seu código não
+- Algumas vezes vai parecer que o código fica mais poluído, mas escrito de uma forma elegante, se torna muito útil, como veremos. Muitos dos padrões afetados aqui são obrigatórios em outros linguas, o pyhton da liberdade de escrever em diversas maneiras. 
 
-Traduzido com a versão gratuita do tradutor - DeepL.com
+- Alguns dos padrões adotados vão paracer com outras linguagens de programação. Não faria sentiso isso porque o Python facilita as coisas e tem sua própria forma de escrever e pode ser pedante de escrever, mas em pontos específicos, isso é bom e mostrarei aqui. 
+
 
 ## Índice  
 1. [if \_\_name__ == '\_\_main__' e def main( )](#1---if-__name__--__main__-e-def-main-)  
 
-## 1 - if \_\_name__ == '\_\_main__' e def main( ) Organização da presedencia de comando
+## 1 - if \_\_name__ == '\_\_main__' e def main( ) Organização da presedencia de comandos
 
 Arquivos não devem ter mais de 500 linhas. Tente contar uma história, com começo meio e fim.
 
@@ -143,61 +137,6 @@ Classes devem ser nomeadas com substantivos ou frases nominais e não ter verbos
 
 Já os métodos tem que ter verbo ou frases verbais.
 
----
-
-Os padrões adotados no código escrito são os mostrados acima, mas todos eles estão seguindo alguns princípios descritos no clean code, mostrados abaixo.
-
-### Say what you mean. Mean what you say.
-
-Essa frase resume todos os princípios.
-
-### Use nomes que revelem a intenção
-
-Se um nome precisar de comentários, o nome não revala sua intenção e precisa ser alterado. Ele presisa mostrar porque existe, o que faz e como é utilizado.
-
-```python
-elapsed_time_in_days = 10  # Variable name
-WikiPage  # Class name
-post_payment  # Method name
-```
-
-### Evite desiformações
-
-Evite nomes que dão pistas para significados diferntes ou ambiguos no código, evitando a desinformação.
-
-Ex: Use hypotenuse instead of hp.
-
-Não crie nomes de qualquer que seja o objeto muito pareceidos um com os outros. Será difícil diferenciar os dois.
-
-Ex: XYZControllerForEfficientHandlingOfStrings e XYZControllerForEfficientStorageOfStrings.
-
-
-### Faça distinções significativas
-
-Não mude um nome para outro genérico por causa que já existe outro nome com o significado que você queria. Se os nomes são diferntes, eles tem que significar conceitos diferentes.
-
-Não crie nome de objetos diferntes que já significam o mesmo de outro objeto já criado.
-
-### Escolha claridade em vez de entreterimento
-
-Pode ocorrer que durante um projeto, os programadores crie nome de objetos que fazem sentido no contexo interno, como piadas. É uma forma de se distrair, brincar ou até deixa easter eggs. A questão é: fora desse ambiente, o que está escrito não fará sentido.
-
-Então sempre escolha claridade ao inves de intreterimento. 
-
-Se quiser brincar, tudo bem, mas troque quando a brincadeira tiver perdido a graça.
-
-### O tamanho do nome deve corresponder ao tamanho do escopo
-
-Prefira nomes mais curtos, mas contanto que sejam claros e dê contexo. Caso não dê, use nomes mais longo. Melho um nome longo que um comentário ou doctring longa.
-
-Permita-se criar nomes maiores se o escopo for maior, nomes menos se o escopo for melhor. Não precisa necessáriamente seguir isso (pode muito bem ter nomes curtos para escopos grandes e vice-versa).
-
-Não tenha medo de perder tempo escolhendo um nome. Na verdade, você deve experimentar vários nomes diferentes e ler o código com cada um deles.
-
-### Não deixe de usar palavras específicas da programação
-
-Lembre-se de que as pessoas que leem seu código serão programadores. Então vá em frente e use termos de ciência da computação (CS), nomes de algoritmos, nomes de padrões, termos matemáticos e assim por diante.
-
 ## 3 - Type annotations
 
 Essa feature do Python é muito útil e quase ninguém adota ela, principalmente no inicío, mas mesmo depois, poucos códigos eu vejo utilizam os tyoe annotation. Se você viu em algum projeto ou repositório, de parabéns a quem escreveu, ele teve cuidado e carinho pelo programa escrito.
@@ -205,6 +144,8 @@ Essa feature do Python é muito útil e quase ninguém adota ela, principalmente
 Usar o type annotations em Python facilita a leitura dos programas e te alerta quando alguma variável está sendo declarada ou usada de forma errada. Algumas IDE`s avisam do erro, mas é bom utilizar a biblioteca mypy para um melhor checagem dos type annotations.
 
 Drclaram uma variável de um tipo e colocar outro no lugar, não vai fazer o programa "crachar", mas ele te alerta que algo está errado. 
+
+Type annotation ajudam a IDE a acessar os métodos do tipo escolhido para a variável ou avisar que algo está inconsistente. Isso agiliza na escrita do código.
 
 Vejamos cada um deles agora:
 
@@ -251,7 +192,7 @@ single_numbers: set[int] = {1, 2, 3}
 ### f) Em parametros e argumentos de funções
 
 ```python
-def sumation(a: int, b: int) -> int:
+def sumation(a: int | str, b: int) -> int:
     return a + b
 
 def filtrar_pares(numeros: List[int]) -> List[int]:
@@ -354,7 +295,13 @@ with open("example.txt", "r") as file:
 
 ## 7 - Padrão para exceções
 
+Lidar com erros é algo inerente na programação. Um programa não será bem escrito se não tiver que lidar com eles. O problema surge se você lida com tantos erros que você não sabe o que seu programa faz. É preciso separar bem as duas partes: a logica e o tratamento de erros.
+
 ### a) Sempre especifique as exceções 
+
+Tanto no tipo específico da exceções quanto colocando uma mensagem para o erro mostrando a operação que falhou e o tipo da falha.
+
+**EXEMPLOS DESSA PARTE**
 
 ### b) Todas as exceções e blocos try/exept devem estar dentro de funções
 
@@ -390,7 +337,13 @@ def handle_division(a, b):
 
 ```
 
-### c) - Context maneger
+### ) Não passe *null*
+
+algumas vezes o usuário vai passar dados errados, previna que ele passe o dado *null*.
+
+**EXEMPLOS DESSA PARTE**
+
+### ) - Context maneger
 
 ## Padrões para aspas
 
