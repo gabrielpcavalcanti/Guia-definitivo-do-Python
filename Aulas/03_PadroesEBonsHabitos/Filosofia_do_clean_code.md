@@ -194,3 +194,57 @@ Especificar demais pode ser algo ruim, tente dividir por categorias: Podemos cla
 
 O mais importante deve ser como eles são tratados: crie classes gerais e e destinha os erros ou use classes diferntes para um uma exceção específica. Veja qual serve melhor.
 
+## Código de terceiros
+
+Third-party code helps us get more functionality delivered in less time.
+ Where do we start when we want to utilize some third-party package?
+ It’s not our job to test the third-party code, but it may be in our best
+ interest to write tests for the third-party code we use.
+ Suppose it is not clear how to use our third-party library. We might spend
+ a day or two (or more) reading the documentation and deciding how we
+ are going to use it. Then we might write our code to use the third-party
+ code and see whether it does what we think. We would not be surprised
+ to find ourselves bogged down in long debugging sessions trying to
+ figure out whether the bugs we are experiencing are in our code or theirs.
+ Learning the third-party code is hard. Integrating the third-party code is
+ hard too. Doing both at the same time is doubly hard. What if we took a
+ different approach? Instead of experimenting and trying out the new stuff
+ in our production code, we could write some tests to explore our
+ understanding of the third-party code. Jim Newkirk calls such tests
+ learning tests.
+
+ The learning tests end up costing nothing. We had to learn the API
+ anyway, and writing those tests was an easy and isolated way to get that
+ knowledge. The learning tests were precise experiments that helped
+ increase our understanding.
+ Not only are learning tests free, they have a positive return on
+ investment. When there are new releases of the third-party package, we
+ run the learning tests to see whether there are behavioral differences.
+ Learning tests verify that the third-party packages we are using work the
+ way we expect them to. Once integrated, there are no guarantees that the
+ third-party code will stay compatible with our needs. The original
+ authors will have pressures to change their code to meet new needs of
+ their own. They will fix bugs and add new capabilities. With each release
+ comes new risk. If the third-party package changes in some way
+ incompatible with our tests, we will find out right away.
+ Whether you need the learning provided by the learning tests or not, a
+ clean boundary should be supported by a set of outbound tests that
+ exercise the interface the same way the production code does. Without
+ these boundary tests to ease the migration, we might be tempted to stay
+ with the old version longer than we should.
+
+ Interesting things happen at boundaries. Change is one of those things.
+ Good software designs accommodate change without huge investments
+ and rework. When we use code that is out of our control, special care
+ must be taken to protect our investment and make sure future change is
+ not too costly.
+ Code at the boundaries needs clear separation and tests that define
+ expectations. We should avoid letting too much of our code know about
+ the third-party particulars. It’s better to depend on something you control
+ than on something you don’t control, lest it end up controlling you.
+ We manage third-party boundaries by having very few places in the code
+ that refer to them. We may wrap them as we did with Map, or we may use
+ an ADAPTER to convert from our perfect interface to the provided
+ interface. Either way our code speaks to us better, promotes internally
+ consistent usage across the boundary, and has fewer maintenance points
+ when the third-party code changes.
