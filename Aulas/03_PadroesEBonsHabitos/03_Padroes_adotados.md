@@ -272,7 +272,27 @@ print(result)
 
 ```
 
-## 5 - Padrão para funções
+##  - Padrão para Neasting
+
+### ) Não teremos estruturas aninhadas do mesmo tipo
+
+Nesting é algo problemático na programação, então para evitar, simplismente não terá nesting de mesmo tipo em nenhum programa. O que quero dizer é que dentro de um if, não terá outro if, mas dentro de um for, podemos ter um if, mas não outro for. E assim com qualquer outro comando dentro do Python.
+
+```python
+# Não pode fazer isso 
+for i in range(10):
+    for j in range(100):
+        
+        if x:
+            ...
+        
+# Pode isso
+for i in range(10):
+
+    if x:
+        ...
+
+```
 
 ## 6 - Padrão para arquivos
 

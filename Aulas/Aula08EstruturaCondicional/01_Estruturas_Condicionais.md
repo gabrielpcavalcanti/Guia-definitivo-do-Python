@@ -18,7 +18,7 @@ Todo bloco de comando no Python se inicia com os : , ele diz ao Python que um no
 
 A identação no python são 4 espaços ou um TAB. Então toda vez que colocar uma estrutura é necessário que a linha(s) de baixo estaja(m) quatro espaços à frente.
 
-Se estiver confuso, calma, isso é padrão no Pyhton. É bem rápida a sua adaptação.
+Se estiver confuso, calma, isso é padrão no Pyhton. É bem rápida a sua adaptação. 
 
 ## If
 
