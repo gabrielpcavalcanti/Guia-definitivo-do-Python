@@ -1,17 +1,9 @@
-hight: float = float(input("Digite sua altura: "))
-person_sex: str = input("Digite seu sexo (m para homens e f para mulheres): ".lower())
+string_01 = "251"
 
-ideal_man_weight: float = (72.7 * hight) - 58 
-ideal_woman_weight: float = (62.1 * hight) - 44.7
+numbers = string_01.replace("", " ").split()
 
-if person_sex == "m":
-    print()
-    print(f'Seu peso ideal é: {ideal_man_weight} kg.')
+numbers = map(lambda x: int(x), numbers)
 
-elif person_sex == "f":
-    print()
-    print(f'Seu peso ideal é: {ideal_woman_weight} kg.')
+sum_number = sum(numbers)
 
-else:
-    print()
-    print("Sexo inválido.")
+print(sum_number)
