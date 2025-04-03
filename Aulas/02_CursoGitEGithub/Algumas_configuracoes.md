@@ -58,14 +58,14 @@ git branch -m oldname newname
 Normalmente, em um armazenamento de chave/valor, como um dicionário Python, não é permitido ter chaves duplicadas. Por mais estranho que pareça, o Git não se importa.
 
 ```
-git config --unset-all <example.key>
+git config --unset-all <"example.key">
 ```
 O sinalizador --unset-all é útil se você realmente quiser eliminar todas as instâncias de uma chave da sua configuração. Por outro lado, o sinalizador --unset só funciona com uma única instância de uma chave.
 
 ## Remove a Section
 
 ```
-git config --remove-section <section>
+git config --remove-section <"section">
 ```
 
 O sinalizador --remove-section é usado para remover uma seção inteira da sua configuração do Git. 
