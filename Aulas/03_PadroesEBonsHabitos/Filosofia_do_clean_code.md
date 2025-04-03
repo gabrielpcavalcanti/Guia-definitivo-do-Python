@@ -248,3 +248,148 @@ Third-party code helps us get more functionality delivered in less time.
  interface. Either way our code speaks to us better, promotes internally
  consistent usage across the boundary, and has fewer maintenance points
  when the third-party code changes.
+
+## Unit tests
+
+Nowadays I would write
+ a test that made sure that every nook and cranny of that code worked as I
+ expected it to. I would isolate my code from the operating system rather
+ than just calling the standard timing functions. I would mock out those
+ timing functions so that I had absolute control over the time. I would
+ schedule commands that set boolean flags, and then I would step the
+ time forward, watching those flags and ensuring that they went from
+ false to true just as I changed the time to the right value.
+ Once I got a suite of tests to pass, I would make sure that those tests
+ were convenient to run for anyone else who needed to work with the
+ code. I would ensure that the tests and the code were checked in together
+ into the same source package.
+ Yes, we’ve come a long way; but we have farther to go. The Agile and
+ TDD movements have encouraged many programmers to write
+ automated unit tests, and more are joining their ranks every day. But in
+ the mad rush to add testing to our discipline, many programmers have
+ missed some of the more subtle, and important, points of writing good
+ tests.
+
+First Law You may not write production code until you have written a failing unit test.
+ 
+Second Law You may not write more of a unit test than is sufficient to fail, and not compiling is failing.
+
+Third Law You may not write more production code than is sufficient to pass the currently failing test.
+
+The tests and the production code are written together, with the
+ tests just a few seconds ahead of the production code.
+
+If we work this
+way, those tests will cover virtually all of our production code. The sheer
+bulk of those tests, which can rival the size of the production code itself,
+can present a daunting management problem
+
+Keeping Tests Clean: What this team did not realize was that having dirty tests is equivalent to,
+ if not worse than, having no tests. The problem is that tests must change
+ as the production code evolves. The dirtier the tests, the harder they are
+ to change. The more tangled the test code, the more likely it is that you
+ will spend more time cramming new tests into the suite than it takes to
+ write the new production code. As you modify the production code, old
+ tests start to fail, and the mess in the test code makes it hard to get those
+ tests to pass again. So the tests become viewed as an ever-increasing
+ liability.
+
+ From release to release the cost of maintaining my team’s test suite rose.
+ Eventually it became the single biggest complaint among the developers.
+ When managers asked why their estimates were getting so large, the
+ developers blamed the tests. In the end they were forced to discard the
+ test suite entirely.
+ But, without a test suite they lost the ability to make sure that changes to
+ their code base worked as expected. Without a test suite they could not
+ ensure that changes to one part of their system did not break other parts
+ of their system. So their defect rate began to rise. As the number of
+unintended defects rose, they started to fear making changes. They
+ stopped cleaning their production code because they feared the changes
+ would do more harm than good. Their production code began to rot. In
+ the end they were left with no tests, tangled and bug-riddled production
+ code, frustrated customers, and the feeling that their testing effort had
+ failed them.
+
+ The moral of the story is simple: Test code is just as important as
+ production code. It is not a second-class citizen. It requires thought,
+ design, and care. It must be kept as clean as production code.
+
+ It is unit tests that keep our code flexible,
+ maintainable, and reusable. The reason is simple. If you have tests, you
+ do not fear making changes to the code! Without tests every change is a
+ possible bug. No matter how flexible your architecture is, no matter how
+ nicely partitioned your design, without tests you will be reluctant to
+ make changes because of the fear that you will introduce undetected
+ bugs.
+
+ you can improve that architecture and design without
+ fear!
+
+ So having an automated suite of unit tests that cover the production code
+ is the key to keeping your design and architecture as clean as possible.
+ Tests enable all the -ilities, because tests enable change.
+So if your tests are dirty, then your ability to change your code is
+ hampered, and you begin to lose the ability to improve the structure of
+ that code. The dirtier your tests, the dirtier your code becomes.
+ Eventually you lose the tests, and your code rots.
+
+ What makes a clean test? Three things. Readability, readability, and
+ readability. Readability is perhaps even more important in unit tests than
+ it is in production code. What makes tests readable? The same thing that
+ makes all code readable: clarity, simplicity, and density of expression. In
+ a test you want to say a lot with as few expressions as possible.
+
+ That is the nature of the dual standard. There are things that you might
+ never do in a production environment that are perfectly fine in a test
+ environment. Usually they involve issues of memory or CPU efficiency.
+ But they never involve issues of cleanliness.
+
+One Assert per Test.
+
+Single Concept per Test
+Perhaps a better rule is that we want to test a single concept in each test
+function. We don’t want long test functions that go testing one
+miscellaneous thing after another. 
+Listing 9-8 is an example of such a
+test. This test should be split up into three independent tests because it
+tests three independent things. Merging them all together into the same
+function forces the reader to figure out why each section is there and
+what is being tested by that section.
+
+F.I.R.S.T.8
+
+ 8. Object Mentor Training Materials.
+
+ Clean tests follow five other rules that form the above acronym:
+ Fast Tests should be fast. They should run quickly. When tests run slow,
+ you won’t want to run them frequently. If you don’t run them frequently,
+ you won’t find problems early enough to fix them easily. You won’t feel
+ as free to clean up the code. Eventually the code will begin to rot.
+
+ Independent Tests should not depend on each other. One test should not
+ set up the conditions for the next test. You should be able to run each test
+ independently and run the tests in any order you like. When tests depend
+ on each other, then the first one to fail causes a cascade of downstream
+ failures, making diagnosis difficult and hiding downstream defects.
+
+ Repeatable Tests should be repeatable in any environment. You should
+ be able to run the tests in the production environment, in the QA
+ environment, and on your laptop while riding home on the train without
+ a network. If your tests aren’t repeatable in any environment, then you’ll
+ always have an excuse for why they fail. You’ll also find yourself unable
+ to run the tests when the environment isn’t available.
+
+ Self-Validating The tests should have a boolean output. Either they pass
+ or fail. You should not have to read through a log file to tell whether the
+ tests pass. You should not have to manually compare two different text
+ files to see whether the tests pass. If the tests aren’t self-validating, then
+ failure can become subjective and running the tests can require a long
+ manual evaluation.
+
+ Timely The tests need to be written in a timely fashion. Unit tests should
+ be written just before the production code that makes them pass. If you
+ write tests after the production code, then you may find the production
+ code to be hard to test. You may decide that some production code is too
+ hard to test. You may not design the production code to be testable.
+
+If you let the tests rot, then your code will rot too. Keep your tests clean.
