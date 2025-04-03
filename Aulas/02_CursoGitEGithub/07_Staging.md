@@ -5,7 +5,6 @@ Esse comando serve para adicionar os arquivos que serão incluidos no próximo c
 Essa é uma área intermediária em que os commits podem ser formatados e revisados antes de serem concluídos.
 
 Sem ela, todos os arquivos do repositório seriam incluídos em todos os commits 
-
 O comando para o staging é:
 
 ```
