@@ -1,6 +1,3 @@
-alphabet: list[str] = ['a', 'b', 'c', 'd']
+alphabet: tuple[int] = (1, 2, 3)
 
-alphabet.insert(4, 'e')
-alphabet.insert(-1, 'z')
-
-print(alphabet)
+alphabet.count(1)
