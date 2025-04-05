@@ -210,7 +210,7 @@ class Person:
         self.age = age
 
     def greeting(self) -> str:
-        return f"Hello, my name is {self.name}!"
+        return f'Hello, my name is {self.name}!'
 
 
 p: Person = Person("Alice", 25)
@@ -367,6 +367,15 @@ algumas vezes o usuário vai passar dados errados, previna que ele passe o dado 
 
 ## Padrões para aspas
 
+Para a função print e input, sempre use aspas duplas, a menos que o print possua uma f-string.
+
+```Python
+print("Hello, World!")
+print(f'Hello, World!')
+
+input("Digite seu nome: ")
+```
+
 Para Strings em variáveis, uso sempre aspas duplas, a menos que seja char.
 
 ```Python
@@ -379,7 +388,8 @@ example_char: str = 'h'
 Para Strings em uma lista, tuplas ou dicionários, use aspas simples.
 
 ```Python
-geometric_forms:list[str] = ['triangle', 'square', 'hexagon']
+geometric_forms: list[str] = ['triangle', 'square', 'hexagon']
+vowels: list[str] = ['a', 'e', 'i', 'o', 'u']
 ```
 
 Para f strigas, uso aspas simples.

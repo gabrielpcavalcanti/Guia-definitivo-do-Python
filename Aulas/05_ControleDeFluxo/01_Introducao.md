@@ -1,6 +1,6 @@
 # Introdução
 
-Após ter visto os primeiros conceitos da programação e feitos os exercícios referentes, você está apto a proceguir no mundo da programação. Aqui começa a ficar mais interessante por que até agora, os algorimos seguiam uma "linha reta", o programa lia linha por linha e exetucava os comandos. Agora podemos mudar o fluxo do programa por meio das estruturas condicionais.
+Após ter visto os primeiros conceitos da programação e feitos os exercícios referentes, você está apto a proseguir no mundo da programação. Aqui começa a ficar mais interessante por que até agora, os algorimos seguiam uma "linha reta", o programa lia linha por linha e exetucava os comandos. Agora podemos mudar o fluxo do programa por meio das estruturas condicionais.
 
 As estruturas condicionais que o Python oferece (if, else, elif e match) permitem que o código ignore pedaços do código caso uma condição seja satísfeita ou não. As possibilidades aumentam e a complexidade também.
 

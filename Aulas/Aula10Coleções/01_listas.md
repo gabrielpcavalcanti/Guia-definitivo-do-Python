@@ -87,7 +87,7 @@ print(lista.index(2))
 
 ## Mudar valores de uma lista
 
-Podemos mudar elementos de uma lista simplesmente acessando o seu elemento e atribundo outro valor de qualquer tipo que seja.
+Podemos mudar elementos de uma lista simplesmente acessando o seu elemento e atribuindo outro valor de qualquer tipo que seja.
 
 ```python
 lista = [1, 2, 3, 4, 5]
