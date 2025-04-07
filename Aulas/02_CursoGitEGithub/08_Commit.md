@@ -10,11 +10,13 @@ git commit -m "mensagem do commit"
  
 ---
 
-Metade do seu fluxo de trabalho como desenvolvedor será composto apenas por três comandos simples:
+Metade do seu fluxo de trabalho como desenvolvedor será composto apenas por cinco comandos simples:
 
+- git init
 - git status (Proximo comando a aprender)
 - git add
 - git commit
+- git log
 
 É a maior parte do que você precisa para trabalhar efetivamente como desenvolvedor individual. Outros 40% do Git se referem à colaboração e ao armazenamento do seu trabalho em um servidor remoto.
 

@@ -22,7 +22,7 @@ Ele fará o seguinte:
 
 O git rebase e o git merge são ferramentas diferentes.
 
-Uma vantagem do Marge  é que ela preserva o verdadeiro histórico do projeto. Ele mostra quando as ramificações foram mescladas e onde. Uma desvantagem é que ele pode criar muitos merge commits, o que pode tornar o histórico mais difícil de ler e entender.
+Uma vantagem do Marge é que ele preserva o verdadeiro histórico do projeto. Ele mostra quando as ramificações foram mescladas e onde. Uma desvantagem é que ele pode criar muitos merge commits, o que pode tornar o histórico mais difícil de ler e entender.
 
 Um histórico linear geralmente é mais fácil de ler, entender e trabalhar. Algumas equipes impõem o uso de um ou de outro em seu main branch, mas, de modo geral, você poderá fazer o que quiser com suas próprias ramificações.
 

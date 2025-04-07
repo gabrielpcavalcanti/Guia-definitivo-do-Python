@@ -2,7 +2,7 @@
 
 Adicionar um remote ao nosso repositório Git não significa que tenhamos automaticamente todo o conteúdo do remote. Primeiro, precisamos buscar o conteúdo.
 
-O comando 
+O comando é:
 
 ```
 git fetch

@@ -10,7 +10,7 @@ Ter Branchs independentes torna o projeto mais fácil de gerenciar.
 
 Não há limite para o número de ramificações que você pode ter. A equipe decide sobre as convenções de nomenclatura que usará. Em muitos casos, ao adicionar um novo recurso, você pode adicionar a palavra-chave feature seguida do nome da ramificação
 
-m seus próprios projetos, cabe a você decidir se deseja manter as ramificações ou excluí-las.
+Em seus próprios projetos, cabe a você decidir se deseja manter as ramificações ou excluí-las.
 
 ## Verificando o Branch atual
 
@@ -37,7 +37,7 @@ git branch <meu_novo_branch>
 ```
 
 ```
-git git switch -c <meu_novo_branch>
+git switch -c <meu_novo_branch>
 ```
 
 O sinalizador -c diz ao Git para criar um novo ramo se ele ainda não existir.

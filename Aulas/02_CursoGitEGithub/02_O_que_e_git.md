@@ -12,7 +12,7 @@ O GitHub tem várias finalidades:
 - Como um local central para compartilhar seu código e colaborar com outras pessoas;
 - Como um portfólio público para seus projetos de codificação.
 
-O GitHub funciona como uma rede social ou pessoas de todos os lugares colocam projetos e disponibilizam eles para que as pessoas possam modificar, clonar, contribuir para seu projeto e at;e seguir seu perfil. Pode funcionar também como um portífolio. 
+O GitHub funciona como uma rede social ou pessoas de todos os lugares colocam projetos e disponibilizam eles para que as pessoas possam modificar, clonar, contribuir para seu projeto e até seguir seu perfil. Pode funcionar também como um portífolio. 
 
 É importante entender que o Git e o GitHub não são a mesma coisa! O Git é uma ferramenta de linha de comando de código aberto para gerenciar arquivos de código. O GitHub e seus principais concorrentes, GitLab e Bitbucket, são produtos comerciais da Web que usam o Git. Seus sites nos oferecem uma maneira de armazenar nosso código que é gerenciado pelo Git.
 

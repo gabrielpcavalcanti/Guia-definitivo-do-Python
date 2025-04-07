@@ -180,18 +180,6 @@ for i, x in enumerate(lista):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## 7 - Uso ara programação orientada a objetos
 
 ## 7 - Padrões para algumas bibliotecas
