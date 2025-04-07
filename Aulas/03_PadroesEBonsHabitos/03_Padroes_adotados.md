@@ -151,31 +151,48 @@ Vejamos cada um deles agora:
 
 ### a) Tipos de variáveis primitivas
 
+Colocamos os : e em seguida o tipo de dado que queremos para a variável. str para strings, int para interiros, float para números reais e bool para booleanos.
+
 ```python
+name: str = "Sofia"
 age: int = 10
 pi_estimated float = 3.14
 logic: bool = True
-name: str = "Sofia"
 
 ```
 
 ### b) Listas
 
+No caso da lista, podemos colocar somente list após os : ou pode especificar o tipo de dados que a lista contém. Sempre será especificado o tipo.
+
+Se tiver mais de um tipo de dado numa lista, utilize o | para isso. 
+
 ```python
+random_values: list = [1, '20', True, 2, 4, 'oi']
 numbers_int: list[int] = [1, 2, 3]
 single_letters: list[str] = ["a", "b", "c"]
+numbers: list[int | float] = [42, 3.14, 2.71, 76]
 
 ```
 
 ### c) Truplas
 
+Nas truplas, varias possibilidades de type annotation aparecem. Primeiro, podemos usar so o tuple, mas sempre será especificado os tipo.
+
+Como trupla é um tipo de dado imutável, é separado o tipo de dados pela vírugula e na ordem que aparece. Não utilize |
+
+O certo seria colocar todos os tipos de dados que a truplas comporta, mas para a notação não ficar sobrecarregada, utilizamos os ...
+
 ```python
 points: tuple[int, int] = (10, 20)
-dates: tuple[str, int, float] = ("Alice", 25, 1.75)
+dates: tuple[str, int,  float] = ("Alice", 25, 1.75)
+intergers: tuple[int, ...] = (1, 4, 6, 153, 76, 232)
 
 ```
 
 ### d) Dicionários
+
+Nos dicionários, é possível so utilizar o dict ou especificar os dados dentro dos parênteses, da mesma forma que as truplas, pela vírgula.
 
 ```python
 student_age_grade: dict[str, int] = {"idade": 25, "nota": 90}
@@ -184,22 +201,54 @@ student_age_grade: dict[str, int] = {"idade": 25, "nota": 90}
 
 ### e) Conjuntos
 
+Nos conjuntos é possível passar so o type annotation set ou com o(s) tipos especificados. Sempre o tipo será especificado.
+
 ```python
+fruits: set = {'apple', 'orange', 'grapes'}
 single_numbers: set[int] = {1, 2, 3}
+random_set: set[int | str] = {1, 4, 5, 'play', 45}
 
 ```
 
 ### f) Em parametros e argumentos de funções
 
+Se quiser mais de um tipo de dado num argumento de uma função, utilize o | para isso. Se quiser apenas um tipo de dado, continua da mesma forma.
+
+Coloca-se -> após o argumentos para identificar o retorno da função. Caso a função não tenha retorno, coloque None. Se tiver mais de um tipo de dado a ser retornado, utilize o |.
+
+Antigamente se usava o método Union da biblioteca typing, mas não vamos utiliar esse método.
+
 ```python
 def sumation(a: int | str, b: int) -> int:
     return a + b
 
-def filtrar_pares(numeros: List[int]) -> List[int]:
+
+def filter_pers(numeros: List[int]) -> List[int]:
     return [n for n in numeros if n % 2 == 0]
 
+
+def subtraction(num_01: int, num_02: int) -> None:
+    print(num_01 - num_02)
+
 ```
+
+Caso o parâmetro da função possa receber tanto um tipo quando None, utilizamos o | e não "tipo = None", a menos que so seja possível o tipo None.
+
+```python
+def greet(name: str | none) -> None:
+
+    if name is None:
+        print("Tipo None")
+    else:
+        print("Tipo String")
+        
+```
+
 ### g) Em classes 
+
+As classes funcionam da mesma forma que as funções.
+
+Quando instânciar uma classe, podemos utilizar o nome da classe como uma type annotation, isso é bem útil. Pode paracer um pouco repetição de notação, mas facilita a IDE e o mypy a funcionar de forma correta.
 
 ```python
 class Person:
@@ -213,7 +262,7 @@ class Person:
         return f'Hello, my name is {self.name}!'
 
 
-p: Person = Person("Alice", 25)
+Gabriel: Person = Person("Alice", 25)
 
 print(p.greeting())
 
@@ -328,7 +377,7 @@ Tanto no tipo específico da exceções quanto colocando uma mensagem para o err
 Um bom hábito é criar um funções que execulta um única tarefa. Criar funções que fazem uma tarefa e ainda tratam das exceções não é uma única tarefa. Então delegue funções apenas para tratar os erros.
 
 ```python
-def divide(a, b):
+def divide(a: float, b: float):
     """Performs division and returns the result."""
     return a / b
 
