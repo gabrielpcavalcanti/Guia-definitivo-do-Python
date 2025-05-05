@@ -1,5 +1,5 @@
 """
-Leia a temperatura em Kelvin e apresente-a convertida em graus Celcius.
+b) Leia a temperatura em Kelvin e apresente-a convertida em graus Celcius.
 A fórmula de conversão é: C = K - 273.15 . Sendo K a temperatura em Kelvin e C a temperatura em Celcius.
 """
 

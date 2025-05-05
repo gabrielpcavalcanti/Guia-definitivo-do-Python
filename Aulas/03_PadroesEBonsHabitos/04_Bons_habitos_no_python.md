@@ -74,7 +74,7 @@ for i in list_num:
 
 ```
 
-Caso queira o valor do índice para algum uso, ainda não use range(len( )), use enumerate( ), você consegueo índice e ,de brinde, o elemento.
+Caso queira o valor do índice para algum uso, ainda não use range(len( )), use enumerate( ), você consegueo índice e, de brinde, o elemento.
 
 ```python
 #Forma ruim
@@ -141,7 +141,7 @@ for key in dictionary:
 
 ```
 
-Não conhecer o comando items( ). Ele "salva"tando o valor das chaves quanto dos valores. Usar eles em vez de qualquer outra forma.
+Não conhecer o comando items( ). Ele "salva" tanto o valor das chaves quanto dos valores. Usar eles em vez de qualquer outra forma.
 
 ```python
 # Forma ruim
@@ -157,6 +157,8 @@ for key, valor in dictionary.items():
     ...
 
 ```
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Não precisa criar seu próprio contador de indíces e aumentá-lo ou diminuí-lo com += ou --, use enumerate( ) para isso.
 
