@@ -12,3 +12,14 @@ linhas do chamado Triangulo de Pascal:
  
 """
 
+num: int = int(input("Digite um número inteiro: "))
+
+for linha in range(num):
+    valor:int = 1
+
+    for coluna in range(linha + 1):
+        print(valor, end=' ')
+        valor = valor * (linha - coluna) // (coluna + 1)
+
+    print()  
+    

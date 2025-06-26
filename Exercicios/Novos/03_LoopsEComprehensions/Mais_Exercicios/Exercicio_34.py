@@ -7,3 +7,18 @@ deve ser pesquisado no vetor, verificando se ele existe entre os n√∫meros que j√
 fornecidos. Exibir na tela o vetor final que foi digitado.
 """
 
+vector_01: list[int] = []
+
+print("Digite os valores do primeiro vetor: \n")
+
+while len(vector_01) != 10:
+
+    value: int = int(input("Digite um valor inteiro: "))
+    
+    if value in vector_01:
+        print("Valor repetido. Digite outro valor.")
+        continue
+    else:
+        vector_01.append(value)
+
+print(vector_01)
