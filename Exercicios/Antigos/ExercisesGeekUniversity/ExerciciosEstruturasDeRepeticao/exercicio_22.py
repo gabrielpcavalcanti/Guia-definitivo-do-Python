@@ -11,7 +11,9 @@ soma = 0
 media = 0
 
 while True:
+
     num = int(input("Digite um número: "))
+    
     if num >=10 and num <= 20:
         soma += num
         media = soma / c
