@@ -15,7 +15,7 @@ Vamos começar!
 
 ## 2 - Finalidade do uso do controle de versão
 
-Já num projeto um pouco maior, saber usar um sistema de versionamento é impressidível para que tudo funcione de forma tranquila. É essencial no dia a dia de quem trabalha com programação pois esses sistemas ajudam na comunicação entre os membros da equipe. Não digo a comunicação verbal e do tratamento com as pessoas, mas sim na comunicação de quem fez algo, porque fez quando fez. 
+Para um projeto um pouco maior, saber usar um sistema de versionamento é impressidível para que tudo funcione de forma tranquila. É essencial no dia a dia de quem trabalha com programação pois esses sistemas ajudam na comunicação entre os membros da equipe. Não digo a comunicação verbal e do tratamento com as pessoas, mas sim na comunicação de quem fez algo, porque fez quando fez. 
 
 Ele é utilizado para a colaboração entre várias pessoas (não necessáriamente da mesma área) em um mesmo projeto. Ajuda a entender porque certas mudanças são feitas e não faz com que mecha no código de outras pessoas nem ser uma mudança definitiva. É impressindível que todos saibam usar e se organizer bem para que a comunicação funcione.
 
@@ -25,7 +25,7 @@ De forma mais direta, a finalidade do controle de versão é facilitar o trabalh
 
 Dentro dos principais objetivos e funcionalidade, temos:
 
-- Mostra o que foi adcionado, modificado e deletado de um projeto;
+- Mostra o que foi adicionado, modificado e deletado de um projeto;
 - Provem o histórico detalhado das mudaças ocorridas;
 - Recuperar arquivos deletados e/ou modificados;
 - Mostrar a caminho percorrido pelo arquivo, incuindo modificações, horário e quem fez;

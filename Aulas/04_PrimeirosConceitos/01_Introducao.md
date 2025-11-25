@@ -1,8 +1,8 @@
 # Introdução
 
-Tudo que você viu até agora foram preparativos para finalmente começar a programar. Se seguiu a ordem das aulas até aqui, ainda não execultou nenhuma linha de código em Python (já viu várrios exemplos, mas provavelmente ainda não os entendeu). Caso não tenha seguido e as aulas e pulou para essa pasta, o mínimo que você deve ter o Python instalado (O ideal é ter visto as aulas anteriores) para poder acompanhar. 
+Tudo que você viu até agora foram preparativos para finalmente começar a programar. Se seguiu a ordem das aulas até aqui, ainda não execultou nenhuma linha de código em Python (já viu vários exemplos, mas provavelmente ainda não os entendeu). Caso não tenha seguido e as aulas e pulou para essa pasta, o mínimo que você deve ter o Python instalado (O ideal é ter visto as aulas anteriores) para poder acompanhar. 
 
-O ideal é você ter instalado o Python, configurado a sua IDE, entendido como funciona os ambientes virtuais. Ainda melhor se  tiver estudado o curso de Git e GitHub e visto os padrões e bons hábitos. 
+O ideal é você ter instalado o Python, configurado a sua IDE, entendido como funciona os ambientes virtuais. Ainda melhor se tiver estudado o curso de Git e GitHub e visto os padrões e bons hábitos. 
 
 Só para verificar que o Python está realmente instalado, abra o terminal e dgite:
 
@@ -28,8 +28,7 @@ Esse terminal interativo somente é útil para realizar algumas operações mate
 
 Será os dois primeiros comandos que iremos aprender. São funções para te auxiliar durante a escrita do código. Eles tem o objetivo de mostrar os métodos, as funções, a documetação disponivel para determinado objeto.
 
-Normalmente eles eles não ficam no código final, pois são para a consuta de determinada
-função interna do Python ou não.
+Normalmente eles eles não ficam no código final, pois são para a consuta de determinada função interna do Python ou não.
 
 Tanto o dir( ) quanto o help( ) são funções internas do Python. Se preferir não utilizar elas durante a escrita do código, como alternativa, acesse a documentação oficial do Python para entender melhor sobre determinado objeto ou pesquise na internet.
 
@@ -64,7 +63,7 @@ dir("oi")
 
 Perceba que ele listou todos os métodos possíveis para determinado objeto, no caso foi números inteiros e Strings, respectivamente.
 
----
+
 
 Agora se quisermos saber para que serve determinad função ou método, utilizamos a função help( ). Ela mostrará a documentação do método.
 
@@ -110,7 +109,7 @@ No primeiro caso, o help mostra a documetação de uma função inteira, todos o
 possíveis; No segundo caso, ele mostra o que o método upper faz com a String, ou seja,
 transforma todas as letras em maiúsculo.
 
-Podemos utilizar a função help( ) para qualquer outra função do Python, inclusive o própio help ou uma função criada pelo usuário. Sempre utlize essa função ou leia a documentação, caso haja dúvida.
+Podemos utilizar a função help( ) para qualquer outra função do Python, inclusive o próprio help ou uma função criada pelo usuário. Sempre utlize essa função ou leia a documentação, caso haja dúvida.
 
 Obs: Caso não esteja usando o terminal é necessário colocar a função print( ). 
 
@@ -131,7 +130,6 @@ type((3, 4))
 ```python
 <class 'str'>
 ```
----
 
 ```python
 type("Gabriel")
@@ -147,6 +145,8 @@ Todos os princípios utilizados para escrever comentários estão no arquivo fil
 
 Essa aula serve para mostrar a "sintaxe" do comentário no Python e como eles funcionam. Além de já ser bom saber como funciona antes mesmo de escrevermos qualquer comando.
 
+Os comentário não serão lidos pelo interpretador do Python. Eles estão lá para explicar o código e somente isso.
+
 Comentários no python podem ser feitos de duas formas:
 
 A primeira é utilizando #. Esse tipo de comentário é de apenas uma linha. Se quisermos ter um comentário numa linha abaixo, é preciso utilizar outra #;
@@ -154,7 +154,6 @@ A primeira é utilizando #. Esse tipo de comentário é de apenas uma linha. Se 
 ```python
 # Esse é um comentário de uma única linha. Ele não será lido pelo interpretador.
 ```
-
 
 O segundo tipo e utilizando três aspas dupas """ e fechando com mais três aspas duplas """ ou três aspas simples no começo e no final. Nesse caso, tudo que estiver dentro das aspas. será um comentário, ou seja, não será lido pelo interpretador.
 
@@ -174,7 +173,5 @@ Não é uma forma usual de fazer isso, mas é possível.
 ```
 
 Utiliza-se o segundo tipo de comentário para explicar funções. Chamamos nesse caso de docStrings (documentação da função(veja aula PEP257)).
-
-Os comentário não serão lidos pelo interpretador do Python. Eles estão lá para explicar o código e somente isso.
 
 ---

@@ -10,7 +10,7 @@ Trecho retirado do livro clean code que expressa a motivação de ter bons hábi
 
 Observações: 
 
-- Não utilizarei tudo desde o início, mas com o tempo, mais tópicos serão dados e o padrão de escrita do código mudará um pouco até um ponto que vejo como sendo bem escrito. Não uso tudo desde o início, pq não há necessidade e ficaria muito complexo sem a necessidade.
+- Não utilizarei tudo desde o início, mas com o tempo, mais tópicos serão dados e o padrão de escrita do código mudará um pouco até um ponto que vejo como sendo bem escrito. Não uso tudo desde o início, pq não há necessidade e ficaria muito complexo sem necessidade.
 
 - Em projetos e em exercícios mais simples, a maioria desses padrões são desnecessários, mas com o passar o tempo, eles ficam mais complexos e a necessidade de adota-los fica maior, então usar o PEP8 e esses padrões é bom saber desde o início.
 
@@ -26,9 +26,9 @@ Observações:
 
 Arquivos não devem ter mais de 500 linhas. Tente contar uma história, com começo meio e fim.
 
-Sempre siga essa ordem, se um dos elementos seguintes não estiver presente no código, não tem problema, a ordem continua. Primeiro os docstring -> imports -> constantes -> classes -> funcões -> código solto -> if name main. 
+Sempre siga essa ordem, se um dos elementos seguintes não estiver presente no código, não tem problema, a ordem continua. Primeiro os docstring -> imports -> constantes -> classes -> funcões -> código solto -> def main -> if name main. 
 
-Dentro de cada um dessas partes, a parte que tiver mais escopo fica emcima da parte que tiver menos escopo. Cria uma hierequia, mesmo que não precise.
+Dentro de cada um dessas partes, a parte que tiver mais escopo fica em cima da parte que tiver menos escopo. Cria uma hierequia, mesmo que não precise.
 
 Esse if statement e a função main( ) será explicado com muito detalhe quando formos falar de funções, modulos e classes. 
 
@@ -99,7 +99,7 @@ Os padrões para nomes adotados seguirão a maiora dos concelhos vistos no livro
 
 Procure o livro Clean code de Robert C Martin para saber mais sobre o assunto.
 
-Nomear variáveis, funções, classes, métodos e assim por diante é uma tarefa que parece fácil a princípio, mas se não for bem feita pode levar a problemas sérios. tem uma frase que diz: "Nomear variáveis é 50% do código, e a outra metade é tentar entender o que você quis dizer." Se você nomear de forma "correta", seguindo um padrão, fica muito mais simples entender o que está acontecendo no código.
+Nomear variáveis, funções, classes, métodos e assim por diante é uma tarefa que parece fácil a princípio, mas se não for bem feita pode levar a problemas sérios. tem uma frase que diz: **"Nomear variáveis é 50% do código, e a outra metade é tentar entender o que você quis dizer."** Se você nomear de forma "correta", seguindo um padrão, fica muito mais simples entender o que está acontecendo no código.
 
 Vamos ver os padões adotado:
 
@@ -121,11 +121,11 @@ Concidero nomes muito grandes quando são compostos por mais de cinco palavras, 
 
 ### d) Letra única para nomear objetos
 
-letras únicas geralmente são utilizadas para objetos que não tem muita importancia no código ou são utilizadas para testes. Se se não tem importância, nao deve ser utilizado e se for utlilizado para teste, mude o nome depois no código final
+letras únicas geralmente são utilizadas para objetos que não tem muita importancia no código ou são utilizadas para testes. Se se não tem importância, nao deve ser utilizado e se for utlilizado para teste, mude o nome depois no código final.
 
 Usar letras para constantes também é comum. Não faça isso, fica ruim de pesquisar pelo código e podem significar situações diferentes. Sempre escreve o nome da constante em letras maiúsculas. É o padrão adotado aqui.
 
-Não será numeros seriados, como a1, a2, c3 etc
+Não utilizaremos numeros seriados, como a1, a2, c3 etc
 
 ### e) Uso de prefixos e sufixos
 
@@ -139,11 +139,11 @@ Já os métodos tem que ter verbo ou frases verbais.
 
 ## 3 - Type annotations
 
-Essa feature do Python é muito útil e quase ninguém adota ela, principalmente no inicío, mas mesmo depois, poucos códigos eu vejo utilizam os tyoe annotation. Se você viu em algum projeto ou repositório, de parabéns a quem escreveu, ele teve cuidado e carinho pelo programa escrito.
+Essa feature do Python é muito útil e quase ninguém adota ela, principalmente no inicío, mas mesmo depois, poucos códigos eu vejo utilizam os type annotation. Se você viu em algum projeto ou repositório, de parabéns a quem escreveu, ele teve cuidado e carinho pelo programa escrito.
 
 Usar o type annotations em Python facilita a leitura dos programas e te alerta quando alguma variável está sendo declarada ou usada de forma errada. Algumas IDE`s avisam do erro, mas é bom utilizar a biblioteca mypy para um melhor checagem dos type annotations.
 
-Drclaram uma variável de um tipo e colocar outro no lugar, não vai fazer o programa "crachar", mas ele te alerta que algo está errado. 
+Usar Type annotations não interfere na execução do código, por exemplo declarar uma variável de um tipo e colocar outro no lugar, não vai fazer o programa "crachar", mas ele te alerta que algo está errado. 
 
 Type annotation ajudam a IDE a acessar os métodos do tipo escolhido para a variável ou avisar que algo está inconsistente. Isso agiliza na escrita do código.
 
@@ -235,7 +235,7 @@ def subtraction(num_01: int, num_02: int) -> None:
 Caso o parâmetro da função possa receber tanto um tipo quando None, utilizamos o | e não "tipo = None", a menos que so seja possível o tipo None.
 
 ```python
-def greet(name: str | none) -> None:
+def greet(name: str | None) -> None:
 
     if name is None:
         print("Tipo None")
@@ -262,7 +262,7 @@ class Person:
         return f'Hello, my name is {self.name}!'
 
 
-Gabriel: Person = Person("Alice", 25)
+Alice: Person = Person("Alice", 25)
 
 print(p.greeting())
 
@@ -321,9 +321,9 @@ print(result)
 
 ```
 
-##  - Padrão para Neasting
+## 5 - Padrão para Neasting
 
-### ) Não teremos estruturas aninhadas do mesmo tipo
+### a) Não teremos estruturas aninhadas do mesmo tipo
 
 Nesting é algo problemático na programação, então para evitar, simplismente não terá nesting de mesmo tipo em nenhum programa. O que quero dizer é que dentro de um if, não terá outro if, mas dentro de um for, podemos ter um if, mas não outro for. E assim com qualquer outro comando dentro do Python.
 
@@ -406,13 +406,13 @@ def handle_division(a, b):
 
 ```
 
-### ) Não passe *null*
+### c) Não passe *null*
 
 algumas vezes o usuário vai passar dados errados, previna que ele passe o dado *null*.
 
 **EXEMPLOS DESSA PARTE**
 
-### ) - Context maneger
+### d) - Context maneger
 
 ## Padrões para aspas
 

@@ -1,6 +1,6 @@
 # Introdução
 
-Aqui que inicia seu processo de aprendizado em linguagem Python. Mas antes de ir direto para a linguagem e sua sintaxe, é preciso entender alguns pontos essencias para o aprendizado de qualquer linguagem de programação. Veremos esses ponto logo abaixo e caso tenha interesse, pesquise mais a fundo cada um que verá diversas discursões a respeito de cada típico. 
+Aqui que inicia seu processo de aprendizado em linguagem Python. Mas antes de ir direto para a linguagem e sua sintaxe, é preciso entender alguns pontos essencias para o aprendizado de qualquer linguagem de programação. Veremos esses ponto logo abaixo e caso tenha interesse, pesquise mais a fundo cada um que verá diversas discursões a respeito de cada tópico. 
 
 Não se prenda muito a detalhes agora, por que se não, vai ficar preso sem sair do lugar, mas são boas questões para se descutir e aprofundar a medida que avaça na programação. As respostas e devagações que farei aqui são bem diretas e pontuais, mas sufucientes para iniciar o curso. Vá atrás caso queira mais informações.
 
@@ -22,12 +22,12 @@ Mesmo que ela não seja perfeita, veremos os problemas depois, ela é otima para
 
 Uma linguagem de programação é um conjunto de regras e instruções que permitem aos programadores escrever códigos para serem interpretados ou compilados por um computador. É um sistema formal composto por regras, símbolos e estruturas que permitem a escrita de algoritmos e instruções para que um computador possa entender e executar tarefas.
 
-Tem linguagem com sitaxes mais fáceis, outras mais difícies, mas todas fazem tudo, mesmo que existam linguagens de programação mais adequadas para determinadas tarefas. Com o passar do tempo, programadores escolhem um linguagem para determinada tarefa e novas ferramentas vão sendo criadas, adequando mais ainda uma linguagem a uma determinada área da programação. Pyhton é bom para ciencia de dados e IA, mas pode fazer web tmb, criaçao de jogos, e ...
+Tem linguagem com sitaxes mais fáceis, outras mais difícies, mas todas fazem tudo, mesmo que existam linguagens de programação mais adequadas para determinadas tarefas. Com o passar do tempo, programadores escolhem um linguagem para determinada tarefa e novas ferramentas vão sendo criadas, adequando mais ainda uma linguagem a uma determinada área da programação. Pyhton é bom para ciencia de dados e IA, mas pode fazer web tmb, criaçao de jogos etc.
 
 
 ## 4 - Linguagem de programção interpretada vs compilada.
 
-As linguagens de programação são cridas com alguns pensamentos em mente. Eles modam como a linguagem vai funcionar. Não existe maneira certa para criar uma liguagem, só existe a maneira da qual você quer que seja e as pessoas que gostem ou não. O sucesso ou fracasso da linguagem indpendem desses fatores. 
+As linguagens de programação são cridas com alguns pensamentos em mente. Eles moldam como a linguagem vai funcionar. Não existe maneira certa para criar uma liguagem, só existe a maneira da qual você quer que seja e as pessoas que gostem ou não. O sucesso ou fracasso da linguagem indpendem desses fatores. 
 
 O primeiro deles é se a linguagem de programação é compilada ou interpretada. O Python é uma linguagem interpretada e compilada, mas vamos ver primeiro o que é cada um e seus pontos positivos e negativos.
 

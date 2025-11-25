@@ -1,8 +1,8 @@
 # Didática das aulas
 
-A muita discursão na intenet a respeito da melhor forma de aprender a progrmar. Há diversas fomas de aprender um mesmo assunto e elas podem ser mais ou menos eficazes. No quesito aprendizado de fato, há estudos mostrado a maneira mais eficiente e menos eficiente de aprender. No fim, o que mais importa e a forma que você gosta de estudar e qua funcione para você.
+A muita discursão na intenet a respeito da melhor forma de aprender a programar. Há diversas fomas de aprender um mesmo assunto e elas podem ser mais ou menos eficazes. No quesito aprendizado de fato, há estudos mostrado a maneira mais eficiente e menos eficiente de aprender. No fim, o que mais importa e a forma que você gosta de estudar e qua funcione para você.
 
-Não discutirei essas formas de aprendizado aqui, o intuito é mostrar a didática que escolhi para ensinar alguém a programar. Você pode não gostar dela e está tudo bem, busque outro material e sigua a vida.
+Não discutirei essas formas de aprendizado aqui, o intuito é mostrar a didática que escolhi para ensinar alguém a programar. Você pode não gostar dela e está tudo bem, busque outro material e siga a vida.
 
 Esudando programação por um tempo, vi diversas formas de ensinar, desde de escrever o código a lápis a utilização de inteligencias artificiais; aprender lógica de programação e algorítimos primeiro e depois partir para a linguagem ou não. São vários estilos de ensinar e mostrei o que mais gosto e que é aplicado nesse repositório.
 

@@ -18,7 +18,7 @@ Como avisado na aula, não se preocupe muito em decorar tudo (muitos dos conceit
 
 ## 3 - Padrões adotados
 
-Nesse arquivo estão presentes todos os padrões adotados durannte a escrita da linguagem. Além do PEP8, algumas partes do Clean code. Eles não precisam ser utilizados, mas será.
+Nesse arquivo estão presentes todos os padrões adotados durante a escrita da linguagem. Além do PEP8, algumas partes do Clean code. Eles não precisam ser utilizados, mas será.
 
 ## 4 - Bons hábitos
 
