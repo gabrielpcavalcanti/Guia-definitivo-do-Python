@@ -175,3 +175,5 @@ Não é uma forma usual de fazer isso, mas é possível.
 Utiliza-se o segundo tipo de comentário para explicar funções. Chamamos nesse caso de docStrings (documentação da função(veja aula PEP257)).
 
 ---
+
+As próximas aulas estão todas em formato .ipynb, que é o formato do jupter notebook. Vá estudando elas na ordem que aparece. Depois que terminar tudo, vá para os exercícios.
