@@ -1,10 +1,10 @@
 """
-Receba a altura do degrau de uma escada e a altura que o usuário deseja alcançar subindo a escada. Calcule e mostre quantos degraus o usuário deverá subir para atingir o seu objetivo. 
+Leia um número inteiro de quatro dígitos (1000 a 9999) e imprima um dígito por linha.
 """
 
-hight_ladder_step: float = float(input("Digite a altura do degrau: "))
-hight: float = float(input("Qual altura deseja alcançar: "))
+num = input("Digite um número inteiro de quatro dígitos (1000 a 9999): ")
 
-steps: float = hight / hight_ladder_step
-
-print(f'A quantidade de degraus para atingir o seu objetivo é: {steps}')
+print(num[0])
+print(num[1])
+print(num[2])
+print(num[3])

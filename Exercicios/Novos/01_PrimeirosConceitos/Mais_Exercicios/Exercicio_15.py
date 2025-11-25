@@ -1,13 +1,11 @@
 """
-Leia a altura e o raio de um cilindro e imprima o volume.
-O volume de um cilindro é calculado por meio da seguinte forma: V = PI * (radius ** 2) * height, onde PI = 3.141592 
+Faça um programa que leia o valor de horas de trabalho (em reais) e o número de horas trabalhas no mês. Imprima o valor a ser pago ao funcionário, adcionando 10% ao valor calculado. 
 """
 
-PI = 3.141592
+price_per_hour = float(input("Digite a preço por hora trabalhada: "))
 
-height: float = float(input("Digite a altura do cilindro: "))
-radius: float = float(input("Digite o raio do cilindro : "))
+hour: int = int(input("Digite a quantidade de horas trabalhadas: "))
 
-volume: float = PI * (radius ** 2) * height
+salary: float = (price_per_hour * hour) + ((price_per_hour * hour) * 0.1)
 
-print(f'O volume é {volume:.2f}')
+print(f'O valor a ser pago é R$ {salary}')

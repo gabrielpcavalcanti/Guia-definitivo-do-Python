@@ -1,13 +1,10 @@
 """
-Leia um ângulo em gruas e apresente-o convertido em radianos e vice-versa.
-A fórmula de concersão é R = D * PI / 180, sendo R o ângulo em radianos e D o ângulo em graus e PI = 3.14.
-A fórmula de concersão é D = R * 180 / PI, sendo R o ângulo em radianos e D o ângulo em graus e PI = 3.14.
+Sejam a e b lados de um triângulo, onde a hipotenusa é obtida pela equação hipo = square_root(a**2 + b**2). Faça um programa que receba os valores de a e b e calcule o valor da hipotenusa através da equação. Imprima o resultado dessa operação. 
 """
 
-PI: float = 3.14
+a: int = int(input("Digite o valor do cateto:  "))
+b: int = int(input("Digite o valor do cateto: "))
 
-angle_degres: float = float(input("Digite o ângulo em graus: "))
-angle_rad: float = float(input("Digite o ângulo em radianos: "))
+hipo: float = (a**2 + b**2) ** (1/2)
 
-print(f'O ângulo em radianos é: {angle_degres * PI / 180}.')
-print(f'O ângulo em graus é: {angle_rad * 180 / PI}.')
+print(f'A hipotenusa é: {int(hipo)}')

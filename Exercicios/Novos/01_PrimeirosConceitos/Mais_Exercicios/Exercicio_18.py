@@ -1,11 +1,10 @@
 """
-Faça um programa que leia o valor de horas de trabalho (em reais) e o número de horas trabalhas no mês. Imprima o valor a ser pago ao funcionário, adcionando 10% ao valor calculado. 
+Receba a altura do degrau de uma escada e a altura que o usuário deseja alcançar subindo a escada. Calcule e mostre quantos degraus o usuário deverá subir para atingir o seu objetivo. 
 """
 
-price_per_hour = float(input("Digite a preço por hora trabalhada: "))
+hight_ladder_step: float = float(input("Digite a altura do degrau: "))
+hight: float = float(input("Qual altura deseja alcançar: "))
 
-hour: int = int(input("Digite a quantidade de horas trabalhadas: "))
+steps: float = hight / hight_ladder_step
 
-salary: float = (price_per_hour * hour) + ((price_per_hour * hour) * 0.1)
-
-print(f'O valor a ser pago é R$ {salary}')
+print(f'A quantidade de degraus para atingir o seu objetivo é: {steps}')

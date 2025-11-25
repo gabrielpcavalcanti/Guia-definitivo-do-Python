@@ -1,10 +1,9 @@
 """
-Leia a temperatura em Celcius e apresente-a convertida em graus Kelvin.
-A fórmula de conversão é: K = C + 273.15 . Sendo K a temperatura em Kelvin e C a temperatura em Celcius.
+Leia o tamanho do lado de um quadrado e imprima a sua área.
 """
 
-tempo_celcius: float = float(input("Digite a temperatura em graus Celcius: "))
+size_square: float = float(input("Digite o tamanho do lado do quadrado: "))
 
-temp_kelvin: float = tempo_celcius + 273.15
+area_square: float = size_square ** 2
 
-print(f'A temperatura em Kelvin é: {temp_kelvin}')
+print(f'A área do quadrado é: {area_square:.2f}')

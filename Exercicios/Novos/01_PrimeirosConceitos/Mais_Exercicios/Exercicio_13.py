@@ -1,10 +1,15 @@
 """
-Leia o valor do raio de um circulo e imprima a área do circulo.
-A área do circulo é: A = PI * R**2, sendo PI = 3.141592.
+O valor de 7.800.000.000 será dividida entre três ganhadores de um concurso. Sendo que da quantia total:
+O primeiro ganhador receberá 46%;
+O segundo receberá 32%;
+O terceiro receberá o restante.
+Calcule e imprima a quantia ganha por cada um dos ganhadores.
 """
 
-PI = 3.141592
+value: int = 7_800_000_000
 
-radious: float = float(input("Digite o raio do circulo: "))
+first_winner: float = value * 0.46
+secund_winner: float = value * 0.32
+third_winner: float = value - (first_winner + secund_winner)
 
-print(f'A área do circulo é {PI * radious**2}')
+print(f'O primeiro ganhador vai receber R$ {first_winner:,.2f}, O segundo vai receber R$ {secund_winner:,.2f} e o terceiro vai receber R$ {third_winner:,.2f}')

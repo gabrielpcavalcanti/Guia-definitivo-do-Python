@@ -1,10 +1,13 @@
 """
-Sejam a e b lados de um triângulo, onde a hipotenusa é obtida pela equação hipo = square_roo(a**2 + b**2). Faça um programa que receba os valores de a e b e calcule o valor da hipotenusa atravez da equação. Imprima o resultado dessa operação. 
+Uma empresa contrata um encanador a R$ 30.00 por dia. Faça um programa que solicite o número de dias trabalhados pelo encanador e imprima a quantia líquida que deverá ser paga, sabendo que são decontados 8% para imposto de renda.
 """
 
-a: int = int(input("Digite o valor do cateto:  "))
-b: int = int(input("Digite o valor do cateto: "))
+payday_plumber: int = 30
 
-hipo: float = (a**2 + b**2) ** (1/2)
+days: int = int(input("Digite o número de dias: "))
 
-print(f'A hipotenusa é: {int(hipo)}')
+total: int = payday_plumber * days
+
+liquid: float = total - (0.8 * total)
+
+print(f'A quantia líquida é {liquid}')

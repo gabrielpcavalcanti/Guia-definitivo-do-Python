@@ -1,9 +1,13 @@
 """
-Leia o tamanho do lado de um quadrado e imprima a sua área.
+Leia a altura e o raio de um cilindro e imprima o volume.
+O volume de um cilindro é calculado por meio da seguinte forma: V = PI * (radius ** 2) * height, onde PI = 3.141592 
 """
 
-size_square: float = float(input("Digite o tamanho do lado do quadrado: "))
+PI = 3.141592
 
-area_square: float = size_square ** 2
+height: float = float(input("Digite a altura do cilindro: "))
+radius: float = float(input("Digite o raio do cilindro : "))
 
-print(f'A área do quadrado é: {area_square:.2f}')
+volume: float = PI * (radius ** 2) * height
+
+print(f'O volume é {volume:.2f}')
