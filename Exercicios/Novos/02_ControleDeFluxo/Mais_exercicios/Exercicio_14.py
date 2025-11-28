@@ -1,47 +1,47 @@
 """
-Faça um programa que receba a altura e o peso de uma pessoa. De acordo com a tabela 
-a seguir, verifique e mostra qual a classificação dessa pessoa. 
+Um produto vai sofrer aumento de acordo com a tabela abaixo. Leia o preço antigo, 
+calcule e escreva o preço novo, e escreva uma mensagem em função do preço novo (de 
+acordo com a segunda tabela). 
 
-    Altura                                  Peso 
-                  Até 60           Entre 60 e 90 (Inclusive)       Acima de 90 
-Menor que 1,20    A                         D                          G
-De 1,20 a 1,70    B                         E                          H
-Maior que 1,70    C                         F                          I
+PREÇO ANTIGO                PORCENTAGEM DE AUMENTO
+até R$ 50                            5%
+entre R$ 50 e R$ 100                 10%
+acima de R$ 100                      15% 
+
+PREÇO NOVO                              MENSAGEM 
+até R$ 80                               Barato 
+entre R$ 80 e R$ 120 (inclusive)        Normal 
+entre R$ 120 e R$ 200 (inclusive)       Caro 
+acima de R$ 200                         Muito caro 
 """
 
-hight: float = float(input("Digite a altura: "))
-weight: float = float(input("Digite o peso: "))
+old_price: float = float(input("Digite o preço antigo do produto: "))
 
-if hight < 1.20:
+if old_price <= 50:
+    increase_percentage: float = 0.05
 
-    if weight < 60:
-        print("A")
+elif old_price <= 100:
+    increase_percentage = 0.10
 
-    elif weight >= 60 and weight <= 90:
-        print("D")
-    
-    elif weight > 90:
-        print("G")
+else:
+    increase_percentage = 0.15
 
-elif hight >= 1.20 and hight <= 1.70:
+new_price: float = old_price * (1 + increase_percentage)
 
-    if weight < 60:
-        print("B")
 
-    elif weight >= 60 and weight <= 90:
-        print("E")
-    
-    elif weight > 90:
-        print("H")    
+if new_price <= 80:
+    message: str = "Barato"
 
-elif hight > 1.70:
-     
-     if weight < 60:
-        print("C")
+elif new_price <= 120:
+    message = "Normal"
 
-     elif weight >= 60 and weight <= 90:
-        print("F")
-    
-     elif weight > 90:
-        print("I")
-    
+elif new_price <= 200:
+    message = "Caro"
+
+else:
+    message = "Muito caro"
+
+
+print(f"Preço antigo: R$ {old_price:.2f}")
+print(f"Novo preço: R$ {new_price:.2f}")
+print(f"Classificação: {message}")

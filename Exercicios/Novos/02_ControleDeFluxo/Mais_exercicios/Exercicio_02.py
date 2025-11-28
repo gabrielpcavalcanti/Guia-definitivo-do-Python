@@ -1,6 +1,5 @@
 """
-Escreva um programa que, dados dois números inteiros, mostre na tela o maior deles, 
-assim como a diferença existente entre ambos.
+Escreva um programa que, dados dois números inteiros, mostre na tela o maior deles, assim como a diferença existente entre ambos.
 """
 
 num_01: float = float(input("Digite um número: "))
