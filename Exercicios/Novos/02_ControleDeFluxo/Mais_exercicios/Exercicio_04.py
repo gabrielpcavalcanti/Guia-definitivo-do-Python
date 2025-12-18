@@ -4,6 +4,7 @@ inválido". Se o número for positivo, calcular o logaritmo deste número.
 """
 
 import math  # Será tratado em aulas futuras.
+import os
 
 num: int = int(input("Digite um número inteiro: "))
 

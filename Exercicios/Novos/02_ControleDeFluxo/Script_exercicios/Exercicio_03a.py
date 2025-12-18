@@ -8,7 +8,7 @@ print()
 
 match number_week_day:
 
-    case 1: 
+    case 1:
         print("Domingo.")
 
     case 2:
@@ -19,15 +19,15 @@ match number_week_day:
 
     case 4:
         print("Quarta-feira.")
-    
+
     case 5:
         print("Quinta-feira.")
-    
+
     case 6:
         print("Sexta-feira.")
-    
+
     case 7:
         print("Sábado.")
-    
+
     case _:
         print("Erro.")

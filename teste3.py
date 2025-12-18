@@ -17,23 +17,11 @@ function(10.2)
 lista: list[any] = [1, '20', True]
 
 """
-math_operation: str = input("Digite uma dessas quatro operaçãoes (+, -, * ou /): ")
-number_01: float = float(input("Digite o primeiro número: "))
-number_02: float = float(input("Digite o segundo número: "))
 
-match math_operation:
+number: str = input("Digite um número: ")
 
-    case "+":
-        print(f'{number_01} + {number_02} = {number_01 + number_02}.')
-    
-    case "-":
-        print(f'{number_01} - {number_02} = {number_01 - number_02}.')
-    
-    case "*":
-        print(f'{number_01} * {number_02} = {number_01 * number_02}.')
-    
-    case "/":
-        print(f'{number_01} / {number_02} = {number_01 / number_02}.')
+centena: str = str(number[0])
+dezena: str = str(number[1])
+unidade: str = str(number[2])
 
-    case _:
-        print("Valor inválido.")
+print(f'A soma dos algarismos é {int(centena) + int(dezena) + int(unidade)}')

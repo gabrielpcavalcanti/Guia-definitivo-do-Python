@@ -1,6 +1,6 @@
 # Introdução
 
-Essa pasta possui arquivos explicando padrões e bons hábitos de escrita que ireir utilizar durante todo o curso em diante. É, teoricamente, uma pasta desnecessária, já que o importante é ter o Python instalado, rodando e o arquivo esteja com a sintaxe correta para que tudo funcione. No entanto, tomei mmuito cuidado para desenvolver todo o padrão de escrita que adotarei nesse curso, sem ele os códigos tenderiam a ficar bagunçados e confusos.
+Essa pasta possui arquivos explicando padrões e bons hábitos de escrita que ireir utilizar durante todo o curso em diante. É, teoricamente, uma pasta desnecessária, já que o importante é ter o Python instalado, rodando e o arquivo esteja com a sintaxe correta para que tudo funcione. No entanto, tomei muito cuidado para desenvolver todo o padrão de escrita que adotarei nesse curso, sem ele os códigos tenderiam a ficar bagunçados e confusos.
 
 Basei esses padrões no PEP8, PEP257, em alguns aspéctos no Clean code e em boas práticas que vi em códigos e vídeos durante meu estudo em programação. Todos eles estão descritos e explicados com muito mais detalhes nos outros arquivos dessa pasta. 
 

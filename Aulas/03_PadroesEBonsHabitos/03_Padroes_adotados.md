@@ -26,13 +26,13 @@ Observações:
 
 Arquivos não devem ter mais de 500 linhas. Tente contar uma história, com começo meio e fim.
 
-Sempre siga essa ordem, se um dos elementos seguintes não estiver presente no código, não tem problema, a ordem continua. Primeiro os docstring -> imports -> constantes -> classes -> funcões -> código solto -> def main -> if name main. 
+Sempre siga essa ordem, se um dos elementos seguintes não estiver presente no código, não tem problema, a ordem continua. Primeiro os docstring -> imports -> constantes -> classes -> funcões -> código solto -> def main -> if name main.
 
 Dentro de cada um dessas partes, a parte que tiver mais escopo fica em cima da parte que tiver menos escopo. Cria uma hierequia, mesmo que não precise.
 
-Esse if statement e a função main( ) será explicado com muito detalhe quando formos falar de funções, modulos e classes. 
+Esse if statement e a função main( ) será explicado com muito detalhe quando formos falar de funções, modulos e classes.
 
-O padrão adotado nesse curso é que eles sempre serão utilizados quando tiver esses conceitos explicitamente envolvidos. 
+O padrão adotado nesse curso é que eles sempre serão utilizados quando tiver esses conceitos explicitamente envolvidos.
 
 As ideias por trás de usar a segunda forma quando utilizarmos funções, modulos e classes são:
 

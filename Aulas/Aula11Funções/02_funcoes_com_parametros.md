@@ -4,7 +4,7 @@ Algumas funções podem possuir parâmetros. Colocamos eles dentro dos ( ). As f
 mas é preciso colocar todos e na quantidade correta quando for declarar, caso contrário, terá erro.
 
 ```python
-def soma( num1, num2):
+def soma(num1, num2):
     s = num1 + num2
     print(s)
 
@@ -56,7 +56,7 @@ Rafael nadal
 Serena Williams
 ```
 
-## Parâmetros com valores default 
+## Parâmetros com valores default
 
 Podemos criar funções com parâmetros padrão, default, eles recebem um valor inicial e não precisam ser colocados no momento da declaração. Caso queira mudar o valor, coloque ele no argumento e na ordem correta em que eles foram estabelecidos na função.
 

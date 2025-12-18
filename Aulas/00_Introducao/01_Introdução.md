@@ -1,8 +1,8 @@
 # Introdução
 
-Aqui que inicia seu processo de aprendizado em linguagem Python. Mas antes de ir direto para a linguagem e sua sintaxe, é preciso entender alguns pontos essencias para o aprendizado de qualquer linguagem de programação. Veremos esses ponto logo abaixo e caso tenha interesse, pesquise mais a fundo cada um que verá diversas discursões a respeito de cada tópico. 
+Aqui que inicia seu processo de aprendizado em linguagem Python. Mas antes de ir direto para a linguagem e sua sintaxe, é preciso entender alguns pontos essencias para o aprendizado de qualquer linguagem de programação. Veremos esses ponto logo abaixo e caso tenha interesse, pesquise mais a fundo cada um que verá diversas discursões a respeito de cada tópico.
 
-Não se prenda muito a detalhes agora, por que se não, vai ficar preso sem sair do lugar, mas são boas questões para se descutir e aprofundar a medida que avaça na programação. As respostas e devagações que farei aqui são bem diretas e pontuais, mas sufucientes para iniciar o curso. Vá atrás caso queira mais informações.
+Não se prenda muito a detalhes agora, por que se não, vai ficar preso sem sair do lugar, mas são boas questões para se descutir e aprofundar a medida que avança na programação. As respostas e devagações que farei aqui são bem diretas e pontuais, mas sufucientes para iniciar o curso. Vá atrás caso queira mais informações.
 
 ## 1 - O que é Python?
 
