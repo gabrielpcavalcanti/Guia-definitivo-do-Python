@@ -39,3 +39,5 @@ Não se preocupa com a arquitetura, ela é de fácil entendimento. Importante é
 Não importa como o método foi construído e sim que é facil utilizar ele. Da os argumentos de entrada e sabe a saída e possíveis erros.
 
 ---
+
+Objeto é uma variável que além de guardar dados podem executar funcionalidades. 
