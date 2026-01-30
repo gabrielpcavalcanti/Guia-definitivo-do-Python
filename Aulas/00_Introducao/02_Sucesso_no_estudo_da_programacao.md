@@ -4,7 +4,7 @@ Para conseguir aprender, se desenvolver e ter sucesso em qualquer linguagem é p
 
 ## 1 - O básico da linguagem
 
-Toda linguagem de programação é basicamente a mesma coisa, so muda alguns detalhes técnicos que para uma visão geral não são importantes. O que é preciso aprender é o esqueleto de qualquer linguagem, que vai ser utilizada em todas as outras.
+Toda linguagem de programação é basicamente a mesma coisa, só muda alguns detalhes técnicos que para uma visão geral não são importantes. O que é preciso aprender é o esqueleto de qualquer linguagem, que vai ser utilizada em todas as outras.
 
 Além dele, é preciso saber cinco principais tópicos que estão presentes em todas as linguagens de programçãoc como se fosse o princípio de pareto das linguagens de programação. São os tópicos: Variáveis, loops, estruturas condcionais, tipos de dados e funções.
 

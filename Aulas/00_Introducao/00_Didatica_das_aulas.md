@@ -10,13 +10,13 @@ Acho que escrever no papel é muito ultrapassado, mesmo que entenda o propósito
 
 Não gosto de primeiro aprender lógica de programação e algorítimos para depois aplicar a alguma linguagem. Fica muito cansativo e muita coisa que você vê no inicio é esquecida quando chega a hora de usar a linguagem. O que gosto de fazer é aprender um conceito novo (de lógica de programação ou não) e fazer exercícios com ele. Aprendido o conceito, parte para o próximo com novos exercícios com o conteúdo novo e o antigo. Aprendizado de forma incremental. No momento que tiver que parar para entender um conceito de algorítmo ou lógica, sem problema, para, entende e segue.
 
-Não acredito que possa aprender com profundiade e segurança qualquer linguagem de programação com projetos no início. Projetos que valem a pena precisam de muito conhecimento prévio e você, com conhecimento limitado ou nulo, partir direto para eles, não funciona. A partir do momento que você já tem uma bagagem razoável, projetos são muito bem-vindos e recomendados. O mesmo vale para apremder uma linguagem do zero utilizando uma biblioteca externa. 
+Não acredito que possa aprender com profundiade e segurança qualquer linguagem de programação com projetos no início. Projetos que valem a pena precisam de muito conhecimento prévio e você, com conhecimento limitado ou nulo, partir direto para eles, não funciona. A partir do momento que você já tem uma bagagem razoável, projetos são muito bem-vindos e recomendados. O mesmo vale para apremder uma linguagem do zero utilizando uma biblioteca externa.
 
-Uso de diversas ferramentas de ajuda como o stakoverflow ou qualquer ia disponível é bem-vindo, mas com resalvas. Essas ferramentas são poderosíssimas e você pode ficar dependente delas e isso não é nada legal. Uitliza de forma conciente e não saia copiando e colando tudo que vê pela frente ou acreditando tudo que ela te diz.
+Uso de diversas ferramentas de ajuda como o stakoverflow ou qualquer IA disponível é bem-vindo, mas com resalvas. Essas ferramentas são poderosíssimas e você pode ficar dependente delas e isso não é nada legal. Uitliza de forma conciente e não saia copiando e colando tudo que vê pela frente ou acreditando tudo que ela te diz.
 
-Então esse repositório contém aulas de diversos conceitos de programação, estruturados numa ordem crecente de dificuldade (a partir da aula01), em que para passar para o próximo tópico é preciso fazr exercícios e projetos(quando forem úteis). Assim vai até terminar todo o conteúdo. Siga as aulas na ordem indicada que não terá erro.
+Então esse repositório contém aulas de diversos conceitos de programação, estruturados numa ordem crescente de dificuldade, em que para passar para o próximo tópico é preciso fazr exercícios e projetos(quando forem úteis). Assim vai até terminar todo o conteúdo. Siga as aulas na ordem indicada que não terá erro.
 
-No final de cada aula terá algumas recomendações de atividade a ser feitos e/ou exercícios e/ou projetos propostos que podem ser achados nas pastas exercicios e projetos. Também tem qual a próxima aula que deverá ser estudade.
+No final de cada aula terá algumas recomendações de atividade a ser feitos e/ou exercícios e/ou projetos propostos que podem ser achados nas pastas de exercicios. Também tem qual a próxima aula que deverá ser estudade.
 
 Espero que goste da didática adotada e vamos que vamos!
 

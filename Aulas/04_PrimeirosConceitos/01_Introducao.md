@@ -1,6 +1,6 @@
 # Introdução
 
-Tudo que você viu até agora foram preparativos para finalmente começar a programar. Se seguiu a ordem das aulas até aqui, ainda não execultou nenhuma linha de código em Python (já viu vários exemplos, mas provavelmente ainda não os entendeu). Caso não tenha seguido e as aulas e pulou para essa pasta, o mínimo que você deve ter o Python instalado (O ideal é ter visto as aulas anteriores) para poder acompanhar. 
+Tudo que você viu até agora foram preparativos para finalmente começar a programar. Se seguiu a ordem das aulas até aqui, ainda não executou nenhuma linha de código em Python (já viu vários exemplos, mas provavelmente ainda não os entendeu). Caso não tenha seguido e as aulas e pulou para essa pasta, o mínimo que você deve ter o Python instalado (O ideal é ter visto as aulas anteriores) para poder acompanhar. 
 
 O ideal é você ter instalado o Python, configurado a sua IDE, entendido como funciona os ambientes virtuais. Ainda melhor se tiver estudado o curso de Git e GitHub e visto os padrões e bons hábitos. 
 

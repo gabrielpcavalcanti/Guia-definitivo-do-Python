@@ -24,8 +24,7 @@ Uma linguagem de programação é um conjunto de regras e instruções que permi
 
 Tem linguagem com sitaxes mais fáceis, outras mais difícies, mas todas fazem tudo, mesmo que existam linguagens de programação mais adequadas para determinadas tarefas. Com o passar do tempo, programadores escolhem um linguagem para determinada tarefa e novas ferramentas vão sendo criadas, adequando mais ainda uma linguagem a uma determinada área da programação. Pyhton é bom para ciencia de dados e IA, mas pode fazer web tmb, criaçao de jogos etc.
 
-
-## 4 - Linguagem de programção interpretada vs compilada.
+## 4 - Linguagem de programção interpretada vs compilada
 
 As linguagens de programação são cridas com alguns pensamentos em mente. Eles moldam como a linguagem vai funcionar. Não existe maneira certa para criar uma liguagem, só existe a maneira da qual você quer que seja e as pessoas que gostem ou não. O sucesso ou fracasso da linguagem indpendem desses fatores. 
 
@@ -39,7 +38,7 @@ Digo que o Python é compilado também porque o arquivo é compilado para byteco
 
 Não há o que ser feito, uma vez a linguagem criada, o bonos e ônus estará lá.
 
-## 5 -  Linguagem de alto nível e baixo nível.
+## 5 -  Linguagem de alto nível e baixo nível
 
 O segundo fator é a linguagem ser de alto ou baixo nível. O Python é de alto nível.
 
