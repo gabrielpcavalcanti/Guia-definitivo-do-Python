@@ -53,6 +53,7 @@ else:
     print("Esse comando é utilizado quando n for igual a 10.")
 
 ```
+
 ```Python
 0
 1

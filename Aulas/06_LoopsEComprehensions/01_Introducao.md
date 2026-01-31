@@ -4,7 +4,7 @@ Essa aula contém uma nova forma de ver a programação. Assim como as estrutura
 
 No python existe duas maneiras de se fazer isso, utilizando o for ou o while. O resultado final é o mesmo, mas a forma de fazer é diferente. Há casos que o for é melhor e há casos que o while é mais adequado, tem que analisar caso a caso e ver a melhor solução.
 
-Os loops ficam bem poderosos quando misturamos os iteraveis (listas, truplas, dionários, sets, Strings e outros) com eles. O poder e a facilidade aumentam bastenta devido ao fato do Python facilitar todo o processo.
+Os loops ficam bem poderosos quando misturamos os iteraveis (listas, truplas, dionários, sets, Strings e outros) com eles. O poder e a facilidade aumentam bastenta devido ao fato do Python facilitar todo o processo. Veremos a combinação de loops com iterveis na próxima aula.
 
 E ainda mais poderosos quando aprendemos alguns iteráveis novos e os Comprehensions.
 

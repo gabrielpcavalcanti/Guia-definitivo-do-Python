@@ -6,6 +6,4 @@ As coleções falicitam muito o trabalho na escrita de código e seus métodos f
 
 Primeiro veremos as listas (a mais importante e versátil), depois as truplas, dicionários, sets e mapas.
 
-Esse pasta não contêm exercícios pois o melhor uso das coleções é em conjunto com o próximo capítulo. Seria possível fazer exercícios aqui, mas ficaria muito massante. Então trate essa pasta com muito cuidado, já que ela vai ser indispensável na próxima aula: LoopsEComprehensions.
-
 ---
