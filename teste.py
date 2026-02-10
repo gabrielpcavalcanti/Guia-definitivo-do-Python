@@ -1,9 +1,3 @@
-S = 0
+stre = "ÁREA DE FIGURAS PLANAS"
 
-numerador = 1
-
-for denominador in range(1, 51):
-    S += numerador / denominador
-    numerador += 2
-
-print("O valor de S é:", S)
+print(stre.capitalize())
