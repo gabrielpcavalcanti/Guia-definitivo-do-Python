@@ -4,6 +4,8 @@
 
 Um formato a ser seguido sempre que quisermos fazer objetos do mesmo tipo ou que tenham as mesmas características ou que tenham os mesmos comportamentos.
 
+É a definição de uma entidade que possui características (atributos) e ações (métodos).
+
 A classe é a forma e o objeto é o que é criado quando se usa a forma. Algumas características dos objetos podem mudar, mas a  essencia, o esqueleto é o mesmo. Isso é o que a classa nos dá.
 
 ### Diagrama UML
